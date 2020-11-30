@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares | Eric Marcon</title>
+    <link>/fr/software/</link>
+      <atom:link href="/fr/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Softwares</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Mon, 13 Apr 2020 16:04:36 -0300</lastBuildDate>
+    <image>
+      <url>/media/EricMarcon.jpg</url>
+      <title>Softwares</title>
+      <link>/fr/software/</link>
+    </image>
+    
+    <item>
+      <title>dbmss</title>
+      <link>/fr/software/dbmss/</link>
+      <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
+      <guid>/fr/software/dbmss/</guid>
+      <description>&lt;p&gt;&lt;em&gt;dbmss&lt;/em&gt; est un package R destiné au calcul des statistiques spatiales non paramétriques pour caractériser la structure spatiale d&amp;rsquo;objets cartographiés. Les principales sont la fonction K de Ripley et ses dérivées et celles utilisées par les économistes comme la fonction Kd de Duranton et Overman et la fonction M de Marcon et Puech.&lt;/p&gt;
+&lt;p&gt;Le package s&amp;rsquo;appuie sur &lt;em&gt;spatstat&lt;/em&gt; pour une partie des calculs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Entropart</title>
+      <link>/fr/software/entropart/</link>
+      <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
+      <guid>/fr/software/entropart/</guid>
+      <description>&lt;p&gt;&lt;em&gt;entropart&lt;/em&gt; est un package R pour mesurer la diversité. Il fournit les fonctions nécessaires au calcul de la diversité $\alpha$, $\beta$ et $\gamma$, incluant la diversité phylogénétique et fonctionnelle, et l&amp;rsquo;ensemble des techniques d&amp;rsquo;estimation disponibles dans la littérature.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

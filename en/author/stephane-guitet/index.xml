@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stéphane Guitet | Eric Marcon</title>
+    <link>/en/author/stephane-guitet/</link>
+      <atom:link href="/en/author/stephane-guitet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stéphane Guitet</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/EricMarcon.jpg</url>
+      <title>Stéphane Guitet</title>
+      <link>/en/author/stephane-guitet/</link>
+    </image>
+    
+    <item>
+      <title>Landscape patterns influence communities of medium- to large-bodied vertebrate in undisturbed terra firme forests of French Guiana</title>
+      <link>/en/publication/richard-hansen-2015/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>/en/publication/richard-hansen-2015/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1017/S0266467415000255&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

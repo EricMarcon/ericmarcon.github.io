@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Eric Marcon</title>
+    <link>/en/course/</link>
+      <atom:link href="/en/course/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/media/EricMarcon.jpg</url>
+      <title>Courses</title>
+      <link>/en/course/</link>
+    </image>
+    
+  </channel>
+</rss>

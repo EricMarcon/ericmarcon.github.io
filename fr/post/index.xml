@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Eric Marcon</title>
+    <link>/fr/post/</link>
+      <atom:link href="/fr/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language>
+    <image>
+      <url>/media/EricMarcon.jpg</url>
+      <title>Posts</title>
+      <link>/fr/post/</link>
+    </image>
+    
+    <item>
+      <title>Performance de R</title>
+      <link>/fr/post/perfr/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/fr/post/perfr/</guid>
+      <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;L’optimisation de la vitesse de R est utile pour des tâches répétées un grand nombre de fois (comme des simulations) ou des tâches complexes nécessitant de plusieurs secondes à plusieurs heures.
+L’approche est différente dans les deux cas.&lt;/p&gt;
+&lt;p&gt;Dans l’usage quotidien de R, c’est-à-dire des tâches courtes en ligne de commande, de bonnes pratiques de codage suffisent.
+Pour du code réutilisable, c’est-à-dire un package ou du code bien documenté diffusé sous d’autres formes, il est souvent préférable de sacrifier un peu de performance au profit de la lisibilité: c’est la philosophie du tidyverse par exemple.&lt;/p&gt;
+&lt;p&gt;Ceci dit, des efforts peuvent être rentables dans les cas où le temps d’exécution est critique: c’est l’objet des sections 2.3 à 2.7 du document &lt;a href=&#34;&#34;&gt;Travailler avec R&lt;/a&gt;. On se reportera à &lt;a href=&#34;https://adv-r.hadley.nz/&#34;&gt;&lt;em&gt;Advanced R&lt;/em&gt;&lt;/a&gt; d’Hadley Wickam pour une présentation plus détaillée.&lt;/p&gt;
+&lt;p&gt;Le premier objectif est de mesurer le temps d’exécution de code R. Ensuite, les techniques de parallélisation sont présentées. Une étude de cas permet de comparer l’efficacité de code réel.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/travailleR/chap-utiliseR.html#mesure-du-temps-dex%C3%A9cution&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/travailleR/travailleR.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inférence bayesienne</title>
+      <link>/fr/post/bayes/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/fr/post/bayes/</guid>
+      <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Ce document explique et montre comment réaliser l’inférence bayesienne, c’est-à-dire l’estimation des paramètres, d’un modèle simple.
+Son objectif est pédagogique : bien comprendre les étapes de l’inférence en ayant écrit une fois tout le code R nécessaire est un préalable à l’utilisation d’outils plus performants.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Inference-bayesienne/Inference-bayesienne.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Inference-bayesienne/Inference-bayesienne.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Krigeage avec R</title>
+      <link>/fr/post/krigeage/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/fr/post/krigeage/</guid>
+      <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Pour cartographier facilement une variable continue, 4 méthodes sont disponibles, dans les packages &lt;code&gt;akima&lt;/code&gt;, &lt;code&gt;spatial&lt;/code&gt;, &lt;code&gt;gstat&lt;/code&gt; et &lt;code&gt;automap&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Des méthodes plus élaborées ne sont pas traitées ici :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;l’estimation d’un modèle de prédiction de la valeur à partir de variables explicatives (krigeage ordinaire ou krigeage universel). Voir l’aide de la fonction &lt;code&gt;gstat&lt;/code&gt; pour leur utilisation.&lt;/li&gt;
+&lt;li&gt;l’estimation bayesienne de ces modèles ou le co-krigeage (estimation de plusieurs variables non indépendantes). Les packages &lt;code&gt;RGeostats1&lt;/code&gt; ou &lt;code&gt;INLA2&lt;/code&gt; permettent une modélisation complexe, mais au prix d’un effort bien supérieur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bibliométrie avec R</title>
+      <link>/fr/post/bibliometrie/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/fr/post/bibliometrie/</guid>
+      <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Tutoriel pour la bibliométrie avec les données de Google Scholar ou de Scopus.&lt;/p&gt;
+&lt;p&gt;Le package &lt;em&gt;scholar&lt;/em&gt; permet d’accéder à l’API de Google Scholar pour analyser la production d’un auteur (ou d’une structure) disposant d’un identifiant, donc d’une page, Google Scholar.
+Par exemple, les citations annuelles sont obtenues facilement:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;scholar&amp;quot;)
+library(&amp;quot;tidyverse&amp;quot;)
+
+&amp;quot;4iLBmbUAAAAJ&amp;quot; %&amp;gt;%  # Eric Marcon
+  get_citation_history()  %&amp;gt;% # Google Scholar API
+  ggplot(aes(year, cites)) +
+    geom_segment(aes(xend = year, yend = 0), size=1, color=&amp;#39;darkgrey&amp;#39;) +
+    geom_point(size=3, color=&amp;#39;firebrick&amp;#39;) +
+    labs(title = &amp;quot;Citations per year&amp;quot;, 
+         caption = &amp;quot;Source: Google Scholar&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package &lt;em&gt;bibliometrix&lt;/em&gt; permet de nombreuses analyses.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Bibliometrie/Bibliometrie.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Bibliometrie/Bibliometrie.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Densité avec réflexion</title>
+      <link>/fr/post/densite/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/fr/post/densite/</guid>
+      <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;L’estimation de la densité d’une distribution sous R avec la fonction &lt;code&gt;density&lt;/code&gt; pose des problèmes si ses valeurs sont bornées.
+L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entre 1 et 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/histogramme-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;L’estimation avec la fonction &lt;code&gt;density&lt;/code&gt; n’est pas nulle hors de l’intervalle &lt;span class=&#34;math inline&#34;&gt;\([1, 2]\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/densite-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt;et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/censure-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.&lt;/p&gt;
+&lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(Pavia 2015)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/GoFKernel-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Référence&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-Pavia2015&#34;&gt;
+&lt;p&gt;Pavia, Jose M. 2015. “Testing Goodness-of-Fit with the Kernel Density Estimator: GoFKernel.” &lt;em&gt;Journal of Statistical Software&lt;/em&gt; 66 (Code Snippet 1). &lt;a href=&#34;https://doi.org/10.18637/jss.v066.c01&#34;&gt;https://doi.org/10.18637/jss.v066.c01&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mise à jour du thème Academic</title>
+      <link>/fr/post/majacademic/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/fr/post/majacademic/</guid>
+      <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Ce site est généré par &lt;code&gt;blogdown&lt;/code&gt; sous R, avec le thème Academic pour Hugo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La documentation suivante est valide pour les versions d’Academic antérieures à septembre 2020.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Le version en cours ne nécessite plus de mise à jour du thème par Git mais installe une version à jour à chaque compilation avec &lt;em&gt;Go&lt;/em&gt;.
+Se référer à la &lt;a href=&#34;https://ericmarcon.github.io/travailleR/chap-rediger.html#sec:blogdown&#34;&gt;documentation à jour&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;installation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;L’installation est faite dans RStudio en suivant la &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;documentation&lt;/a&gt; d’Academic.
+C’est un &lt;em&gt;fork&lt;/em&gt; du dépôt &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34;&gt;Academic-Kickstart&lt;/a&gt;, ce qui permet de le mettre à jour.&lt;/p&gt;
+&lt;p&gt;Le &lt;em&gt;fork&lt;/em&gt; doit être complété par l’installation du sous-module correspondant au thème avec la commande &lt;code&gt;git submodule update --init --recursive&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pour le bon fonctionnement de &lt;code&gt;blogdown&lt;/code&gt;, le fichier &lt;code&gt;config/_default/config.toml&lt;/code&gt; doit être déplacé à la racine du projet.
+Enfin, si le site est multilingue, le contenu du site (dossier &lt;code&gt;content&lt;/code&gt;) doit être copié dans un dossier correspondant à chaque langue. Par exemple, le fichier &lt;code&gt;content/authors/admin/_index.md&lt;/code&gt; qui contient les informations sur le propriétaire du site est dupliqué dans &lt;code&gt;content/en/authors/admin/_index.md&lt;/code&gt; et &lt;code&gt;content/fr/authors/admin/_index.md&lt;/code&gt; si le site supporte l’Anglais et le Français.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mise-à-jour&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Mise à jour&lt;/h1&gt;
+&lt;div id=&#34;fusion-des-modifications&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Fusion des modifications&lt;/h2&gt;
+&lt;p&gt;La structure du site et le thème peuvent être mis à jour à tout moment, dès que le dépôt GitHub indique qu’il est en retard sur l’original (ici: “1 commit behind sourcethemes:master.”):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;github.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;La mise à jour est lancée en cliquant sur le bouton &lt;em&gt;Compare&lt;/em&gt;, à droite de l’écran.&lt;/p&gt;
+&lt;p&gt;Les deux dépôts à comparer sont affichés, mais le sens d’une mise à jour du modèle par le dépôt local:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Il faut l’inverser.
+Sélectionner le dépôt local à gauche:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare_forks.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Cliquer sur “compare accross forks”:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare2.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Sélectionner “sourcethemes/academic-kickstart” à droite:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare3.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Cliquer sur le bouton “View Pull resquest”.
+Les modifications qui ne peuvent pas être intégrées automatiquement sont affichées:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;conflict.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Typiquement, deux fichiers posent problème:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;config/_default/config.toml&lt;/code&gt; qui a été déplacé pour &lt;code&gt;blogdown&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content/authors/admin/_index.md&lt;/code&gt; se trouve dans les dossiers propres aux langues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cliquer sur “view command line instructions” et les suivre :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dans RStudio, ouvrir le terminal et exécuter &lt;code&gt;git checkout -b sourcethemes-master master&lt;/code&gt; pour créer une nouvelle branche, &lt;code&gt;sourcethemes-master&lt;/code&gt;, dans le dépôt local. Exécuter ensuite &lt;code&gt;git pull https://github.com/sourcethemes/academic-kickstart.git master&lt;/code&gt; pour y placer le contenu du dépôt Academic-Kickstart.&lt;/li&gt;
+&lt;li&gt;Régler les conflits :
+&lt;ul&gt;
+&lt;li&gt;supprimer les deux fichiers cités qui n’existent plus dans le dépôt local (il faudra mettre leur contenu à jour manuellement);&lt;/li&gt;
+&lt;li&gt;régler les autres conflits de façon classique en retenant la version correspondant à la mise à jour d’Academic-Kickstart.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Valider les modifications par des &lt;em&gt;Commit&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il reste à mettre à jour les fichiers déplacés. Pour celà, afficher le dépôt &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34;&gt;Academic-Kickstart&lt;/a&gt; sur GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;kickstart.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Cliquer sur le texte décrivant le dernier &lt;em&gt;Commit&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Examiner les modifications effectuées sur les fichiers non mis à jour et les reporter manuellement dans les fichiers concernées. Ici, 7 lignes doivent être ajoutées au fichier &lt;code&gt;config.toml&lt;/code&gt;, et le champ “name” doit être renommé “title” dans les deux exemplaires de &lt;code&gt;authors/admin/_index.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;modifications.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Fusionner la branche mise à jour dans la branche principale: &lt;code&gt;git checkout master&lt;/code&gt; puis &lt;code&gt;git merge --no-ff sourcethemes-master&lt;/code&gt;;&lt;/p&gt;
+&lt;p&gt;Le résultat peut être poussé sur GitHub.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mise-à-jour-du-thème&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Mise à jour du thème&lt;/h2&gt;
+&lt;p&gt;Il faut encore mettre à jour le sous-module du thème &lt;em&gt;Academic&lt;/em&gt;, qui est dépôt Git lui-même.&lt;/p&gt;
+&lt;p&gt;Dans le terminal de RStudio, exécuter &lt;code&gt;cd themes/academic/&lt;/code&gt; pour que le répertoire de travail soit celui du thème, puis &lt;code&gt;git checkout master&lt;/code&gt; pour vérifier le placement dans la branche principale et enfin &lt;code&gt;git pull&lt;/code&gt; pour tirer les mises à jour.
+Revenir dans le dépôt principal par les commandes &lt;code&gt;cd ..\..&lt;/code&gt; puis &lt;code&gt;git checkout master&lt;/code&gt;.
+Les mises à jour du thème apparaissent dans la fenêtre Git de RStudio, et doivent être validée par un Commit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

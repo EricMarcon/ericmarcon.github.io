@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 | Eric Marcon</title>
+    <link>/en/publication-type/6/</link>
+      <atom:link href="/en/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/EricMarcon.jpg</url>
+      <title>6</title>
+      <link>/en/publication-type/6/</link>
+    </image>
+    
+    <item>
+      <title>Les configurations de points</title>
+      <link>/en/publication/floch-2018/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/en/publication/floch-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial distribution of points</title>
+      <link>/en/publication/floch-2018-a/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/en/publication/floch-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La mesure en économie internationale</title>
+      <link>/en/publication/marcon-2012-b/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/en/publication/marcon-2012-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concentration géographique de l&#39;emploi industriel et dynamiques territoriales en France de 1993 à 2001</title>
+      <link>/en/publication/marcon-2005/</link>
+      <pubDate>Sun, 01 May 2005 00:00:00 +0000</pubDate>
+      <guid>/en/publication/marcon-2005/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marion Echard | Eric Marcon</title>
+    <link>/en/author/marion-echard/</link>
+      <atom:link href="/en/author/marion-echard/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marion Echard</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/EricMarcon.jpg</url>
+      <title>Marion Echard</title>
+      <link>/en/author/marion-echard/</link>
+    </image>
+    
+    <item>
+      <title>Dynamics of aboveground carbon stocks in a selectively logged tropical forest</title>
+      <link>/en/publication/blanc-2009/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>/en/publication/blanc-2009/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1890/08-1572.1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
