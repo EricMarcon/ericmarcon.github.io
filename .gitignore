@@ -1,0 +1,20 @@
+# R
+.Rbuildignore
+.RData
+.Rhistory
+.Rprofile
+.Rproj.user
+
+# Hugo
+/resources/
+/public/
+
+# blogdown
+/blogdown/
+/static/en/
+/static/fr/
+/static/rmarkdown-libs/
+*.rmarkdown
+_index.html
+index.html
+**/index_files/
