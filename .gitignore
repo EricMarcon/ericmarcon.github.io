@@ -1,6 +1,3 @@
-# IDEs
-.idea/
-
 # R
 .Rbuildignore
 .RData
@@ -22,3 +19,5 @@ _index.html
 index.html
 **/index_files/
 
+# Master branch
+*.github.io.Rproj
