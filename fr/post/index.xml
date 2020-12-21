@@ -18,8 +18,7 @@
       <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/fr/post/perfr/</guid>
       <description>
-&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;L’optimisation de la vitesse de R est utile pour des tâches répétées un grand nombre de fois (comme des simulations) ou des tâches complexes nécessitant de plusieurs secondes à plusieurs heures.
@@ -42,8 +41,7 @@ Pour du code réutilisable, c’est-à-dire un package ou du code bien document�
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/fr/post/bayes/</guid>
       <description>
-&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Ce document explique et montre comment réaliser l’inférence bayesienne, c’est-à-dire l’estimation des paramètres, d’un modèle simple.
@@ -62,8 +60,7 @@ Son objectif est pédagogique : bien comprendre les étapes de l’inférence en
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/fr/post/krigeage/</guid>
       <description>
-&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Pour cartographier facilement une variable continue, 4 méthodes sont disponibles, dans les packages &lt;code&gt;akima&lt;/code&gt;, &lt;code&gt;spatial&lt;/code&gt;, &lt;code&gt;gstat&lt;/code&gt; et &lt;code&gt;automap&lt;/code&gt;.&lt;/p&gt;
@@ -86,8 +83,7 @@ Son objectif est pédagogique : bien comprendre les étapes de l’inférence en
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/fr/post/bibliometrie/</guid>
       <description>
-&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Tutoriel pour la bibliométrie avec les données de Google Scholar ou de Scopus.&lt;/p&gt;
@@ -119,8 +115,7 @@ library(&amp;quot;tidyverse&amp;quot;)
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/fr/post/densite/</guid>
       <description>
-&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;L’estimation de la densité d’une distribution sous R avec la fonction &lt;code&gt;density&lt;/code&gt; pose des problèmes si ses valeurs sont bornées.
@@ -139,9 +134,9 @@ L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entr
 &lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Référence&lt;/strong&gt;&lt;/p&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
-&lt;div id=&#34;ref-Pavia2015&#34;&gt;
-&lt;p&gt;Pavia, Jose M. 2015. “Testing Goodness-of-Fit with the Kernel Density Estimator: GoFKernel.” &lt;em&gt;Journal of Statistical Software&lt;/em&gt; 66 (Code Snippet 1). &lt;a href=&#34;https://doi.org/10.18637/jss.v066.c01&#34;&gt;https://doi.org/10.18637/jss.v066.c01&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-Pavia2015&#34; class=&#34;csl-entry&#34;&gt;
+Pavia, Jose M. 2015. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Testing Goodness-of-Fit with the Kernel Density Estimator: GoFKernel&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Statistical Software&lt;/em&gt; 66 (Code Snippet 1). &lt;a href=&#34;https://doi.org/10.18637/jss.v066.c01&#34;&gt;https://doi.org/10.18637/jss.v066.c01&lt;/a&gt;.
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -153,8 +148,7 @@ L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entr
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/fr/post/majacademic/</guid>
       <description>
-&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Ce site est généré par &lt;code&gt;blogdown&lt;/code&gt; sous R, avec le thème Academic pour Hugo.&lt;/p&gt;
