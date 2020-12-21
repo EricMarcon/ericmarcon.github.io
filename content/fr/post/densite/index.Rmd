@@ -1,0 +1,93 @@
+---
+title: "Densité avec réflexion"
+subtitle: ""
+summary: "Estimation de la densité d’une distribution bornée."
+authors: []
+tags: []
+categories: []
+date: 2020-04-17
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+  
+bibliography: references.bib
+---
+
+```{r options, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(cache=FALSE, echo = FALSE, tidy=FALSE, tidy.opts=list(blank=FALSE, width.cutoff=50), out.width='\\maxwidth')
+options(width=50)
+# Installation des packages si nécessaire et chargement
+Library <- function(Packages) {
+  InstallAndLoad <- function(Package) {
+    if (!Package %in% installed.packages()[, 1]) {install.packages(Package, repos="https://cran.rstudio.com/")}
+    require(Package, character.only = TRUE)
+  }
+  invisible(sapply(Packages, InstallAndLoad))
+}
+# Ajouter les packages nécessaires ici
+Library(c("GoFKernel"))
+```
+
+L'estimation de la densité d'une distribution sous R avec la fonction `density` pose des problèmes si ses valeurs sont bornées.
+L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entre 1 et 2.
+
+```{r histogramme}
+# Valeur des bornes
+borne_gauche <- 1
+borne_droite <- 2
+# Tirage de 1000 valeurs
+distribution <- runif(1000, min = borne_gauche, max = borne_droite)
+# Histogramme de la distribution
+hist(distribution)
+```
+
+L'estimation avec la fonction `density` n'est pas nulle hors de l'intervalle $[1, 2]$.
+
+```{r densite}
+# Choix d'une bande passante pour l'estimation
+bande_passante <- bw.SJ(distribution)
+# Estimation de la densité
+d_reference <- density(distribution, bw=bande_passante)
+plot(d_reference)
+```
+
+
+Censurer l'estimation avec les arguments `from`et `to` revient simplement de supprimer les valeurs estimées hors de l'intervalle pour obtenir la courbe rouge.
+
+```{r censure}
+plot(d_reference, main="")
+d_censuree <- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
+lines(d_censuree, col="red")
+abline(v=borne_gauche, lty=2)
+abline(v=borne_droite, lty=2)
+```
+
+L'estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.
+
+Le package _GoFKernel_ [@Pavia2015] propose la fonction `density.reflected` pour estimer correctement la densité précédente, en vert.
+
+```{r GoFKernel}
+library("GoFKernel")
+d_GoFKernel <- density.reflected(distribution, lower = borne_gauche, upper = borne_droite, bw = bande_passante)
+plot(d_reference, main="")
+d_censuree <- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
+lines(d_censuree, col="red")
+abline(v=borne_gauche, lty=2)
+abline(v=borne_droite, lty=2)
+lines(d_GoFKernel, col="green")
+```
+
+Suivre les liens pour accéder au tutoriel complet:
+
+* [lire en ligne](https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.html);
+* [télécharger](https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.pdf).
+
+**Référence**
+

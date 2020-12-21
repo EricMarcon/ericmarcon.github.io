@@ -1,0 +1,63 @@
+on:
+  push:
+     branches:
+       - source
+
+name: blogdown
+
+jobs:
+  buildsite:
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2act
+        with:
+          ref: 'source'
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
+      - name: Install pandoc
+        run: |
+          brew install pandoc
+#      - name: Cache Renv packages
+#        uses: actions/cache@v2
+#        with:
+#          path: $HOME/.local/share/renv
+#          key: r-${{ hashFiles('renv.lock') }}
+#          restore-keys: r-
+      - name: Install packages
+        run: |
+          R -e 'install.packages("renv")'
+          R -e 'renv::restore()'
+      - name: Build website
+        run: |
+          R -e 'blogdown::install_hugo(force=TRUE)'
+          R -e 'blogdown::build_site(local = TRUE, build_rmd = TRUE)'
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: _website
+          path: public/
+  checkout-and-deploy:
+    runs-on: ubuntu-latest
+    needs: buildsite
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: 'source'
+      - name: Download artifact
+        uses: actions/download-artifact@v1
+        with:
+          # Artifact name
+          name: _website
+          # Destination path
+          path: public
+      - name: Deploy to GitHub Pages
+        uses: Cecilapp/GitHub-Pages-deploy@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        with:
+          branch: 'master'
+          build_dir: public
+          email: ${{ secrets.EMAIL }}
+          jekyll: no

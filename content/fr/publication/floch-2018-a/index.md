@@ -1,0 +1,12 @@
+---
+title: "Spatial distribution of points"
+date: 2018-10-29
+publishDate: 2020-04-12T22:31:15.345195Z
+authors: ["Jean-Michel Floch", "Eric Marcon", "Florence Puech"]
+publication_types: ["6"]
+abstract: "Statisticians carry out close examination of spatialized data, such as the distribution of household income, the location of industrial or commercial establishments, the distribution of schools in cities, etc. Answers can be found through analyses of one or more predefined geographical scales such as neighbourhoods, districts or statistical blocks. However, it is tempting to preserve the individual data and to work with the exact position of the entities that are being studied. If that is the case, statisticians have to conduct analyses based on geolocation data without carrying out any geographical aggregation. Observations are taken as points in space and the objective is to characterise these point distributions. Understanding and mastering statistical methods that process this individual and spatialized information enables us to work on data that are now increasingly accessible and sought after because they provide very precise analyses of distributions studied (Ellison et al. 2010; Barlet et al. 2013). In this framework of analysis, statisticians who have sets of points to analyse are faced with several important methodological questions: how can such data with thousands or even millions of observations be represented and characterised spatially? What statistical tools exist that can be used to study these observations relating to households, employees, firms, stores, equipment or travel, for example? How can the qualitative or quantitative characteristics of the observations being studied be taken into account? How can any attractions or repulsions between points or between different types of points be highlighted? How can we assess the significance of the results obtained, etc? The purpose of this chapter is to help statisticians to provide statistically robust results from the study of spatialized data that is not based on predefined zoning. To do this, we will review the literature on the subject of statistical methods used to characterise point distributions and we will explain the associated issues. We will use simple examples to explain the advantages and disadvantages of the most frequently adopted approaches. The code provided in R will be used to reproduce the examples covered."
+featured: false
+publication: "*Handbook of Spatial Analysis*"
+url_pdf: "https://www.insee.fr/en/information/3635545"
+---
+
