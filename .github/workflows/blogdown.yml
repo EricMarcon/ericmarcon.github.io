@@ -10,7 +10,7 @@ jobs:
     runs-on: macOS-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2act
+        uses: actions/checkout@v2
         with:
           ref: 'source'
       - name: Setup R
