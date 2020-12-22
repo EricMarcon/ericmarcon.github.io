@@ -2,6 +2,8 @@ on:
   push:
      branches:
        - source
+  schedule:
+    - cron: '0 22 * * 0'
 
 name: blogdown
 
