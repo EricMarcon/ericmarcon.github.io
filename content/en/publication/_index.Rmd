@@ -57,6 +57,8 @@ AuthorsASCII %>%
   paste(collapse=", ") %>% 
   str_split(pattern=", ") %>% 
   unlist %>% 
+  # Uniformisation de la casse
+  str_to_upper() %>% 
   unique ->
   UniqueAuthors
 # Elimination de ... (= et al.)
