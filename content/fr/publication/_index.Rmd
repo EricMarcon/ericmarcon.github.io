@@ -39,7 +39,7 @@ MaxCoauteurs <- 100
 library("magrittr")
 # Vecteur des coauteurs de publications, sans accents
 get_publications(AuthorID) %>% 
-  mutate(AuthorsASCII=iconv(author, from="UTF-8", to="ASCII//TRANSLIT")) %$% 
+  mutate(AuthorsASCII=iconv(author, from="UTF-8", to="ASCII")) %$% 
   AuthorsASCII ->
   AuthorsASCII
 # Auteurs uniques
