@@ -39,8 +39,10 @@ MaxCoauteurs <- 100
 library("magrittr")
 # Vecteur des coauteurs de publications, sans accents
 get_publications(AuthorID) %>% 
-  mutate(AuthorsASCII=iconv(author, from="UTF-8", to="ASCII")) %$% 
-  AuthorsASCII ->
+  mutate(AuthorsASCII=iconv(author, from="UTF-8", to="ASCII//TRANSLIT")) %$% 
+  AuthorsASCII %>% 
+  # Suppression des accents transformés en ' sur MacOS
+  str_replace("'", "") ->
   AuthorsASCII
 # Auteurs uniques
 AuthorsASCII %>% 
@@ -52,7 +54,7 @@ AuthorsASCII %>%
 # Elimination de ... (= et al.)
 UniqueAuthors <- UniqueAuthors[UniqueAuthors != "..."]
 # Matrice d'autorat: une ligne par article, auteurs en colonnes, valeurs logiques
-PaperAuthoredBy <- sapply(UniqueAuthors, function(Author) str_detect(AuthorsASCII, Author))
+PaperAuthoredBy <- sapply(UniqueAuthors, function(Author) str_detect(str_to_lower(AuthorsASCII), str_to_lower(Author)))
 # Filtrage des auteurs
 tibble(Author=UniqueAuthors, NbPapers=colSums(PaperAuthoredBy)) %>% 
   filter(NbPapers >= MinCopublications) %>% 
