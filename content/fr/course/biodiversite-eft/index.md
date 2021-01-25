@@ -31,8 +31,6 @@ url_pdf: "https://ericmarcon.github.io/MesuresBioDiv2/"
 url_slides: "https://1drv.ms/p/s!Amvhelr37CHjkON49BbVSohLSRe_EA"
 ---
 
-# Distributions d’abondances
-
 La définition originelle de la biodiversité est le nombre d'espèces d'une communauté. Elle a été élargie de nombreuses façons par des indices souvent ad-hoc. 
 
 Ce cours introduit une approche unifiée de la mesure de la biodiversité qui s'appuie sur la théorie de l'information et permet de décrire la biodiversité comme un nombre effectif de catégories (en général, d'espèces) correspondant à la question traitée : la diversité taxonomique quand toutes les espèces sont considérées comme équivalentes, la diversité phylogénétique quand leur proximité évolutive est prise en compte et la diversité fonctionnelle quand la distance entre paires d'espèces ne s'inscrit pas dans un arbre. 
