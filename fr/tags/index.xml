@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Eric Marcon</title>
-    <link>/fr/tags/</link>
-      <atom:link href="/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/fr/tags/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Tags</title>
-      <link>/fr/tags/</link>
+      <link>https://ericmarcon.github.io/fr/tags/</link>
     </image>
     
   </channel>

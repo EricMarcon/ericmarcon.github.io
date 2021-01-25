@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrew D. Richardson | Eric Marcon</title>
-    <link>/en/author/andrew-d.-richardson/</link>
-      <atom:link href="/en/author/andrew-d.-richardson/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/en/author/andrew-d.-richardson/</link>
+      <atom:link href="https://ericmarcon.github.io/en/author/andrew-d.-richardson/index.xml" rel="self" type="application/rss+xml" />
     <description>Andrew D. Richardson</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Andrew D. Richardson</title>
-      <link>/en/author/andrew-d.-richardson/</link>
+      <link>https://ericmarcon.github.io/en/author/andrew-d.-richardson/</link>
     </image>
     
     <item>
       <title>Assessing foliar chlorophyll contents with the SPAD-502 chlorophyll meter: a calibration test with thirteen tree species of tropical rainforest in French Guiana</title>
-      <link>/en/publication/coste-2010-b/</link>
+      <link>https://ericmarcon.github.io/en/publication/coste-2010-b/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/en/publication/coste-2010-b/</guid>
+      <guid>https://ericmarcon.github.io/en/publication/coste-2010-b/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1051/forest/2010020&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>

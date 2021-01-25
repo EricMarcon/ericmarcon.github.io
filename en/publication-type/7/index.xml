@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7 | Eric Marcon</title>
-    <link>/en/publication-type/7/</link>
-      <atom:link href="/en/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/en/publication-type/7/</link>
+      <atom:link href="https://ericmarcon.github.io/en/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>7</title>
-      <link>/en/publication-type/7/</link>
+      <link>https://ericmarcon.github.io/en/publication-type/7/</link>
     </image>
     
     <item>
       <title>Statistiques spatiales avec applications à l&#39;écologie et à l&#39;économie</title>
-      <link>/en/publication/marcon-2010-a/</link>
+      <link>https://ericmarcon.github.io/en/publication/marcon-2010-a/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/en/publication/marcon-2010-a/</guid>
+      <guid>https://ericmarcon.github.io/en/publication/marcon-2010-a/</guid>
       <description></description>
     </item>
     

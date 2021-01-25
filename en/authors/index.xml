@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Eric Marcon</title>
-    <link>/en/authors/</link>
-      <atom:link href="/en/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/en/authors/</link>
+      <atom:link href="https://ericmarcon.github.io/en/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Authors</title>
-      <link>/en/authors/</link>
+      <link>https://ericmarcon.github.io/en/authors/</link>
     </image>
     
   </channel>

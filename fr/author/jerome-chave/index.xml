@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jérôme Chave | Eric Marcon</title>
-    <link>/fr/author/jerome-chave/</link>
-      <atom:link href="/fr/author/jerome-chave/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/fr/author/jerome-chave/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/author/jerome-chave/index.xml" rel="self" type="application/rss+xml" />
     <description>Jérôme Chave</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Tue, 01 Sep 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Jérôme Chave</title>
-      <link>/fr/author/jerome-chave/</link>
+      <link>https://ericmarcon.github.io/fr/author/jerome-chave/</link>
     </image>
     
     <item>
       <title>Dynamics of aboveground carbon stocks in a selectively logged tropical forest</title>
-      <link>/fr/publication/blanc-2009/</link>
+      <link>https://ericmarcon.github.io/fr/publication/blanc-2009/</link>
       <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>/fr/publication/blanc-2009/</guid>
+      <guid>https://ericmarcon.github.io/fr/publication/blanc-2009/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1890/08-1572.1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>

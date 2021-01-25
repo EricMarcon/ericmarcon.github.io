@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Softwares | Eric Marcon</title>
-    <link>/en/software/</link>
-      <atom:link href="/en/software/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/en/software/</link>
+      <atom:link href="https://ericmarcon.github.io/en/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Softwares</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2020 16:04:36 -0300</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Softwares</title>
-      <link>/en/software/</link>
+      <link>https://ericmarcon.github.io/en/software/</link>
     </image>
     
     <item>
       <title>dbmss</title>
-      <link>/en/software/dbmss/</link>
+      <link>https://ericmarcon.github.io/en/software/dbmss/</link>
       <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
-      <guid>/en/software/dbmss/</guid>
+      <guid>https://ericmarcon.github.io/en/software/dbmss/</guid>
       <description>&lt;p&gt;&lt;em&gt;dbmss&lt;/em&gt; is an R package for simple computation of spatial statistic functions of distance to characterize the spatial structures of mapped objects, including classical ones (Ripley’s K and others) and more recent ones used by spatial economists (Duranton and Overman’s Kd, Marcon and Puech’s M). It relies on &lt;em&gt;spatstat&lt;/em&gt; for some core calculation.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Entropart</title>
-      <link>/en/software/entropart/</link>
+      <link>https://ericmarcon.github.io/en/software/entropart/</link>
       <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
-      <guid>/en/software/entropart/</guid>
+      <guid>https://ericmarcon.github.io/en/software/entropart/</guid>
       <description>&lt;p&gt;&lt;em&gt;entropart&lt;/em&gt; is an R package that provides functions to calculate $\alpha$, $\beta$ and $\gamma$ diversity of communities, including phylogenetic and functional diversity.&lt;/p&gt;
 &lt;p&gt;Estimation-bias corrections are available.&lt;/p&gt;
 </description>

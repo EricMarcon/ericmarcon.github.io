@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jean-Louis Mucchielli | Eric Marcon</title>
-    <link>/en/author/jean-louis-mucchielli/</link>
-      <atom:link href="/en/author/jean-louis-mucchielli/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/en/author/jean-louis-mucchielli/</link>
+      <atom:link href="https://ericmarcon.github.io/en/author/jean-louis-mucchielli/index.xml" rel="self" type="application/rss+xml" />
     <description>Jean-Louis Mucchielli</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2005 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Jean-Louis Mucchielli</title>
-      <link>/en/author/jean-louis-mucchielli/</link>
+      <link>https://ericmarcon.github.io/en/author/jean-louis-mucchielli/</link>
     </image>
     
     <item>
       <title>Concentration géographique de l&#39;emploi industriel et dynamiques territoriales en France de 1993 à 2001</title>
-      <link>/en/publication/marcon-2005/</link>
+      <link>https://ericmarcon.github.io/en/publication/marcon-2005/</link>
       <pubDate>Sun, 01 May 2005 00:00:00 +0000</pubDate>
-      <guid>/en/publication/marcon-2005/</guid>
+      <guid>https://ericmarcon.github.io/en/publication/marcon-2005/</guid>
       <description></description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sandrine Pavoine | Eric Marcon</title>
-    <link>/fr/author/sandrine-pavoine/</link>
-      <atom:link href="/fr/author/sandrine-pavoine/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/fr/author/sandrine-pavoine/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/author/sandrine-pavoine/index.xml" rel="self" type="application/rss+xml" />
     <description>Sandrine Pavoine</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Sandrine Pavoine</title>
-      <link>/fr/author/sandrine-pavoine/</link>
+      <link>https://ericmarcon.github.io/fr/author/sandrine-pavoine/</link>
     </image>
     
     <item>
       <title>‘Equivalent numbers&#39; for species, phylogenetic or functional diversity in a nested hierarchy of multiple scales</title>
-      <link>/fr/publication/pavoine-2015-a/</link>
+      <link>https://ericmarcon.github.io/fr/publication/pavoine-2015-a/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/fr/publication/pavoine-2015-a/</guid>
+      <guid>https://ericmarcon.github.io/fr/publication/pavoine-2015-a/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/2041-210X.12591&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Integrating functional diversity into tropical forest plantation designs to study ecosystem processes</title>
-      <link>/fr/publication/baraloto-2010-b/</link>
+      <link>https://ericmarcon.github.io/fr/publication/baraloto-2010-b/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/fr/publication/baraloto-2010-b/</guid>
+      <guid>https://ericmarcon.github.io/fr/publication/baraloto-2010-b/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1051/forest/2009110&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>

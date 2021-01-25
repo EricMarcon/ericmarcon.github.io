@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cours | Eric Marcon</title>
-    <link>/fr/course/</link>
-      <atom:link href="/fr/course/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/fr/course/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/course/index.xml" rel="self" type="application/rss+xml" />
     <description>Cours</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Cours</title>
-      <link>/fr/course/</link>
+      <link>https://ericmarcon.github.io/fr/course/</link>
     </image>
     
     <item>
       <title>Mesure de la Biodiversité</title>
-      <link>/fr/course/biodiversite-eft/</link>
+      <link>https://ericmarcon.github.io/fr/course/biodiversite-eft/</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/fr/course/biodiversite-eft/</guid>
-      <description>&lt;h1 id=&#34;distributions-dabondances&#34;&gt;Distributions d’abondances&lt;/h1&gt;
-&lt;p&gt;La définition originelle de la biodiversité est le nombre d&amp;rsquo;espèces d&amp;rsquo;une communauté. Elle a été élargie de nombreuses façons par des indices souvent ad-hoc.&lt;/p&gt;
+      <guid>https://ericmarcon.github.io/fr/course/biodiversite-eft/</guid>
+      <description>&lt;p&gt;La définition originelle de la biodiversité est le nombre d&amp;rsquo;espèces d&amp;rsquo;une communauté. Elle a été élargie de nombreuses façons par des indices souvent ad-hoc.&lt;/p&gt;
 &lt;p&gt;Ce cours introduit une approche unifiée de la mesure de la biodiversité qui s&amp;rsquo;appuie sur la théorie de l&amp;rsquo;information et permet de décrire la biodiversité comme un nombre effectif de catégories (en général, d&amp;rsquo;espèces) correspondant à la question traitée : la diversité taxonomique quand toutes les espèces sont considérées comme équivalentes, la diversité phylogénétique quand leur proximité évolutive est prise en compte et la diversité fonctionnelle quand la distance entre paires d&amp;rsquo;espèces ne s&amp;rsquo;inscrit pas dans un arbre.&lt;/p&gt;
 &lt;p&gt;Les mesures présentées sont décomposables à différentes échelles (diversité α, β et γ) et peuvent être estimées à partir de données incomplètes.&lt;/p&gt;
 </description>
@@ -26,11 +25,10 @@
     
     <item>
       <title>Distributions d’abondances</title>
-      <link>/fr/course/distributions/</link>
+      <link>https://ericmarcon.github.io/fr/course/distributions/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/fr/course/distributions/</guid>
-      <description>&lt;h1 id=&#34;distributions-dabondances&#34;&gt;Distributions d’abondances&lt;/h1&gt;
-&lt;blockquote&gt;
+      <guid>https://ericmarcon.github.io/fr/course/distributions/</guid>
+      <description>&lt;blockquote&gt;
 &lt;p&gt;No other general attribute of ecological communities besides species richness has commanded more theoretical and empirical attention than relative species abundance (Hubbell, 2001)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;L&amp;rsquo;objectif du cours est de comprendre les principales distributions d’abondance, maîtriser les différentes représentations et comprendre les relations aires-espèces, à différentes échelles.&lt;/p&gt;
@@ -39,11 +37,10 @@
     
     <item>
       <title>Travailler avec R</title>
-      <link>/fr/course/travailler/</link>
+      <link>https://ericmarcon.github.io/fr/course/travailler/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/fr/course/travailler/</guid>
-      <description>&lt;h1 id=&#34;travailler-avec-r&#34;&gt;Travailler avec R&lt;/h1&gt;
-&lt;p&gt;Ce cours propose une organisation du travail autour de R et RStudio pour, au-delà des statistiques, rédiger des documents efficacement avec R Markdown, aux formats variés (mémos, articles scientifiques, mémoires d&amp;rsquo;étudiants, livres, diaporamas), créer son site web et des applications R en ligne (Shiny), produire des packages et utiliser R pour l&amp;rsquo;enseignement.&lt;/p&gt;
+      <guid>https://ericmarcon.github.io/fr/course/travailler/</guid>
+      <description>&lt;p&gt;Ce cours propose une organisation du travail autour de R et RStudio pour, au-delà des statistiques, rédiger des documents efficacement avec R Markdown, aux formats variés (mémos, articles scientifiques, mémoires d&amp;rsquo;étudiants, livres, diaporamas), créer son site web et des applications R en ligne (Shiny), produire des packages et utiliser R pour l&amp;rsquo;enseignement.&lt;/p&gt;
 &lt;h1 id=&#34;prérequis&#34;&gt;Prérequis&lt;/h1&gt;
 &lt;p&gt;Utilisation courante de R.&lt;/p&gt;
 &lt;p&gt;Formations préalables :&lt;/p&gt;

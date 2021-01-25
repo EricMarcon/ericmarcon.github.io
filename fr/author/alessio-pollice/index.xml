@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alessio Pollice | Eric Marcon</title>
-    <link>/fr/author/alessio-pollice/</link>
-      <atom:link href="/fr/author/alessio-pollice/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ericmarcon.github.io/fr/author/alessio-pollice/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/author/alessio-pollice/index.xml" rel="self" type="application/rss+xml" />
     <description>Alessio Pollice</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/EricMarcon.jpg</url>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Alessio Pollice</title>
-      <link>/fr/author/alessio-pollice/</link>
+      <link>https://ericmarcon.github.io/fr/author/alessio-pollice/</link>
     </image>
     
     <item>
       <title>Assessing the role of the spatial scale in the analysis of lagoon biodiversity . A case-study on the macrobenthic fauna of the Po River Delta</title>
-      <link>/fr/publication/lasinio-2017/</link>
+      <link>https://ericmarcon.github.io/fr/publication/lasinio-2017/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/fr/publication/lasinio-2017/</guid>
+      <guid>https://ericmarcon.github.io/fr/publication/lasinio-2017/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1016/j.ecolind.2017.05.037&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
