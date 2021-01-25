@@ -20,20 +20,18 @@ jobs:
       - name: Install pandoc
         run: |
           brew install pandoc
-      - name: Cache Renv packages
-        uses: actions/cache@v2
-        with:
-          path: $HOME/.local/share/renv
-          key: r-${{ hashFiles('renv.lock') }}
-          restore-keys: r-
       - name: Install packages
         run: |
-          R -e 'install.packages("renv")'
-          R -e 'renv::restore()'
+          options(pkgType = "binary")
+          options(install.packages.check.source = "no")
+          install.packages(c("remotes", "blogdown", "formatR"))
+          remotes::install_deps(dependencies = TRUE)
+        shell: Rscript {0}
       - name: Build website
         run: |
-          R -e 'blogdown::install_hugo(force=TRUE)'
-          R -e 'blogdown::build_site(local = TRUE, build_rmd = TRUE)'
+          blogdown::install_hugo(force=TRUE)
+          blogdown::build_site(local = TRUE, build_rmd = TRUE)
+        shell: Rscript {0}
       - name: Upload artifact
         uses: actions/upload-artifact@v1
         with:
