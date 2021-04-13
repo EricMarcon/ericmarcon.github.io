@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ericmarcon.github.io/fr/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,26 +14,18 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/post/perfr/</loc>
     <lastmod>2020-11-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/post/bayes/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/course/biodiversite-eft/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication-type/2/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,11 +36,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication-type/2/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/anne-baranger/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -60,11 +49,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/anne-baranger/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/authors/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -75,11 +62,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/authors/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/bruno-herault/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -90,11 +75,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/bruno-herault/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/eric-marcon/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -105,11 +88,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/eric-marcon/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/geraldine-derroire/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -120,11 +101,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/geraldine-derroire/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/myriam-heuertz/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -135,11 +114,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/myriam-heuertz/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/niklas-tysklind/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -150,11 +127,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/niklas-tysklind/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication_types/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -165,11 +140,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication_types/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -180,11 +153,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/saint-omer-cazal/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -195,11 +166,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/saint-omer-cazal/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/sylvain-schmitt/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -210,11 +179,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/sylvain-schmitt/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/schmitt2020/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -225,11 +192,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/schmitt2020/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/emilie-ducouret/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -240,11 +205,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/emilie-ducouret/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/ariane-mirabel/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -255,11 +218,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/ariane-mirabel/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/mirabel-2020/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -270,26 +231,18 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/mirabel-2020/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/post/krigeage/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/post/bibliometrie/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/post/densite/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/software/dbmss/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -300,11 +253,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/software/dbmss/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/software/entropart/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -315,11 +266,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/software/entropart/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/software/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -330,26 +279,18 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/software/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/course/distributions/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/course/travailler/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/talk/chao1/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/lang-2014/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -360,11 +301,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/lang-2014/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/florence-puech/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -375,11 +314,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/florence-puech/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/gabriel-lang/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -390,11 +327,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/gabriel-lang/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/jens-kattge/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -405,16 +340,12 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/jens-kattge/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/post/majacademic/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/kattge-2020/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -425,11 +356,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/kattge-2020/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2019/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -440,11 +369,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2019/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/brian-s.-steidinger/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -455,11 +382,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/brian-s.-steidinger/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/steidinger-2019/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -470,11 +395,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/steidinger-2019/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication-type/6/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -485,11 +408,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication-type/6/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/jean-michel-floch/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -500,11 +421,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/jean-michel-floch/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/floch-2018/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -515,11 +434,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/floch-2018/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/floch-2018-a/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -530,11 +447,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/floch-2018-a/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication-type/5/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -545,11 +460,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication-type/5/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2014-d/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -560,16 +473,12 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2014-d/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/talk/rr2018/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/privacy/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -580,16 +489,12 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/privacy/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/talk/rochebrune2018/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/alessio-pollice/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -600,11 +505,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/alessio-pollice/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/lasinio-2017/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -615,11 +518,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/lasinio-2017/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/elisa-anna-fano/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -630,11 +531,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/elisa-anna-fano/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/giovanna-jona-lasinio/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -645,11 +544,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/giovanna-jona-lasinio/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/michael-grabchak/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -660,11 +557,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/michael-grabchak/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/grabchak-2016/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -675,11 +570,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/grabchak-2016/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/zhiyi-zhang/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -690,11 +583,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/zhiyi-zhang/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2012-c/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -705,11 +596,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2012-c/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/buckland-2017/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -720,11 +609,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/buckland-2017/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/stephen-t.-buckland/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -735,11 +622,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/stephen-t.-buckland/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/y.-yuan/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -750,11 +635,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/y.-yuan/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/carlo-ricotta/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -765,11 +648,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/carlo-ricotta/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/sandrine-pavoine/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -780,11 +661,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/sandrine-pavoine/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/pavoine-2015-a/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -795,11 +674,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/pavoine-2015-a/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2015-a/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -810,11 +687,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2015-a/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2014-c/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -825,11 +700,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2014-c/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/stephane-traissac/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -840,11 +713,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/stephane-traissac/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2014/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -855,11 +726,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2014/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/cecile-richard-hansen/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -870,11 +739,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/cecile-richard-hansen/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/gaelle-jaouen/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -885,11 +752,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/gaelle-jaouen/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/richard-hansen-2015/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -900,11 +765,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/richard-hansen-2015/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/olivier-brunaux/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -915,11 +778,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/olivier-brunaux/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/stephane-guitet/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -930,11 +791,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/stephane-guitet/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/thomas-denis/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -945,11 +804,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/thomas-denis/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2015/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -960,11 +817,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2015/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2014-b/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -975,11 +830,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2014-b/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2014-a/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -990,11 +843,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2014-a/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/ivan-scotti/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1005,11 +856,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/ivan-scotti/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/vivien-rossi/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1020,11 +869,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/vivien-rossi/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2014-e/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1035,11 +882,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2014-e/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/lang-2013/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1050,11 +895,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/lang-2013/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2013/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1065,11 +908,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2013/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2012/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1080,11 +921,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2012/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/christopher-baraloto/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1095,11 +934,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/christopher-baraloto/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2012-b/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1110,11 +947,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2012-b/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2012-a/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1125,11 +960,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2012-a/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication-type/7/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1140,11 +973,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication-type/7/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/amelie-renaud/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1155,11 +986,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/amelie-renaud/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/andrew-d.-richardson/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1170,11 +999,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/andrew-d.-richardson/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/coste-2010-b/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1185,11 +1012,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/coste-2010-b/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/celine-leroy/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1200,11 +1025,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/celine-leroy/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/francois-morneau/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1215,11 +1038,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/francois-morneau/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/heidy-schimann/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1230,11 +1051,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/heidy-schimann/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/baraloto-2010-b/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1245,11 +1064,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/baraloto-2010-b/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/jean-christophe-roggy/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1260,11 +1077,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/jean-christophe-roggy/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/johan-uddling/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1275,11 +1090,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/johan-uddling/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2010/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1290,11 +1103,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2010/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/sabrina-coste/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1305,11 +1116,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/sabrina-coste/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2010-a/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1320,11 +1129,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2010-a/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/damien-bonal/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1335,11 +1142,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/damien-bonal/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/blanc-2009/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1350,11 +1155,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/blanc-2009/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/jerome-chave/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1365,11 +1168,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/jerome-chave/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/lilian-blanc/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1380,11 +1181,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/lilian-blanc/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/marion-echard/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1395,11 +1194,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/marion-echard/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/claude-brechet/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1410,11 +1207,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/claude-brechet/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/celine-born/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1425,11 +1220,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/celine-born/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/jean-marc-guehl/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1440,11 +1233,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/jean-marc-guehl/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/bonal-2007/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1455,11 +1246,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/bonal-2007/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/ollivier-2007/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1470,11 +1259,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/ollivier-2007/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/mariwenn-ollivier/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1485,11 +1272,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/mariwenn-ollivier/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2005/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1500,11 +1285,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2005/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/jean-louis-mucchielli/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1515,11 +1298,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/jean-louis-mucchielli/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-2003-a/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1530,11 +1311,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-2003-a/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/publication/marcon-1999/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1545,9 +1324,7 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/publication/marcon-1999/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1559,11 +1336,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/course/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1574,11 +1349,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/course/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/eric-marcon/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1589,9 +1362,7 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/eric-marcon/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/author/et-al./</loc>
     <xhtml:link
                 rel="alternate"
@@ -1603,11 +1374,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/author/et-al./"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/post/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1618,11 +1387,9 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/talk/</loc>
-    <lastmod>2021-02-08T14:35:06+01:00</lastmod>
+    <lastmod>2021-04-13T15:10:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1633,9 +1400,7 @@
                 hreflang="fr"
                 href="https://ericmarcon.github.io/fr/talk/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ericmarcon.github.io/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1648,5 +1413,4 @@
                 href="https://ericmarcon.github.io/fr/tags/"
                 />
   </url>
-  
 </urlset>
