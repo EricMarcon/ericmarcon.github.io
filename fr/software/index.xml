@@ -5,12 +5,23 @@
     <link>https://ericmarcon.github.io/fr/software/</link>
       <atom:link href="https://ericmarcon.github.io/fr/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Softwares</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Mon, 13 Apr 2020 16:04:36 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Softwares</title>
       <link>https://ericmarcon.github.io/fr/software/</link>
     </image>
+    
+    <item>
+      <title>memoiR</title>
+      <link>https://ericmarcon.github.io/fr/software/memoir/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/software/memoir/</guid>
+      <description>&lt;p&gt;&lt;em&gt;memoiR&lt;/em&gt; est un paquet R qui fournit des modèles pour publier des documents bien formatés aux formats HTML et PDF. Les documents peuvent être produits localement ou hébergés sur GitHub, où les Actions GitHub peuvent mettre à jour les documents publiés en continu.&lt;/p&gt;
+&lt;p&gt;Les documents longs sont l&amp;rsquo;objectif principal de ce paquet. En plus d&amp;rsquo;une version GitBook à lire en ligne, leur version PDF basée sur le mémoire de classe LaTeX peut être hautement personnalisée.&lt;/p&gt;
+&lt;p&gt;Des fonctions sont fournies pour rendre la publication des documents sur GitHub très facile, y compris leur intégration continue.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>dbmss</title>
