@@ -5,12 +5,22 @@
     <link>https://ericmarcon.github.io/fr/publication/</link>
       <atom:link href="https://ericmarcon.github.io/fr/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>Publications</title>
       <link>https://ericmarcon.github.io/fr/publication/</link>
     </image>
+    
+    <item>
+      <title>Travailler avec R</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2021/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2021/</guid>
+      <description>&lt;p&gt;La mise à jour permanente de ce document est lisible sur &lt;a href=&#34;https://EricMarcon.github.io/travailleR/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les mises à jour importantes sont publiées sur &lt;a href=&#34;https://hal-agroparistech.archives-ouvertes.fr/hal-03022820&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest</title>
