@@ -59,7 +59,7 @@ plot(d_reference)
 ```
 
 
-Censurer l'estimation avec les arguments `from`et `to` revient simplement de supprimer les valeurs estimées hors de l'intervalle pour obtenir la courbe rouge.
+Censurer l'estimation avec les arguments `from` et `to` revient simplement de supprimer les valeurs estimées hors de l'intervalle pour obtenir la courbe rouge.
 
 ```{r censure}
 plot(d_reference, main="")
