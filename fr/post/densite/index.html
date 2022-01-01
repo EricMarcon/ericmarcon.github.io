@@ -923,7 +923,7 @@ L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entr
 <p><img src="https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/histogramme-1.png" width="\maxwidth" /></p>
 <p>L’estimation avec la fonction <code>density</code> n’est pas nulle hors de l’intervalle <span class="math inline">\([1, 2]\)</span>.</p>
 <p><img src="https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/densite-1.png" width="\maxwidth" /></p>
-<p>Censurer l’estimation avec les arguments <code>from</code>et <code>to</code> revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.</p>
+<p>Censurer l’estimation avec les arguments <code>from</code> et <code>to</code> revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.</p>
 <p><img src="https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/censure-1.png" width="\maxwidth" /></p>
 <p>L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.</p>
 <p>Le package <em>GoFKernel</em> <span class="citation">(<a href="#ref-Pavia2015" role="doc-biblioref">Pavia 2015</a>)</span> propose la fonction <code>density.reflected</code> pour estimer correctement la densité précédente, en vert.</p>

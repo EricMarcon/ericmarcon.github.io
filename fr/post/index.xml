@@ -123,7 +123,7 @@ L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entr
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/histogramme-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;L’estimation avec la fonction &lt;code&gt;density&lt;/code&gt; n’est pas nulle hors de l’intervalle &lt;span class=&#34;math inline&#34;&gt;\([1, 2]\)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/densite-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt;et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
+&lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt; et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/censure-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.&lt;/p&gt;
 &lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Pavia2015&#34; role=&#34;doc-biblioref&#34;&gt;Pavia 2015&lt;/a&gt;)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
