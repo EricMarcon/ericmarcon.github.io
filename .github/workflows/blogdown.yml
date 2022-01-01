@@ -1,7 +1,7 @@
 on:
   push:
      branches:
-       - source
+       - master
   schedule:
     - cron: '0 22 * * 0'
 
