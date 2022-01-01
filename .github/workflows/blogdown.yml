@@ -30,7 +30,7 @@ jobs:
           blogdown::build_site(local = TRUE, build_rmd = TRUE)
         shell: Rscript {0}
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: _website
           path: public/
@@ -39,7 +39,7 @@ jobs:
     needs: buildsite
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v2
         with:
           # Artifact name
           name: _website
