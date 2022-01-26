@@ -35,13 +35,13 @@ education:
     institution: AgroParisTech
     year: 2010
   - course: Ingénieur du Génie Rural, des Eaux et des Forêts
-    institution: Ecole National du Génie Rural, des Eaux et des Forêts
+    institution: Ecole Nationale du Génie Rural, des Eaux et des Forêts
     year: 1999
   - course: DEA en économie internationale
-    institution: University of Paris I, Panthéon Sorbonne
+    institution: Université Paris I, Panthéon Sorbonne
     year: 1999
   - course: Ingénieurs des Travaux des Eaux et Forêts
-    institution: Ecole National des Ingénieurs des Travaux des Eaux et Forêts
+    institution: Ecole Nationale des Ingénieurs des Travaux des Eaux et Forêts
     year: 1987
 
 # Social/Academic Networking

@@ -29,19 +29,19 @@ interests:
 education:
   courses:
   - course: Habilitation à Diriger des Recherches (French qualification to supervise research) in Ecology
-    institution: Université de Guyane
+    institution: University of French Guiana
     year: 2016
   - course: PhD in Ecology
     institution: AgroParisTech
     year: 2010
   - course: Post-Graduate Engineering School of Public Administration
-    institution: Ecole National du Génie Rural, des Eaux et des Forêts
+    institution: Ecole Nationale du Génie Rural, des Eaux et des Forêts
     year: 1999
   - course: MSc in International Economics
     institution: University of Paris I, Panthéon Sorbonne
     year: 1999
   - course: Graduate Engineering School of Forestry
-    institution: Ecole National des Ingénieurs des Travaux des Eaux et Forêts
+    institution: Ecole Nationale des Ingénieurs des Travaux des Eaux et Forêts
     year: 1987
 
 # Social/Academic Networking
