@@ -42,7 +42,7 @@ education:
     year: 1999
   - course: Graduate Engineering School of Forestry
     institution: Ecole Nationale des Ingénieurs des Travaux des Eaux et Forêts
-    year: 1987
+    year: 1990
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
