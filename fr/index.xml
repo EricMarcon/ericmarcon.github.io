@@ -37,7 +37,6 @@
       <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://ericmarcon.github.io/fr/post/perfr/</guid>
       <description>
-&lt;script src=&#34;https://ericmarcon.github.io/fr/post/perfr/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;L’optimisation de la vitesse de R est utile pour des tâches répétées un grand nombre de fois (comme des simulations) ou des tâches complexes nécessitant de plusieurs secondes à plusieurs heures.
@@ -60,7 +59,6 @@ Pour du code réutilisable, c’est-à-dire un package ou du code bien document�
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://ericmarcon.github.io/fr/post/bayes/</guid>
       <description>
-&lt;script src=&#34;https://ericmarcon.github.io/fr/post/bayes/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Ce document explique et montre comment réaliser l’inférence bayesienne, c’est-à-dire l’estimation des paramètres, d’un modèle simple.
@@ -119,7 +117,6 @@ Son objectif est pédagogique : bien comprendre les étapes de l’inférence en
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://ericmarcon.github.io/fr/post/krigeage/</guid>
       <description>
-&lt;script src=&#34;https://ericmarcon.github.io/fr/post/krigeage/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Pour cartographier facilement une variable continue, 4 méthodes sont disponibles, dans les packages &lt;code&gt;akima&lt;/code&gt;, &lt;code&gt;spatial&lt;/code&gt;, &lt;code&gt;gstat&lt;/code&gt; et &lt;code&gt;automap&lt;/code&gt;.&lt;/p&gt;
@@ -142,7 +139,6 @@ Son objectif est pédagogique : bien comprendre les étapes de l’inférence en
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://ericmarcon.github.io/fr/post/bibliometrie/</guid>
       <description>
-&lt;script src=&#34;https://ericmarcon.github.io/fr/post/bibliometrie/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Tutoriel pour la bibliométrie avec les données de Google Scholar ou de Scopus.&lt;/p&gt;
@@ -174,7 +170,6 @@ library(&amp;quot;tidyverse&amp;quot;)
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://ericmarcon.github.io/fr/post/densite/</guid>
       <description>
-&lt;script src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;L’estimation de la densité d’une distribution sous R avec la fonction &lt;code&gt;density&lt;/code&gt; pose des problèmes si ses valeurs sont bornées.
@@ -289,7 +284,6 @@ Pavia, Jose M. 2015. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Testing G
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://ericmarcon.github.io/fr/post/majacademic/</guid>
       <description>
-&lt;script src=&#34;https://ericmarcon.github.io/fr/post/majacademic/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Ce site est généré par &lt;code&gt;blogdown&lt;/code&gt; sous R, avec le thème Academic pour Hugo.&lt;/p&gt;
