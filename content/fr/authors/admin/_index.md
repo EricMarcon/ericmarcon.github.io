@@ -18,7 +18,7 @@ organizations:
   url: "htttp://www.agroparistech.fr/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mes centres d'intérêts en recherche incluent l'écologie, l'économie et la programmaton avec R.
+bio: Mes centres d'intérêts en recherche incluent l'écologie, l'économie et la programmation avec R.
 
 interests:
 - Ecologie des communautés
