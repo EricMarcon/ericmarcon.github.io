@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Grabchak | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/fr/author/michael-grabchak/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/author/michael-grabchak/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Grabchak</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Fri, 17 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
+      <title>Michael Grabchak</title>
+      <link>https://ericmarcon.github.io/fr/author/michael-grabchak/</link>
+    </image>
+    
+    <item>
+      <title>The Generalized Simpson&#39;s Entropy is a Measure of Biodiversity</title>
+      <link>https://ericmarcon.github.io/fr/publication/grabchak-2016/</link>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/grabchak-2016/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1371/journal.pone.0173305&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

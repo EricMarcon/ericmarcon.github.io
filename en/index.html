@@ -1,0 +1,3280 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 4.8.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eric Marcon">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Eric Marcon&#39;s Homepage">
+
+  
+  <link rel="alternate" hreflang="fr" href="https://ericmarcon.github.io/fr/">
+  
+  <link rel="alternate" hreflang="en-us" href="https://ericmarcon.github.io/en/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-121X2M6WV2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-121X2M6WV2', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+  <link rel="alternate" href="/en/index.xml" type="application/rss+xml" title="Eric Marcon">
+  
+
+  <link rel="manifest" href="/en/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://ericmarcon.github.io/en/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Eric Marcon">
+  <meta property="og:url" content="https://ericmarcon.github.io/en/">
+  <meta property="og:title" content="Eric Marcon">
+  <meta property="og:description" content="Eric Marcon&#39;s Homepage"><meta property="og:image" content="https://ericmarcon.github.io/media/EricMarcon.jpg">
+  <meta property="twitter:image" content="https://ericmarcon.github.io/media/EricMarcon.jpg"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2022-08-08T00:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ericmarcon.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://ericmarcon.github.io/"
+}
+</script>
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/en/privacy/"
+      }
+    })});
+  </script>
+
+
+
+  
+
+
+
+
+
+  <title>Eric Marcon</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class=" ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/en/">Eric Marcon</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/en/">Eric Marcon</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#talks" data-target="#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#software" data-target="#software"><span>Software</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#posts" data-target="#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link " data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item dropdown-item-active">
+            <span>English</span>
+          </div>
+          
+          <a class="dropdown-item" href="https://ericmarcon.github.io/fr/" data-target="/fr/">
+            <span>Français</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/en/author/eric-marcon/avatar_huee38caab862a170717331bcb21405d6d_260496_270x270_fill_q90_lanczos_center.jpg" alt="Eric Marcon">
+      
+
+      <div class="portrait-title">
+        <h2>Eric Marcon</h2>
+        <h3>Researcher in Ecology</h3>
+
+        
+        <h3>
+          <a href="#ZgotmplZ" target="_blank" rel="noopener">
+          <span>AgroParisTech</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=4iLBmbUAAAAJ" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://publons.com/researcher/808431/eric-marcon/" target="_blank" rel="noopener">
+            <i class="ai ai-publons big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/EricMarcon" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>Biography</h1>
+
+    <p>I am a researcher in Tropical Ecology with <a href="http://amap.cirad.fr/en/" target="_blank" rel="noopener">UMR Amap</a>, a project manager with the research and innovation directorate of <a href="http://www2.agroparistech.fr/Research-and-Innovation-3738.html" target="_blank" rel="noopener">AgroParisTech</a> and a coordinator of the <a href="https://biologie-ecologie.com/master-b2e/parcours/bioget/" target="_blank" rel="noopener">BioGET</a> course of the  Biodiversity, Ecology and Evolution master&rsquo;s degree at AgroParisTech and Montpellier University.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Community Ecology</li>
+          
+          <li>Tropical Forestry</li>
+          
+          <li>Ecological Statistics</li>
+          
+          <li>R development</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Habilitation à Diriger des Recherches (French qualification to supervise research) in Ecology, 2016</p>
+              <p class="institution">University of French Guiana</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Ecology, 2010</p>
+              <p class="institution">AgroParisTech</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Post-Graduate Engineering School of Public Administration, 1999</p>
+              <p class="institution">Ecole Nationale du Génie Rural, des Eaux et des Forêts</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MSc in International Economics, 1999</p>
+              <p class="institution">University of Paris I, Panthéon Sorbonne</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Graduate Engineering School of Forestry, 1990</p>
+              <p class="institution">Ecole Nationale des Ingénieurs des Travaux des Eaux et Forêts</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Head of the Joint Research Unit Ecology of Guianan Forests</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.ecofog.gf" target="_blank" rel="noopener">AgroParisTech</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2010 –
+              
+                Aug 2020
+              
+              
+                <span class="middot-divider"></span>
+                <span>French Guiana</span>
+              
+            </div>
+            <div class="card-text"><p>Responsibilities included:</p>
+<ul>
+<li>Research Administration</li>
+<li>Management</li>
+<li>Teaching (graduate and post-graduate students)</li>
+<li>Research</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="featured" class="home-section wg-featured   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Featured Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Brian S. Steidinger</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Nature</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/en/publication/steidinger-2019/">Climatic controls of decomposition drive the global biogeography of forest tree symbioses</a>
+  </h3>
+
+  
+  <a href="/en/publication/steidinger-2019/" class="summary-link">
+    <div class="article-style">
+      <p>The identity of the dominant root-associated microbial symbionts in a forest determines the ability of trees to access limiting nutrients from atmospheric or soil pools, sequester carbon and withstand the effects of climate change. Characterizing the global distribution of these symbioses and identifying the factors that control this distribution are thus integral to understanding the present and future functioning of forest ecosystems.
+Here we generate a spatially explicit global map of the symbiotic status of forests, using a database of over 1.1 million forest inventory plots that collectively contain over 28,000 tree species. Our analyses indicate that climate variables—in particular, climatically controlled variation in the rate of decomposition—are the primary drivers of the global distribution of major symbioses. We estimate that ectomycorrhizal trees, which represent only 2% of all plant species, constitute approximately 60% of tree stems on Earth.
+Ectomycorrhizal symbiosis dominates forests in which seasonally cold and dry climates inhibit decomposition, and is the predominant form of symbiosis at high latitudes and elevation. By contrast, arbuscular mycorrhizal trees dominate in aseasonal, warm tropical forests, and occur with ectomycorrhizal trees in temperate biomes in which seasonally warm-and-wet climates enhance decomposition. Continental transitions between forests dominated by ectomycorrhizal or arbuscular mycorrhizal trees occur relatively abruptly along climate-driven decomposition gradients; these transitions are probably caused by positive feedback effects between plants and microorganisms. Symbiotic nitrogen fixers—which are insensitive to climatic controls on decomposition (compared with mycorrhizal fungi)—are most abundant in arid biomes with alkaline soils and high maximum temperatures. The climatically driven global symbiosis gradient that we document provides a spatially explicit quantitative understanding of microbial symbioses at the global scale, and demonstrates the critical role of microbial mutualisms in shaping the distribution of plant species.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/steidinger-2019/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41586-019-1128-0" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Eric Marcon</span>, <span >Florence Puech</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2017
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Regional Science and Urban Economics</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/en/publication/marcon-2012-c/">A Typology of Distance-Based Measures of Spatial Concentration</a>
+  </h3>
+
+  
+  <a href="/en/publication/marcon-2012-c/" class="summary-link">
+    <div class="article-style">
+      <p>Over the last decade, distance-based methods have been introduced and then improved in the field of spatial economics to gauge the geographic concentration of activities. There is a growing literature on this theme including new tools, discussions on their specific properties and various applications. However, there is currently no typology of distance-based methods. This paper fills that gap. The proposed classification helps understand all the properties of distance-based methods and proves that they are variations on the same framework.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/marcon-2012-c/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.regsciurbeco.2016.10.004" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Eric Marcon</span>, <span >Bruno Hérault</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2015
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Methods in Ecology and Evolution</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/en/publication/marcon-2014-b/">Decomposing Phylodiversity</a>
+  </h3>
+
+  
+  <a href="/en/publication/marcon-2014-b/" class="summary-link">
+    <div class="article-style">
+      <p>Measuring functional or phylogenetic diversity is the object of an active literature. The main issues to address are relating measures to a clear conceptual framework, allowing unavoidable estimation-bias correction and decomposing diversity along spatial scales. We provide a general mathematical framework to decompose measures of species-neutral, phylogenetic or functional diversity into $\alpha$ and $\beta$ components.
+We first unify the definitions of phylogenetic and functional entropy and diversity as a generalization of HCDT entropy and Hill numbers when an ultrametric tree is considered. We then derive the decomposition of diversity. We propose a bias correction of the estimates allowing meaningful computation from real, often undersampled communities.
+Entropy can be transformed into true diversity, that is an effective number of species or communities. Estimators of $\alpha$- and $\beta$-entropy, phylogenetic and functional entropy are provided. Proper definition and estimation of diversity is the first step towards better understanding its underlying ecological and evolutionary mechanisms.</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/marcon-2014-b/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/2041-210X.12323" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+  
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="row ">
+  
+    
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Recent Publications</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/publication/liang2022/" >Co-limitation towards lower latitudes shapes global forest diversity gradients</a>
+    </h3>
+
+    
+    <a href="/en/publication/liang2022/" class="summary-link">
+      <div class="article-style">
+        The latitudinal diversity gradient (LDG) is one of the most recognized global patterns of species richness exhibited across a wide …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Liang, Jingjing</span>, <span >Picard, Nicolas</span>, <span >Zhou, Mo</span>, <span >Pijanowski, Bryan</span>, <span >Nabuurs, Gert-Jan</span>, <span >de-Miguel, Sergio</span>, <span >Fang, Jingyun</span>, <span >Svenning, Jens-Christian</span>, <span >Jucker, Tommaso</span>, <span >Bastin, Jean-Francois</span>, <span >Slik, Ferry</span>, <span >Hérault, Bruno</span>, <span >Alberti, Giorgio</span>, <span >Keppel, Gunnar</span>, <span >ter Steege,Hans</span>, <span >von Gadow, Klaus</span>, <span >Jaroszewicz, Bogdan</span>, <span >Abegg, Meinrad</span>, <span >Yao, Yves C.Adou</span>, <span >Aguirre-Gutiérrez, Jesús</span>, <span >Zambrano, Angelica M. Almeyda</span>, <span >Altman, Jan</span>, <span >Alvarez-Dávila, Esteban</span>, <span >Álvarez-González, Juan Gabriel</span>, <span >Ammer, Christian</span>, <span >Ilondea, Bhely Angoboy</span>, <span >Antón-Fernández, Clara</span>, <span >Avitabile, Valerio</span>, <span >Balazy, Radomir</span>, <span >Batumike, Rodrigue</span>, <span >Bauters, Marijn</span>, <span >Beeckman, Hans</span>, <span >Benu, Nithanel Mikael Hendrik</span>, <span >Bitariho, Robert</span>, <span >Boeckx, Pascal</span>, <span >Bogaert, Jan</span>, <span >Bongers, Frans</span>, <span >Bouriaud, Olivier</span>, <span >Brandl,Susanne</span>, <span >Briseno-Reyes, Jaime</span>, <span >Bruelheide, Helge</span>, <span >Bulte, Erwin</span>, <span >Catlin, Ann Christine</span>, <span >Cazzolla Gatti,Roberto</span>, <span >Chisholm, Chelsea</span>, <span >Cienciala, Emil</span>, <span >Corral-Rivas, José Javier</span>, <span >Cuchietti, Anibal</span>, <span >Cuni-Sanchez, Aida</span>, <span >Dayanandan, Selvadurai</span>, <span >de Haulleville, Thales</span>, <span >Decuyper, Mathieu</span>, <span >Delabye, Sylvain</span>, <span >Derroire, Géraldine</span>, <span >DeVries, Ben</span>, <span >Diisi, John</span>, <span >Do, Tran Van</span>, <span >Dolezal, Jiri</span>, <span >Dourdain, Aurélie</span>, <span >Obiang, Nestor Laurier Engone</span>, <span >Finér, Leena</span>, <span >Fischer, Markus</span>, <span >Fridman, Jonas</span>, <span >Frizzera, Lorenzo</span>, <span >Gianelle, Damiano</span>, <span >Gonzalez-Elizondo, Maria Socorro</span>, <span >Gorenstein, Lev</span>, <span >Habonayo, Richard</span>, <span >Hector, Andrew</span>, <span >Hemp, Andreas</span>, <span >Herold, Martin</span>, <span >Hillers, Annika</span>, <span >Hubau, Wannes</span>, <span >Ibanez, Thomas</span>, <span >Imai, Nobuo</span>, <span >Imani, Gerard</span>, <span >Janecek, Stepan</span>, <span >Johannsen, Vivian Kvist</span>, <span >Jumbam, Blaise</span>, <span >Kahsay, GoytomAbraha</span>, <span >Karminov, Viktor</span>, <span >Kartawinata, Kuswata</span>, <span >Kearsley, Elizabeth</span>, <span >Kepfer-Rojas, Sebastian</span>, <span >Khan, MohammedLatif</span>, <span >Kim, Hyun Seok</span>, <span >Klauberg, Carine</span>, <span >Klomberg, Yannick</span>, <span >Korjus, Henn</span>, <span >Kothandaraman, Subashree</span>, <span >Kraxner, Florian</span>, <span >Kumar,Amit</span>, <span >Kuswandi, Relawan</span>, <span >Lang, Mait</span>, <span >Lentner, Geoffrey</span>, <span >Lisingo,Janvier</span>, <span >López-Serrano, Pablito Marcelo</span>, <span >Lu, Huicui</span>, <span >Lykke, Anne Mette</span>, <span >Maicher, Vincent</span>, <span >Marcon, Eric</span>, <span >Martynenko, Olga</span>, <span >Merow, Cory</span>, <span >Miscicki,Stanislaw</span>, <span >Morera, Albert</span>, <span >Murdjoko, Agustinus</span>, <span >Nava-Miranda, Maria Guadalupe</span>, <span >Ndive,Litonga Elias</span>, <span >Oleksyn, Jacek</span>, <span >Paquette, Alain</span>, <span >Park, Minjee</span>, <span >Parren, Marc</span>, <span >Parthasarathy, Narayanaswamy</span>, <span >Pfautsch, Sebastian</span>, <span >Piotto, Daniel</span>, <span >Pollastrini, Martina</span>, <span >Poorter, Lourens</span>, <span >Poulsen, Axel Dalberg</span>, <span >Pretzsch, Hans</span>, <span >Rodeghiero, Mirco</span>, <span >Rovero, Francesco</span>, <span >Rutishauser,Ervan</span>, <span >Sagheb-Talebi, Khosro</span>, <span >Saikia, Purabi</span>, <span >Sainge, Moses Nsanyi</span>, <span >Salas-Eljatib, Christian</span>, <span >Salis, Antonello</span>, <span >Schall, Peter</span>, <span >Schepaschenko,Dmitry</span>, <span >Scherer-Lorenzen, Michael</span>, <span >Schmid, Bernhard</span>, <span >Schöngart, Jochen</span>, <span >Šebeň, Vladimír</span>, <span >Sellan, Giacomo</span>, <span >Selvi, Federico</span>, <span >Sheil, Douglas</span>, <span >Sist, Plinio</span>, <span >Sundarapandian, Somaiah</span>, <span >Svoboda, Miroslav</span>, <span >Targhetta, Natalia</span>, <span >Tchebakova, Nadja</span>, <span >Tropek, Robert</span>, <span >Mukendi,John Tshibamba</span>, <span >Umunay, Peter Mbanda</span>, <span >Vaglio Laurin, Gaia</span>, <span >Valentini, Riccardo</span>, <span >Valladares, Fernando</span>, <span >van der Plas, Fons</span>, <span >Vega-Nieva, Daniel José</span>, <span >Verbeeck, Hans</span>, <span >Viana, Helder</span>, <span >Vleminckx, Jason</span>, <span >Wang,Hua-Feng</span>, <span >Wasingya, Eric Katembo</span>, <span >Wekesa, Chemuku</span>, <span >Westerlund, Bertil</span>, <span >Wittmann, Florian</span>, <span >Wortel, Verginia</span>, <span >Zawiła-Niedźwiecki, Tomasz</span>, <span >Zhang,Chunyu</span>, <span >Zhao, Xiuhai</span>, <span >Zhu, Jun</span>, <span >Zhu, Xiao</span>, <span >Zhu, Zhi-Xin</span>, <span >Hui, Cang</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41559-022-01831-x" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/liang2022/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41559-022-01831-x" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/publication/penel2022/" >Macrotermes termite mounds influence the spatial pattern of tree species in two African rainforest sites, in northern Congo. But were they really forests in the past?</a>
+    </h3>
+
+    
+    <a href="/en/publication/penel2022/" class="summary-link">
+      <div class="article-style">
+        Termite mounds have been poorly studied in tropical rainforest in contrast to those of savannahs where they create fertility hotspots …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Benoit Penel</span>, <span >Vincent Freycon</span>, <span >Eric Marcon</span>, <span >Vivien Rossi</span>, <span >Guillaume Cornu</span>, <span >Fabrice Bénédet</span>, <span >Éric Forni</span>, <span >Sylvie Gourlet-Fleury</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.cambridge.org/core/product/identifier/S0266467422000165/type/journal_article" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/penel2022/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1017/S0266467422000165" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/publication/mirabel-2021/" >30 Years of postdisturbance recruitment in a Neotropical forest</a>
+    </h3>
+
+    
+    <a href="/en/publication/mirabel-2021/" class="summary-link">
+      <div class="article-style">
+        Questions: Long-term community response to disturbance can follow manifold successional pathways depending on the interplay between …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Ariane Mirabel</span>, <span >Eric Marcon</span>, <span >Bruno Hérault</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/mirabel-2021/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1002/ece3.7634" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/publication/schmitt2020/" >Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest</a>
+    </h3>
+
+    
+    <a href="/en/publication/schmitt2020/" class="summary-link">
+      <div class="article-style">
+        Tropical forests shelter the highest species diversity worldwide, although genus diversity is lower than expected. In the species‐rich …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Sylvain Schmitt</span>, <span >Bruno Hérault</span>, <span >Émilie Ducouret</span>, <span >Anne Baranger</span>, <span >Niklas Tysklind</span>, <span >Myriam Heuertz</span>, <span >Eric Marcon</span>, <span >Saint Omer Cazal</span>, <span >Géraldine Derroire</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/oik.07488" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/schmitt2020/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/oik.07488" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/publication/mirabel-2020/" >Diverging taxonomic and functional trajectories following disturbance in a Neotropical forest</a>
+    </h3>
+
+    
+    <a href="/en/publication/mirabel-2020/" class="summary-link">
+      <div class="article-style">
+        In the current global change context, it is urgent to anticipate the fate of tropical forests. This means understanding tree community …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Ariane Mirabel</span>, <span >Bruno Hérault</span>, <span >Eric Marcon</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/en/publication/mirabel-2020/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/J.SCITOTENV.2020.137397" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    
+    
+
+      
+      
+        
+      
+
+      
+
+      <div class="see-all">
+        <a href="/en/publication/">
+          See all publications
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="row ">
+  
+    
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Recent &amp; Upcoming Talks</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/talk/paristrees/" >Urban biodiversity: a study on Parisian trees</a>
+    </h3>
+
+    
+    <a href="/en/talk/paristrees/" class="summary-link">
+      <div class="article-style">
+        Recent developments in biodiversity measurement are applied to Paris trees data to explore the biodiversity of trees.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          May 24, 2019 11:00 AM &mdash; 12:30 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Paris</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ParisTrees/ParisTrees.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/EricMarcon/ParisTrees" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ParisTrees/ParisTrees.html" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/en/talk/paristrees/" >
+      <img src="/en/talk/paristrees/featured_hu013ef5bc7c92a11fddb870b8f4be8e57_305608_150x0_resize_lanczos_3.png" alt="Urban biodiversity: a study on Parisian trees">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="software" class="home-section wg-portfolio   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Software</h1>
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+
+
+    
+
+    
+
+    <div class=" row js-layout-row project-showcase mt-5">
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item ">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/en/software/memoir/" >memoiR</a></h3>
+
+      
+      <div class="article-style">
+        memoiR is an R package that provides templates to publish well-formatted documents both in HTML and PDF formats. Documents can be produced locally or hosted on GitHub, where GitHub actions can update the published documents continuously.
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/EricMarcon/memoiR" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://ericmarcon.github.io/memoiR/" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/en/software/memoir/" >
+        <img src="/en/software/memoir/featured_hu18a6066e6938d62d67bc9194d737a8f3_16888_540x0_resize_lanczos_3.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+<div class="col-lg-12 project-item isotope-item ">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/en/software/dbmss/" >dbmss</a></h3>
+
+      
+      <div class="article-style">
+        dbmss is an R package for simple computation of spatial statistic functions of distance to characterize the spatial structures of mapped objects, including classical ones (Ripley’s K and others) and more recent ones used by spatial economists (Duranton and Overman’s Kd, Marcon and Puech’s M).
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/EricMarcon/dbmss" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://ericmarcon.github.io/dbmss/" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first order-md-2">
+      
+      
+      
+      <a href="/en/software/dbmss/" >
+        <img src="/en/software/dbmss/featured_huc8228ce72337aae67a9a5b6ffe0247d2_213146_540x0_resize_lanczos_3.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item ">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <h3 class="article-title mb-0 mt-0"><a href="/en/software/entropart/" >Entropart</a></h3>
+
+      
+      <div class="article-style">
+        entropart is an R package that provides functions to calculate $\alpha$, $\beta$ and $\gamma$ diversity of communities, including phylogenetic and functional diversity.
+Estimation-bias corrections are available.
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/EricMarcon/entropart" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://ericmarcon.github.io/entropart/" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      <a href="/en/software/entropart/" >
+        <img src="/en/software/entropart/featured_hu8eff0b4eb5bd08edf60d9e3b0d09044a_182357_540x0_resize_lanczos_3.png" alt="">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="row ">
+  
+    
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Recent Posts</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+
+    
+    
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+<div class="row contact-widget ">
+  
+    
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Contact</h1>
+        
+      </div>
+    
+  
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/eric.marcon@agroparistech.fr"  >
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        
+        
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+    <ul class="fa-ul">
+
+      
+
+      
+
+      
+      
+
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="43.646438">
+      <input id="map-lng" value="3.878938">
+      <input id="map-dir" value="">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/en/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.2f4ed58356bdbcc29a6e65c49be85517.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/en/privacy/">Privacy Policy</a>
+    
+    
+  </p>
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

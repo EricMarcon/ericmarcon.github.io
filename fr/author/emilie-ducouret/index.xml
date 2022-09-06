@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Émilie Ducouret | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/fr/author/emilie-ducouret/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/author/emilie-ducouret/index.xml" rel="self" type="application/rss+xml" />
+    <description>Émilie Ducouret</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
+      <title>Émilie Ducouret</title>
+      <link>https://ericmarcon.github.io/fr/author/emilie-ducouret/</link>
+    </image>
+    
+    <item>
+      <title>Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest</title>
+      <link>https://ericmarcon.github.io/fr/publication/schmitt2020/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/schmitt2020/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/oik.07488&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
