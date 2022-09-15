@@ -40,7 +40,7 @@ education:
   - course: DEA en économie internationale
     institution: Université Paris I, Panthéon Sorbonne
     year: 1999
-  - course: Ingénieurs des Travaux des Eaux et Forêts
+  - course: Ingénieur des Travaux des Eaux et Forêts
     institution: Ecole Nationale des Ingénieurs des Travaux des Eaux et Forêts
     year: 1990
 
@@ -77,4 +77,4 @@ email: ""
 # - Visitors
 ---
 
-Je suis chercheur en écologie tropicale à l'[UMR Amap](http://amap.cirad.fr/), chargé de mission à la Direction de la Recherche et de la Valorisation d'[AgroParisTech](http://www.agroparistech.fr) et coordinateur du parcours [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) du master Biodiversité, Ecologie et Evolution (AgroParisTech et Université de Montpellier).
+Je suis chercheur en écologie tropicale à l'[UMR Amap](http://amap.cirad.fr/), enseignant à [AgroParisTech](http://www.agroparistech.fr) et coordinateur du parcours [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) du master Biodiversité, Ecologie et Evolution (AgroParisTech et Université de Montpellier).
