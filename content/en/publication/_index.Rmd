@@ -94,7 +94,9 @@ ggraph(g, layout = "auto") +
   labs(title = paste("Coauthorship Network of", get_profile(AuthorID)$name),
        subtitle = "Publications with more than one Google Scholar citation included",
        caption = paste("Coauthors with at least", MinCopublications, "copublications")) +
-  theme_graph(title_size = 16, base_family = "sans")
+  theme_graph(title_size = 16, base_family = "sans") %>% 
+# Warnings by ggplot >= 3.4 not addressed by ggraph 2.1.0
+suppressWarnings()
 ```
 
 

@@ -86,7 +86,9 @@ ggraph(g, layout = "auto") +
   labs(title = paste("Réseau de co-autorat de", get_profile(AuthorID)$name),
        subtitle = "Publications citées au moins une fois dans Google Scholar",
        caption = paste("Coauteurs avec au moins", MinCopublications, "co-publications")) +
-  theme_graph(title_size = 16, base_family = "sans")
+  theme_graph(title_size = 16, base_family = "sans") %>% 
+# Warnings by ggplot >= 3.4 not addressed by ggraph 2.1.0
+suppressWarnings()
 ```
 
 Indice h: `r AuthorID %>% get_profile %>% pluck("h_index")`.
