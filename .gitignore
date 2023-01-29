@@ -19,5 +19,8 @@ _index.html
 index.html
 **/index_files/
 
+# Publication temp files
+/assets/publication
+
 # Master branch
 *.github.io.Rproj
