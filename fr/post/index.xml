@@ -97,7 +97,10 @@ library(&amp;quot;tidyverse&amp;quot;)
          caption = &amp;quot;Source: Google Scholar&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Using `size` aesthetic for lines was deprecated
 ## in ggplot2 3.4.0.
-## ℹ Please use `linewidth` instead.&lt;/code&gt;&lt;/pre&gt;
+## ℹ Please use `linewidth` instead.
+## This warning is displayed once every 8 hours.
+## Call `lifecycle::last_lifecycle_warnings()` to
+## see where this warning was generated.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package &lt;em&gt;bibliometrix&lt;/em&gt; permet de nombreuses analyses.&lt;/p&gt;
 &lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
