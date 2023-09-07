@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fons {van der Plas} | Eric Marcon</title>
+    <title>Fons van der Plas | Eric Marcon</title>
     <link>https://ericmarcon.github.io/fr/author/fons-van-der-plas/</link>
       <atom:link href="https://ericmarcon.github.io/fr/author/fons-van-der-plas/index.xml" rel="self" type="application/rss+xml" />
-    <description>Fons {van der Plas}</description>
+    <description>Fons van der Plas</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
-      <title>Fons {van der Plas}</title>
+      <title>Fons van der Plas</title>
       <link>https://ericmarcon.github.io/fr/author/fons-van-der-plas/</link>
     </image>
     

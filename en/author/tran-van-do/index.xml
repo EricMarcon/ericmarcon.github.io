@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tran {Van Do} | Eric Marcon</title>
+    <title>Tran Van Do | Eric Marcon</title>
     <link>https://ericmarcon.github.io/en/author/tran-van-do/</link>
       <atom:link href="https://ericmarcon.github.io/en/author/tran-van-do/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tran {Van Do}</description>
+    <description>Tran Van Do</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
-      <title>Tran {Van Do}</title>
+      <title>Tran Van Do</title>
       <link>https://ericmarcon.github.io/en/author/tran-van-do/</link>
     </image>
     
