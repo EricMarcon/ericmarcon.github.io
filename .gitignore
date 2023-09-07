@@ -8,6 +8,7 @@
 # Hugo
 /resources/
 /public/
+.hugo_build.lock
 
 # blogdown
 /blogdown/
