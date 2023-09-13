@@ -1,0 +1,91 @@
+---
+title: "Précision de l'inversion de matrice"
+subtitle: ""
+summary: "Méthode pour diagnostiquer la précision de l'inversion numérique d'une matrice."
+authors: []
+tags: []
+categories: []
+date: 2023-09-13
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+---
+
+# Théorie
+
+L'inversion de matrices de grande taille est difficile.
+Newman(1974) propose une méthode pour tester la précision de l'inversion.
+
+Soit $A$ la matrice (carrée, non singulière) à inverser.
+$X$ est l'approximation de $A^{-1}$ obtenue par calcul.
+$N(Y)=\sqrt{\sum_{i,j}{y_{i,j}^2}}$ est la norme euclidienne d'une matrice $Y=(y_{i,j})$.
+
+$R = I - AX$ est l'écart (idéalement nul) entre la matrice identité et le produit de $A$ et son inverse calculé.
+
+La norme de $R$ n'est pas un bon indicateur de la précision de l'inversion (Newman, 1974, section 3).
+En revanche, la norme de $A^{-1} - X$ en est un, mais $A^{-1}$ est inconnu.
+Newman montre que 
+$$\frac{N(XR)}{1 + N(XR)} \leq N(A^{-1} - X) \leq \frac{N(XR)}{1 - N(XR)},$$
+ce qui permet d'encadrer la valeur de $N(A^{-1} - X)$ avec les valeurs calculées de $X$ et $R$.
+
+L'objectif est que cette valeur soit petite, idéalement nulle si $A^{-1} = X$, par rapport à la norme de $X$.
+
+
+# Exemple
+
+Le paramètre `size` fixe la taille (nombre de ligne et de colonnes) des matrices utilisées, ici une matrice de 1000 x 1000.
+
+```{r}
+size <- 1000
+```
+
+Une matrice est crée:
+```{r}
+A <- matrix(rnorm(size^2), nrow = size)
+```
+
+Elle est inversée numériquement (calcul de $X$) puis $R$ et $XR$ sont calculées:
+```{r}
+X <- solve(A)
+AX <- A %*% X
+R <- diag(size) - AX
+XR <- X %*% R
+```
+
+La fonction norme euclidienne est définie:
+```{r}
+norm.matrix <- function(X) {
+  sqrt(sum(X^2))
+}
+```
+
+Les normes des matrices sont calculées:
+```{r}
+# Matrice à inverser
+norm.matrix(A)
+# Inversion numérique
+norm.matrix(X)
+# Ecart d'inversion
+norm_R <- norm.matrix(R)
+norm_XR <- norm.matrix(XR)
+```
+
+Finalement, l'encadrement de la norme de $A^{-1} - X$ est fourni:
+```{r}
+norm_XR / (1 + norm_R)
+norm_XR / (1 - norm_R)
+```
+
+La norme de $A^{-1} - X$ est ici très proche de 0 : l'inversion de matrice dans R fonctionne bien.
+
+
+# Référence
+
+Newman, M. (1974). How to Determine the Accuracy of the Output of a Matrix Inversion Program. *JOURNAL OF RESEARCH of the National Bureau of Standards - B. Mathematical Sciences*, [788(2), 65–68](https://nvlpubs.nist.gov/nistpubs/jres/78B/jresv78Bn2p65_A1b.pdf).
