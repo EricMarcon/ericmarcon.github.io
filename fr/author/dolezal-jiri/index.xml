@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dolezal, Jiri | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/fr/author/dolezal-jiri/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/author/dolezal-jiri/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dolezal, Jiri</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
+      <title>Dolezal, Jiri</title>
+      <link>https://ericmarcon.github.io/fr/author/dolezal-jiri/</link>
+    </image>
+    
+    <item>
+      <title>Native diversity buffers against severity of non-native tree invasions</title>
+      <link>https://ericmarcon.github.io/fr/publication/delavaux-2023/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/delavaux-2023/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1038/s41586-023-06440-7&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Co-limitation towards lower latitudes shapes global forest diversity gradients</title>
+      <link>https://ericmarcon.github.io/fr/publication/liang-2022/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/liang-2022/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1038/s41559-022-01831-x&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
