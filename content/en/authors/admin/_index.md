@@ -74,4 +74,4 @@ email: ""
 # - Visitors
 ---
 
-I am a researcher in Tropical Ecology with [UMR Amap](http://amap.cirad.fr/en/), a professor at [AgroParisTech](http://www2.agroparistech.fr/) and a coordinator of the [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) course of the  Biodiversity, Ecology and Evolution master's degree at AgroParisTech and Montpellier University.
+I am a researcher in Tropical Ecology with [UMR Amap](http://amap.cirad.fr/en/), a professor at [AgroParisTech](http://www.agroparistech.fr/) and a coordinator of the [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) course of the  Biodiversity, Ecology and Evolution master's degree at AgroParisTech and Montpellier University.
