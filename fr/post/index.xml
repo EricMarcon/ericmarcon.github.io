@@ -53,18 +53,18 @@ XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
 norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1000.027&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1001.033&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
 norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 69.58084&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 131.7305&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
 norm_R &amp;lt;- norm.matrix(R)
 norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 2.009161e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 9.496212e-11&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 2.009161e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 9.496212e-11&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
