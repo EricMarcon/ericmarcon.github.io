@@ -101,7 +101,7 @@ ggraph(g, layout = "auto") +
 ```
 
 
-Indice h: `r AuthorID %>% get_profile %>% pluck("h_index")`.
+h Index: `r AuthorID %>% get_profile %>% pluck("h_index")`.
 
 ```{r citations, message=FALSE}
 AuthorID %>%
