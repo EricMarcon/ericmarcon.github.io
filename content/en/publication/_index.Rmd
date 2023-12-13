@@ -35,7 +35,7 @@ AuthorID <- "4iLBmbUAAAAJ" # Eric Marcon
 ```
 
 
-```{r coauthors, message=FALSE}
+```{r coauthors, message=FALSE, warning=FALSE}
 # Paramètres
 # Auteur principal
 author_focus <- "Marcon, E"
@@ -110,7 +110,7 @@ is_author <- function(author_name, bib_df, author_focus) {
 
 # Matrice d'autorat: publications en lignes, auteurs en colonnes, valeurs logiques
 paper_is_authored_by <- sapply(
-  FUN = authors_unique,
+  authors_unique,
   FUN = is_author,
   bib_df = bib_df,
   author_focus = author_focus
