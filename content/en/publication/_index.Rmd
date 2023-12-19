@@ -39,7 +39,7 @@ AuthorID <- "4iLBmbUAAAAJ" # Eric Marcon
 # Paramètres
 # Auteur principal
 author_focus <- "Marcon, E"
-# Nombre minimal de copuplications pour figuer sur le graphique
+# Nombre minimal de copuplications pour figurer sur le graphique
 copublication_min <- 2
 
 library("bib2df")
