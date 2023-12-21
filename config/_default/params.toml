@@ -71,7 +71,7 @@ privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/EricMarcon/Home-Page", content_dir = "", repo_branch = "master", editable = {docs = false, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/EricMarcon/ericmarcon.github.io", content_dir = "", repo_branch = "master", editable = {docs = false, page = false, post = false}}
 
 ############################
 ## Contact details
@@ -156,7 +156,7 @@ sharing = true
 link_authors = false
 
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
-abstract_length = 135
+abstract_length = 200
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
