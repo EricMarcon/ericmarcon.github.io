@@ -17,7 +17,8 @@
       <link>https://ericmarcon.github.io/fr/publication/marcon-2023/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://ericmarcon.github.io/fr/publication/marcon-2023/</guid>
-      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/s43071-023-00042-1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Le code pour reproduire le contenu de cet article est &lt;a href=&#34;https://ericmarcon.github.io/JSPE-D-23-00002/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;disponible sur GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/s43071-023-00042-1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -80,18 +81,18 @@ XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
 norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1000.154&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 998.9034&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
 norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 236.9107&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 71.22449&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
 norm_R &amp;lt;- norm.matrix(R)
 norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 3.146372e-10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1.33008e-11&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 3.146372e-10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1.33008e-11&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
