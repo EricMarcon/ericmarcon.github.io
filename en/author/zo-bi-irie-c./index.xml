@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zo-Bi, Irie C. | Eric Marcon</title>
+    <title>Zo-Bi, Irié C. | Eric Marcon</title>
     <link>https://ericmarcon.github.io/en/author/zo-bi-irie-c./</link>
       <atom:link href="https://ericmarcon.github.io/en/author/zo-bi-irie-c./index.xml" rel="self" type="application/rss+xml" />
-    <description>Zo-Bi, Irie C.</description>
+    <description>Zo-Bi, Irié C.</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
-      <title>Zo-Bi, Irie C.</title>
+      <title>Zo-Bi, Irié C.</title>
       <link>https://ericmarcon.github.io/en/author/zo-bi-irie-c./</link>
     </image>
+    
+    <item>
+      <title>Global Patterns and Environmental Drivers of Forest Functional Composition</title>
+      <link>https://ericmarcon.github.io/en/publication/bouchard-2023/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/en/publication/bouchard-2023/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/geb.13790&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Integrated Global Assessment of the Natural Forest Carbon Potential</title>
