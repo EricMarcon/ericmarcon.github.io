@@ -99,18 +99,18 @@ XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
 norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1001.107&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 999.5&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
 norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 44.28707&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1799.036&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
 norm_R &amp;lt;- norm.matrix(R)
 norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 6.832801e-12&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 9.075055e-09&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 6.832801e-12&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 9.075055e-09&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
@@ -330,7 +330,7 @@ L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entr
 &lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt; et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/censure-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.&lt;/p&gt;
-&lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Pavia2015&#34; role=&#34;doc-biblioref&#34;&gt;Pavia 2015&lt;/a&gt;)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
+&lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Pavia2015&#34;&gt;Pavia 2015&lt;/a&gt;)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/GoFKernel-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
 &lt;ul&gt;
@@ -338,7 +338,7 @@ L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entr
 &lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Référence&lt;/strong&gt;&lt;/p&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-Pavia2015&#34; class=&#34;csl-entry&#34;&gt;
 Pavia, Jose M. 2015. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Testing Goodness-of-Fit with the Kernel Density Estimator: GoFKernel&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Statistical Software&lt;/em&gt; 66 (Code Snippet 1). &lt;a href=&#34;https://doi.org/10.18637/jss.v066.c01&#34;&gt;https://doi.org/10.18637/jss.v066.c01&lt;/a&gt;.
 &lt;/div&gt;
