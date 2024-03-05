@@ -53,18 +53,18 @@ XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
 norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 999.5&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 999.6288&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
 norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1799.036&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 40.61235&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
 norm_R &amp;lt;- norm.matrix(R)
 norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 9.075055e-09&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 6.81271e-12&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 9.075055e-09&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 6.81271e-12&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
@@ -153,16 +153,10 @@ library(&amp;quot;tidyverse&amp;quot;)
 &amp;quot;4iLBmbUAAAAJ&amp;quot; %&amp;gt;%  # Eric Marcon
   get_citation_history()  %&amp;gt;% # Google Scholar API
   ggplot(aes(year, cites)) +
-    geom_segment(aes(xend = year, yend = 0), size=1, color=&amp;#39;darkgrey&amp;#39;) +
-    geom_point(size=3, color=&amp;#39;firebrick&amp;#39;) +
+    geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = &amp;#39;darkgrey&amp;#39;) +
+    geom_point(size = 3, color = &amp;#39;firebrick&amp;#39;) +
     labs(title = &amp;quot;Citations per year&amp;quot;, 
          caption = &amp;quot;Source: Google Scholar&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: Using `size` aesthetic for lines was deprecated
-## in ggplot2 3.4.0.
-## ℹ Please use `linewidth` instead.
-## This warning is displayed once every 8 hours.
-## Call `lifecycle::last_lifecycle_warnings()` to
-## see where this warning was generated.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package &lt;em&gt;bibliometrix&lt;/em&gt; permet de nombreuses analyses.&lt;/p&gt;
 &lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;

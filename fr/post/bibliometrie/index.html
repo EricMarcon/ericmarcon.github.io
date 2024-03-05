@@ -926,16 +926,10 @@ library(&quot;tidyverse&quot;)
 &quot;4iLBmbUAAAAJ&quot; %&gt;%  # Eric Marcon
   get_citation_history()  %&gt;% # Google Scholar API
   ggplot(aes(year, cites)) +
-    geom_segment(aes(xend = year, yend = 0), size=1, color=&#39;darkgrey&#39;) +
-    geom_point(size=3, color=&#39;firebrick&#39;) +
+    geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = &#39;darkgrey&#39;) +
+    geom_point(size = 3, color = &#39;firebrick&#39;) +
     labs(title = &quot;Citations per year&quot;, 
          caption = &quot;Source: Google Scholar&quot;)</code></pre>
-<pre><code>## Warning: Using `size` aesthetic for lines was deprecated
-## in ggplot2 3.4.0.
-## ℹ Please use `linewidth` instead.
-## This warning is displayed once every 8 hours.
-## Call `lifecycle::last_lifecycle_warnings()` to
-## see where this warning was generated.</code></pre>
 <p><img src="https://ericmarcon.github.io/fr/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png" width="\maxwidth" /></p>
 <p>A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package <em>bibliometrix</em> permet de nombreuses analyses.</p>
 <p>Suivre les liens pour accéder au tutoriel complet:</p>
