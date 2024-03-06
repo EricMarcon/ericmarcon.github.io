@@ -45,8 +45,8 @@ library("tidyverse")
 "4iLBmbUAAAAJ" %>%  # Eric Marcon
   get_citation_history()  %>% # Google Scholar API
   ggplot(aes(year, cites)) +
-    geom_segment(aes(xend = year, yend = 0), size=1, color='darkgrey') +
-    geom_point(size=3, color='firebrick') +
+    geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = 'darkgrey') +
+    geom_point(size = 3, color = 'firebrick') +
     labs(title = "Citations per year", 
          caption = "Source: Google Scholar")
 ```
