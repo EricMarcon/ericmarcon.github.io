@@ -5,12 +5,21 @@
     <link>https://ericmarcon.github.io/fr/publication-type/2/</link>
       <atom:link href="https://ericmarcon.github.io/fr/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
       <title>2</title>
       <link>https://ericmarcon.github.io/fr/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Estimation of the number of tree species in French Guiana by extrapolation of permanent plots richness</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2024/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2024/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1017/S0266467424000099&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Climate anomalies and neighbourhood crowding interact in shaping tree growth in old-growth and selectively logged tropical forests</title>
