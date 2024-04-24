@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+      - name: Install pandoc
+        uses: r-lib/actions/setup-pandoc@v2
       - name: Install packages
         run: |
           install.packages(c("remotes", "blogdown", "formatR"))
