@@ -29,6 +29,9 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.119.0'
+      - name: Install git
+        run: |
+          sudo apt-get install git
       - name: Build website
         run: |
           options(blogdown.hugo.version = "0.119.0")
