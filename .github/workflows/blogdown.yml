@@ -27,10 +27,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.122.0'
+          hugo-version: '0.119.0'
       - name: Build website
         run: |
-          options(blogdown.hugo.version = "0.122.0")
+          options(blogdown.hugo.version = "0.119.0")
           blogdown::build_site(local = TRUE, build_rmd = TRUE)
         shell: Rscript {0}
       - name: Upload artifact
