@@ -25,10 +25,9 @@ jobs:
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.122.0'
-          extended: true
       - name: Build website
         run: |
           options(blogdown.hugo.version = "0.122.0")
