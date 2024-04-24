@@ -31,7 +31,7 @@ jobs:
           hugo-version: '0.119.0'
       - name: Install git
         run: |
-          apt-get install git
+          apt-get install git -q -y
       - name: Build website
         run: |
           options(blogdown.hugo.version = "0.119.0")
