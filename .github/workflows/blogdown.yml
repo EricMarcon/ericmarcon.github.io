@@ -24,9 +24,13 @@ jobs:
           install.packages(c("remotes", "blogdown", "formatR"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.122.0'
+          extended: true
       - name: Build website
         run: |
-          blogdown::install_hugo(version = "0.122.0")
           options(blogdown.hugo.version = "0.122.0")
           blogdown::build_site(local = TRUE, build_rmd = TRUE)
         shell: Rscript {0}
