@@ -23,10 +23,10 @@
   url = "#software"
   weight = 70
 
-# [[main]]
-#   name = "Courses"
-#   url = "#course"
-#   weight = 80
+[[main]]
+  name = "Courses"
+  url = "#course"
+  weight = 80
 
 [[main]]
   name = "Posts"
