@@ -22,6 +22,9 @@ jobs:
           install.packages(c("remotes", "blogdown", "formatR"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: 'go.mod'
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
