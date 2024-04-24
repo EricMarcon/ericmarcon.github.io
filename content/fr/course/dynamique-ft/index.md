@@ -32,7 +32,7 @@ url_slides: "https://1drv.ms/p/s!Amvhelr37CHjkqc6-W1sgWYasXYxRg?e=8bY3li"
 
 Ce cours est destiné aux étudiants d'AgroParisTech en dernière année, en dominante d'approfondissement [GEEFT](https://www.genv-agroparistech.fr/fr/nos-formations/ingenieur-agroparistech-da-geeft).
 C'est une introduction à la dynamique des forêts tropicales. Les objectifs sont de :
-- Savoir décrire l’état et la dynamique d’une forêt,
+- Savoir décrire l'état et la dynamique d'une forêt,
 - Comprendre la dynamique de succession et le rôle des perturbations,
 - Connaître quelques théories fondamentales,
-- Introduire les perturbations anthropiques, avant de voir l’aménagement et l’exploitation de la forêt.
+- Introduire les perturbations anthropiques, avant de voir l'aménagement et l'exploitation de la forêt.

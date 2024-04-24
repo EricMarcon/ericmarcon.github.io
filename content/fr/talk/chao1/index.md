@@ -7,7 +7,7 @@ location: Université de Guyane
 
 summary: []
 abstract: |
-  Pour estimer le nombre d’espèces (richesse spécifique) d’une communauté à partir d’un échantillon, l’estimateur Chao1 est l’outil le plus utilisé.
+  Pour estimer le nombre d'espèces (richesse spécifique) d'une communauté à partir d'un échantillon, l'estimateur Chao1 est l'outil le plus utilisé.
 
   Sa construction est expliquée et son efficacité est testée sur des données simulées.
 

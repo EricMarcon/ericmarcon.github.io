@@ -18,15 +18,15 @@ image:
   preview_only: false
 ---
 
-L’optimisation de la vitesse de R est utile pour des tâches répétées un grand nombre de fois (comme des simulations) ou des tâches complexes nécessitant de plusieurs secondes à plusieurs heures.
-L’approche est différente dans les deux cas.
+L'optimisation de la vitesse de R est utile pour des tâches répétées un grand nombre de fois (comme des simulations) ou des tâches complexes nécessitant de plusieurs secondes à plusieurs heures.
+L'approche est différente dans les deux cas.
 
-Dans l’usage quotidien de R, c’est-à-dire des tâches courtes en ligne de commande, de bonnes pratiques de codage suffisent.
-Pour du code réutilisable, c’est-à-dire un package ou du code bien documenté diffusé sous d’autres formes, il est souvent préférable de sacrifier un peu de performance au profit de la lisibilité: c’est la philosophie du tidyverse par exemple.
+Dans l'usage quotidien de R, c'est-à-dire des tâches courtes en ligne de commande, de bonnes pratiques de codage suffisent.
+Pour du code réutilisable, c'est-à-dire un package ou du code bien documenté diffusé sous d'autres formes, il est souvent préférable de sacrifier un peu de performance au profit de la lisibilité: c'est la philosophie du tidyverse par exemple.
 
-Ceci dit, des efforts peuvent être rentables dans les cas où le temps d’exécution est critique: c’est l’objet des sections 2.3 à 2.7 du document [Travailler avec R](). On se reportera à [*Advanced R*](https://adv-r.hadley.nz/) d’Hadley Wickam pour une présentation plus détaillée.
+Ceci dit, des efforts peuvent être rentables dans les cas où le temps d'exécution est critique: c'est l'objet des sections 2.3 à 2.7 du document [Travailler avec R](). On se reportera à [*Advanced R*](https://adv-r.hadley.nz/) d'Hadley Wickam pour une présentation plus détaillée.
 
-Le premier objectif est de mesurer le temps d’exécution de code R. Ensuite, les techniques de parallélisation sont présentées. Une étude de cas permet de comparer l'efficacité de code réel.
+Le premier objectif est de mesurer le temps d'exécution de code R. Ensuite, les techniques de parallélisation sont présentées. Une étude de cas permet de comparer l'efficacité de code réel.
 
 Suivre les liens pour accéder au tutoriel complet:
 

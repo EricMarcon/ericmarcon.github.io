@@ -32,6 +32,6 @@ url_slides: "https://1drv.ms/p/s!Amvhelr37CHjkqZfY_KOAPbksi-Fjw?e=K97Vuf"
 
 Ce cours est destiné aux étudiants du master d'anthropologie, [parcours Humanités environnementales](http://cales-prod.univ-montp3.fr/fr/index/offre-de-formation/master-lmd-XB/sciences-humaines-et-sociales-SHS/master-1-anthropologie-hnd96diy/parcours-humanites-environnementales-J02IWN0N.html).
 C'est une introduction à l'écologie forestière. Les objectifs sont de :
-- Compléter l’introduction générale à l’écologie en présentant les spécificités de l’écologie forestière,
+- Compléter l'introduction générale à l'écologie en présentant les spécificités de l'écologie forestière,
 - Présenter un exemple théorique majeur (niche contre neutralité),
-- Évoquer les fronts de science, en termes d’enjeux et de méthodes.
+- Évoquer les fronts de science, en termes d'enjeux et de méthodes.

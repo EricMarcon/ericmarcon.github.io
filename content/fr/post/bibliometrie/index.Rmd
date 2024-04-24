@@ -1,7 +1,7 @@
 ---
 title: "Bibliométrie avec R"
 subtitle: ""
-summary: "Utilisation de Google Scholar et de Scopus avec R pour analyser les publications d’une structure ou d’un auteur."
+summary: "Utilisation de Google Scholar et de Scopus avec R pour analyser les publications d'une structure ou d'un auteur."
 authors: []
 tags: []
 categories: []

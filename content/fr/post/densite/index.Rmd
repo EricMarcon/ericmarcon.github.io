@@ -1,7 +1,7 @@
 ---
 title: "Densité avec réflexion"
 subtitle: ""
-summary: "Estimation de la densité d’une distribution bornée."
+summary: "Estimation de la densité d'une distribution bornée."
 authors: []
 tags: []
 categories: []
@@ -36,7 +36,7 @@ Library(c("GoFKernel"))
 ```
 
 L'estimation de la densité d'une distribution sous R avec la fonction `density` pose des problèmes si ses valeurs sont bornées.
-L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entre 1 et 2.
+L'exemple suivant est un histogramme de 1000 tirages d'une loi uniforme entre 1 et 2.
 
 ```{r histogramme}
 # Valeur des bornes

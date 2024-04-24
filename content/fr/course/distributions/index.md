@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Distributions d’abondances"
+title: "Distributions d'abondances"
 subtitle: "AgroParisTech"
 summary: ""
 authors: ""
@@ -33,4 +33,4 @@ url_slides: "https://1drv.ms/p/s!Amvhelr37CHjj94i0qWx_Rg0jbQesw"
 
 > No other general attribute of ecological communities besides species richness has commanded more theoretical and empirical attention than relative species abundance (Hubbell, 2001)
 
-L'objectif du cours est de comprendre les principales distributions d’abondance, maîtriser les différentes représentations et comprendre les relations aires-espèces, à différentes échelles.
+L'objectif du cours est de comprendre les principales distributions d'abondance, maîtriser les différentes représentations et comprendre les relations aires-espèces, à différentes échelles.

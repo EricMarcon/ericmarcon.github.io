@@ -31,4 +31,4 @@ url_code: "https://github.com/EricMarcon/dbmss"
 url_project: "https://ericmarcon.github.io/dbmss/"
 ---
 
-*dbmss* is an R package for simple computation of spatial statistic functions of distance to characterize the spatial structures of mapped objects, including classical ones (Ripley’s K and others) and more recent ones used by spatial economists (Duranton and Overman’s Kd, Marcon and Puech’s M). It relies on *spatstat* for some core calculation.
+*dbmss* is an R package for simple computation of spatial statistic functions of distance to characterize the spatial structures of mapped objects, including classical ones (Ripley's K and others) and more recent ones used by spatial economists (Duranton and Overman's Kd, Marcon and Puech's M). It relies on *spatstat* for some core calculation.

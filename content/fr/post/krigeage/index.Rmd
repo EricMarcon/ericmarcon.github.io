@@ -1,7 +1,7 @@
 ---
 title: "Krigeage avec R"
 subtitle: ""
-summary: "Techniques pour interpoler les valeurs d’une variable continue."
+summary: "Techniques pour interpoler les valeurs d'une variable continue."
 authors: []
 tags: []
 categories: []
@@ -22,8 +22,8 @@ Pour cartographier facilement une variable continue, 4 méthodes sont disponible
 
 Des méthodes plus élaborées ne sont pas traitées ici :
 
-* l’estimation d’un modèle de prédiction de la valeur à partir de variables explicatives (krigeage ordinaire ou krigeage universel). Voir l’aide de la fonction `gstat` pour leur utilisation.
-* l’estimation bayesienne de ces modèles ou le co-krigeage (estimation de plusieurs variables non indépendantes). Les packages `RGeostats1` ou `INLA2` permettent une modélisation complexe, mais au prix d’un effort bien supérieur.
+* l'estimation d'un modèle de prédiction de la valeur à partir de variables explicatives (krigeage ordinaire ou krigeage universel). Voir l'aide de la fonction `gstat` pour leur utilisation.
+* l'estimation bayesienne de ces modèles ou le co-krigeage (estimation de plusieurs variables non indépendantes). Les packages `RGeostats1` ou `INLA2` permettent une modélisation complexe, mais au prix d'un effort bien supérieur.
 
 
 Suivre les liens pour accéder au tutoriel complet:
