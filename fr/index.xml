@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Marcon</title>
+    <link>https://ericmarcon.github.io/fr/</link>
+      <atom:link href="https://ericmarcon.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eric Marcon</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
+      <title>Eric Marcon</title>
+      <link>https://ericmarcon.github.io/fr/</link>
+    </image>
+    
+    <item>
+      <title>Dynamique des Forêts Tropicales</title>
+      <link>https://ericmarcon.github.io/fr/course/dynamique-ft/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/course/dynamique-ft/</guid>
+      <description>&lt;p&gt;Ce cours est destiné aux étudiants d&amp;rsquo;AgroParisTech en dernière année, en dominante d&amp;rsquo;approfondissement &lt;a href=&#34;https://www.genv-agroparistech.fr/fr/nos-formations/ingenieur-agroparistech-da-geeft&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GEEFT&lt;/a&gt;.
+C&amp;rsquo;est une introduction à la dynamique des forêts tropicales. Les objectifs sont de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Savoir décrire l&amp;rsquo;état et la dynamique d&amp;rsquo;une forêt,&lt;/li&gt;
+&lt;li&gt;Comprendre la dynamique de succession et le rôle des perturbations,&lt;/li&gt;
+&lt;li&gt;Connaître quelques théories fondamentales,&lt;/li&gt;
+&lt;li&gt;Introduire les perturbations anthropiques, avant de voir l&amp;rsquo;aménagement et l&amp;rsquo;exploitation de la forêt.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction à l&#39;écologie forestière</title>
+      <link>https://ericmarcon.github.io/fr/course/ecologie-f-intro/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/course/ecologie-f-intro/</guid>
+      <description>&lt;p&gt;Ce cours est destiné aux étudiants du master d&amp;rsquo;anthropologie, &lt;a href=&#34;http://cales-prod.univ-montp3.fr/fr/index/offre-de-formation/master-lmd-XB/sciences-humaines-et-sociales-SHS/master-1-anthropologie-hnd96diy/parcours-humanites-environnementales-J02IWN0N.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;parcours Humanités environnementales&lt;/a&gt;.
+C&amp;rsquo;est une introduction à l&amp;rsquo;écologie forestière. Les objectifs sont de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Compléter l&amp;rsquo;introduction générale à l&amp;rsquo;écologie en présentant les spécificités de l&amp;rsquo;écologie forestière,&lt;/li&gt;
+&lt;li&gt;Présenter un exemple théorique majeur (niche contre neutralité),&lt;/li&gt;
+&lt;li&gt;Évoquer les fronts de science, en termes d&amp;rsquo;enjeux et de méthodes.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistiques sous R </title>
+      <link>https://ericmarcon.github.io/fr/course/r-geeft/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/course/r-geeft/</guid>
+      <description>&lt;p&gt;Ce cours de remise à niveau en statistiques avec R est destiné aux étudiants d&amp;rsquo;AgroParisTech en dernière année, en dominante d&amp;rsquo;approfondissement &lt;a href=&#34;https://www.genv-agroparistech.fr/fr/nos-formations/ingenieur-agroparistech-da-geeft&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GEEFT&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estimation of the number of tree species in French Guiana by extrapolation of permanent plots richness</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2024/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2024/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1017/S0266467424000099&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Climate anomalies and neighbourhood crowding interact in shaping tree growth in old-growth and selectively logged tropical forests</title>
+      <link>https://ericmarcon.github.io/fr/publication/nemetschek-2024/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/nemetschek-2024/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/1365-2745.14256&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Global Patterns and Environmental Drivers of Forest Functional Composition</title>
+      <link>https://ericmarcon.github.io/fr/publication/bouchard-2023/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/bouchard-2023/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/geb.13790&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping distributions in non-homogeneous space with distance-based methods</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2023/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2023/</guid>
+      <description>&lt;p&gt;Le code pour reproduire le contenu de cet article est &lt;a href=&#34;https://ericmarcon.github.io/JSPE-D-23-00002/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;disponible sur GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/s43071-023-00042-1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integrated Global Assessment of the Natural Forest Carbon Potential</title>
+      <link>https://ericmarcon.github.io/fr/publication/mo-2023/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/mo-2023/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1038/s41586-023-06723-z&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The global biogeography of tree leaf form and habit</title>
+      <link>https://ericmarcon.github.io/fr/publication/ma-2023/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/ma-2023/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1038/s41477-023-01543-5&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Précision de l&#39;inversion de matrice</title>
+      <link>https://ericmarcon.github.io/fr/post/invmatrice/</link>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/post/invmatrice/</guid>
+      <description>
+
+
+&lt;div id=&#34;théorie&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Théorie&lt;/h1&gt;
+&lt;p&gt;L’inversion de matrices de grande taille est difficile.
+Newman(1974) propose une méthode pour tester la précision de l’inversion.&lt;/p&gt;
+&lt;p&gt;Soit &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; la matrice (carrée, non singulière) à inverser.
+&lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; est l’approximation de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1}\)&lt;/span&gt; obtenue par calcul.
+&lt;span class=&#34;math inline&#34;&gt;\(N(Y)=\sqrt{\sum_{i,j}{y_{i,j}^2}}\)&lt;/span&gt; est la norme euclidienne d’une matrice &lt;span class=&#34;math inline&#34;&gt;\(Y=(y_{i,j})\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(R = I - AX\)&lt;/span&gt; est l’écart (idéalement nul) entre la matrice identité et le produit de &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; et son inverse calculé.&lt;/p&gt;
+&lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; n’est pas un bon indicateur de la précision de l’inversion (Newman, 1974, section 3).
+En revanche, la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; en est un, mais &lt;span class=&#34;math inline&#34;&gt;\(A^{-1}\)&lt;/span&gt; est inconnu.
+Newman montre que
+&lt;span class=&#34;math display&#34;&gt;\[\frac{N(XR)}{1 + N(XR)} \leq N(A^{-1} - X) \leq \frac{N(XR)}{1 - N(XR)},\]&lt;/span&gt;
+ce qui permet d’encadrer la valeur de &lt;span class=&#34;math inline&#34;&gt;\(N(A^{-1} - X)\)&lt;/span&gt; avec les valeurs calculées de &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;L’objectif est que cette valeur soit petite, idéalement nulle si &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} = X\)&lt;/span&gt;, par rapport à la norme de &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exemple&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exemple&lt;/h1&gt;
+&lt;p&gt;Le paramètre &lt;code&gt;size&lt;/code&gt; fixe la taille (nombre de ligne et de colonnes) des matrices utilisées, ici une matrice de 1000 x 1000.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;size &amp;lt;- 1000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Une matrice est crée:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;A &amp;lt;- matrix(rnorm(size^2), nrow = size)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Elle est inversée numériquement (calcul de &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;) puis &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(XR\)&lt;/span&gt; sont calculées:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;X &amp;lt;- solve(A)
+AX &amp;lt;- A %*% X
+R &amp;lt;- diag(size) - AX
+XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La fonction norme euclidienne est définie:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm.matrix &amp;lt;- function(X) {
+  sqrt(sum(X^2))
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
+norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 999.1495&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
+norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 301.2837&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
+norm_R &amp;lt;- norm.matrix(R)
+norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 8.4929e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 8.4929e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Référence&lt;/h1&gt;
+&lt;p&gt;Newman, M. (1974). How to Determine the Accuracy of the Output of a Matrix Inversion Program. &lt;em&gt;JOURNAL OF RESEARCH of the National Bureau of Standards - B. Mathematical Sciences&lt;/em&gt;, &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/jres/78B/jresv78Bn2p65_A1b.pdf&#34;&gt;788(2), 65–68&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Native diversity buffers against severity of non-native tree invasions</title>
+      <link>https://ericmarcon.github.io/fr/publication/delavaux-2023/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/delavaux-2023/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1038/s41586-023-06440-7&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evenness Mediates the Global Relationship between Forest Productivity and Richness</title>
+      <link>https://ericmarcon.github.io/fr/publication/hordijk-2023/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/hordijk-2023/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/1365-2745.14098&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Co-limitation towards lower latitudes shapes global forest diversity gradients</title>
+      <link>https://ericmarcon.github.io/fr/publication/liang-2022/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/liang-2022/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1038/s41559-022-01831-x&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Macrotermes termite mounds influence the spatial pattern of tree species in two African rainforest sites, in northern Congo. But were they really forests in the past?</title>
+      <link>https://ericmarcon.github.io/fr/publication/penel-2022/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/penel-2022/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1017/S0266467422000165&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>30 Years of postdisturbance recruitment in a Neotropical forest</title>
+      <link>https://ericmarcon.github.io/fr/publication/mirabel-2021/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/mirabel-2021/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1002/ece3.7634&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Travailler avec R</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2021/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2021/</guid>
+      <description>&lt;p&gt;La mise à jour permanente de ce document est lisible sur &lt;a href=&#34;https://EricMarcon.github.io/travailleR/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les mises à jour importantes sont publiées sur &lt;a href=&#34;https://hal-agroparistech.archives-ouvertes.fr/hal-03022820&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Performance de R</title>
+      <link>https://ericmarcon.github.io/fr/post/perfr/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/post/perfr/</guid>
+      <description>
+
+
+&lt;p&gt;L’optimisation de la vitesse de R est utile pour des tâches répétées un grand nombre de fois (comme des simulations) ou des tâches complexes nécessitant de plusieurs secondes à plusieurs heures.
+L’approche est différente dans les deux cas.&lt;/p&gt;
+&lt;p&gt;Dans l’usage quotidien de R, c’est-à-dire des tâches courtes en ligne de commande, de bonnes pratiques de codage suffisent.
+Pour du code réutilisable, c’est-à-dire un package ou du code bien documenté diffusé sous d’autres formes, il est souvent préférable de sacrifier un peu de performance au profit de la lisibilité: c’est la philosophie du tidyverse par exemple.&lt;/p&gt;
+&lt;p&gt;Ceci dit, des efforts peuvent être rentables dans les cas où le temps d’exécution est critique: c’est l’objet des sections 2.3 à 2.7 du document &lt;a href=&#34;&#34;&gt;Travailler avec R&lt;/a&gt;. On se reportera à &lt;a href=&#34;https://adv-r.hadley.nz/&#34;&gt;&lt;em&gt;Advanced R&lt;/em&gt;&lt;/a&gt; d’Hadley Wickam pour une présentation plus détaillée.&lt;/p&gt;
+&lt;p&gt;Le premier objectif est de mesurer le temps d’exécution de code R. Ensuite, les techniques de parallélisation sont présentées. Une étude de cas permet de comparer l’efficacité de code réel.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/travailleR/chap-utiliseR.html#mesure-du-temps-dex%C3%A9cution&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/travailleR/travailleR.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inférence bayesienne</title>
+      <link>https://ericmarcon.github.io/fr/post/bayes/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/post/bayes/</guid>
+      <description>
+
+
+&lt;p&gt;Ce document explique et montre comment réaliser l’inférence bayesienne, c’est-à-dire l’estimation des paramètres, d’un modèle simple.
+Son objectif est pédagogique : bien comprendre les étapes de l’inférence en ayant écrit une fois tout le code R nécessaire est un préalable à l’utilisation d’outils plus performants.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Inference-bayesienne/Inference-bayesienne.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Inference-bayesienne/Inference-bayesienne.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mesure de la Biodiversité</title>
+      <link>https://ericmarcon.github.io/fr/course/biodiversite-eft/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/course/biodiversite-eft/</guid>
+      <description>&lt;p&gt;La définition originelle de la biodiversité est le nombre d&amp;rsquo;espèces d&amp;rsquo;une communauté. Elle a été élargie de nombreuses façons par des indices souvent ad-hoc.&lt;/p&gt;
+&lt;p&gt;Ce cours introduit une approche unifiée de la mesure de la biodiversité qui s&amp;rsquo;appuie sur la théorie de l&amp;rsquo;information et permet de décrire la biodiversité comme un nombre effectif de catégories (en général, d&amp;rsquo;espèces) correspondant à la question traitée : la diversité taxonomique quand toutes les espèces sont considérées comme équivalentes, la diversité phylogénétique quand leur proximité évolutive est prise en compte et la diversité fonctionnelle quand la distance entre paires d&amp;rsquo;espèces ne s&amp;rsquo;inscrit pas dans un arbre.&lt;/p&gt;
+&lt;p&gt;Les mesures présentées sont décomposables à différentes échelles (diversité α, β et γ) et peuvent être estimées à partir de données incomplètes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest</title>
+      <link>https://ericmarcon.github.io/fr/publication/schmitt-2020/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/schmitt-2020/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/oik.07488&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Diverging taxonomic and functional trajectories following disturbance in a Neotropical forest</title>
+      <link>https://ericmarcon.github.io/fr/publication/mirabel-2020/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/mirabel-2020/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1016/J.SCITOTENV.2020.137397&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>memoiR</title>
+      <link>https://ericmarcon.github.io/fr/software/memoir/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/software/memoir/</guid>
+      <description>&lt;p&gt;&lt;em&gt;memoiR&lt;/em&gt; est un paquet R qui fournit des modèles pour publier des documents bien formatés aux formats HTML et PDF. Les documents peuvent être produits localement ou hébergés sur GitHub, où les Actions GitHub peuvent mettre à jour les documents publiés en continu.&lt;/p&gt;
+&lt;p&gt;Les documents longs sont l&amp;rsquo;objectif principal de ce paquet. En plus d&amp;rsquo;une version GitBook à lire en ligne, leur version PDF basée sur le mémoire de classe LaTeX peut être hautement personnalisée.&lt;/p&gt;
+&lt;p&gt;Des fonctions sont fournies pour rendre la publication des documents sur GitHub très facile, y compris leur intégration continue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Krigeage avec R</title>
+      <link>https://ericmarcon.github.io/fr/post/krigeage/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/post/krigeage/</guid>
+      <description>
+
+
+&lt;p&gt;Pour cartographier facilement une variable continue, 4 méthodes sont disponibles, dans les packages &lt;code&gt;akima&lt;/code&gt;, &lt;code&gt;spatial&lt;/code&gt;, &lt;code&gt;gstat&lt;/code&gt; et &lt;code&gt;automap&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Des méthodes plus élaborées ne sont pas traitées ici :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;l’estimation d’un modèle de prédiction de la valeur à partir de variables explicatives (krigeage ordinaire ou krigeage universel). Voir l’aide de la fonction &lt;code&gt;gstat&lt;/code&gt; pour leur utilisation.&lt;/li&gt;
+&lt;li&gt;l’estimation bayesienne de ces modèles ou le co-krigeage (estimation de plusieurs variables non indépendantes). Les packages &lt;code&gt;RGeostats1&lt;/code&gt; ou &lt;code&gt;INLA2&lt;/code&gt; permettent une modélisation complexe, mais au prix d’un effort bien supérieur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bibliométrie avec R</title>
+      <link>https://ericmarcon.github.io/fr/post/bibliometrie/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/post/bibliometrie/</guid>
+      <description>
+
+
+&lt;p&gt;Tutoriel pour la bibliométrie avec les données de Google Scholar ou de Scopus.&lt;/p&gt;
+&lt;p&gt;Le package &lt;em&gt;scholar&lt;/em&gt; permet d’accéder à l’API de Google Scholar pour analyser la production d’un auteur (ou d’une structure) disposant d’un identifiant, donc d’une page, Google Scholar.
+Par exemple, les citations annuelles sont obtenues facilement:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;scholar&amp;quot;)
+library(&amp;quot;tidyverse&amp;quot;)
+
+&amp;quot;4iLBmbUAAAAJ&amp;quot; %&amp;gt;%  # Eric Marcon
+  get_citation_history()  %&amp;gt;% # Google Scholar API
+  ggplot(aes(year, cites)) +
+    geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = &amp;#39;darkgrey&amp;#39;) +
+    geom_point(size = 3, color = &amp;#39;firebrick&amp;#39;) +
+    labs(title = &amp;quot;Citations per year&amp;quot;, 
+         caption = &amp;quot;Source: Google Scholar&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package &lt;em&gt;bibliometrix&lt;/em&gt; permet de nombreuses analyses.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Bibliometrie/Bibliometrie.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Bibliometrie/Bibliometrie.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Densité avec réflexion</title>
+      <link>https://ericmarcon.github.io/fr/post/densite/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/post/densite/</guid>
+      <description>
+
+
+&lt;p&gt;L’estimation de la densité d’une distribution sous R avec la fonction &lt;code&gt;density&lt;/code&gt; pose des problèmes si ses valeurs sont bornées.
+L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entre 1 et 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/histogramme-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;L’estimation avec la fonction &lt;code&gt;density&lt;/code&gt; n’est pas nulle hors de l’intervalle &lt;span class=&#34;math inline&#34;&gt;\([1, 2]\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/densite-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt; et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/censure-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.&lt;/p&gt;
+&lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Pavia2015&#34;&gt;Pavia 2015&lt;/a&gt;)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/fr/post/densite/index_files/figure-html/GoFKernel-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Référence&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-Pavia2015&#34; class=&#34;csl-entry&#34;&gt;
+Pavia, Jose M. 2015. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Testing Goodness-of-Fit with the Kernel Density Estimator: GoFKernel&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Statistical Software&lt;/em&gt; 66 (Code Snippet 1). &lt;a href=&#34;https://doi.org/10.18637/jss.v066.c01&#34;&gt;https://doi.org/10.18637/jss.v066.c01&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dbmss</title>
+      <link>https://ericmarcon.github.io/fr/software/dbmss/</link>
+      <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
+      <guid>https://ericmarcon.github.io/fr/software/dbmss/</guid>
+      <description>&lt;p&gt;&lt;em&gt;dbmss&lt;/em&gt; est un package R destiné au calcul des statistiques spatiales non paramétriques pour caractériser la structure spatiale d&amp;rsquo;objets cartographiés. Les principales sont la fonction K de Ripley et ses dérivées et celles utilisées par les économistes comme la fonction Kd de Duranton et Overman et la fonction M de Marcon et Puech.&lt;/p&gt;
+&lt;p&gt;Le package s&amp;rsquo;appuie sur &lt;em&gt;spatstat&lt;/em&gt; pour une partie des calculs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Entropart</title>
+      <link>https://ericmarcon.github.io/fr/software/entropart/</link>
+      <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
+      <guid>https://ericmarcon.github.io/fr/software/entropart/</guid>
+      <description>&lt;p&gt;&lt;em&gt;entropart&lt;/em&gt; est un package R pour mesurer la diversité. Il fournit les fonctions nécessaires au calcul de la diversité $\alpha$, $\beta$ et $\gamma$, incluant la diversité phylogénétique et fonctionnelle, et l&amp;rsquo;ensemble des techniques d&amp;rsquo;estimation disponibles dans la littérature.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distributions d&#39;abondances</title>
+      <link>https://ericmarcon.github.io/fr/course/distributions/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/course/distributions/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;No other general attribute of ecological communities besides species richness has commanded more theoretical and empirical attention than relative species abundance (Hubbell, 2001)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;L&amp;rsquo;objectif du cours est de comprendre les principales distributions d&amp;rsquo;abondance, maîtriser les différentes représentations et comprendre les relations aires-espèces, à différentes échelles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Travailler avec R</title>
+      <link>https://ericmarcon.github.io/fr/course/travailler/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/course/travailler/</guid>
+      <description>&lt;p&gt;Ce cours propose une organisation du travail autour de R et RStudio pour, au-delà des statistiques, rédiger des documents efficacement avec R Markdown, aux formats variés (mémos, articles scientifiques, mémoires d&amp;rsquo;étudiants, livres, diaporamas), créer son site web et des applications R en ligne (Shiny), produire des packages et utiliser R pour l&amp;rsquo;enseignement.&lt;/p&gt;
+&lt;h1 id=&#34;prérequis&#34;&gt;Prérequis&lt;/h1&gt;
+&lt;p&gt;Utilisation courante de R.&lt;/p&gt;
+&lt;p&gt;Formations préalables :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://juba.github.io/tidyverse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction à R et au tidyverse&lt;/a&gt; : pour les faux-débutants, un excellent cours.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/onboarding/learn?from=home&amp;amp;technology=r&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DataCamp Start Learning R&lt;/a&gt; : formation interactive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;préparation&#34;&gt;Préparation&lt;/h1&gt;
+&lt;p&gt;Installation de l&amp;rsquo;environnement de travail.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ericmarcon.github.io/Cours-travailleR/11-Preparation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/11-Preparation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;contrôle-de-source&#34;&gt;Contrôle de Source&lt;/h1&gt;
+&lt;p&gt;Utiliser git et GitHub pour le contrôle de source, la collaboration et la publication de documents.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/12-git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/12-git.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;rédiger-avec-r-markdown&#34;&gt;Rédiger avec R Markdown&lt;/h1&gt;
+&lt;p&gt;Utiliser R Markdown pour la rédaction de documents reproductibles : mémos, articles, rapports, thèses, livres, sites web.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/21-Rediger.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/21-Rediger.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;langage&#34;&gt;Langage&lt;/h1&gt;
+&lt;p&gt;Aspects avancés du langage de R&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/31-Langage.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/31-Langage.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;tidyverse&#34;&gt;TidyVerse&lt;/h1&gt;
+&lt;p&gt;Les bases de l&amp;rsquo;univers bien rangé.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/32-Tidyverse.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/32-Tidyverse.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;package&#34;&gt;Package&lt;/h1&gt;
+&lt;p&gt;Ecrire un package.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/33-Package.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/33-Package.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Construction de l&#39;estimateur de biodiversité Chao1</title>
+      <link>https://ericmarcon.github.io/fr/talk/chao1/</link>
+      <pubDate>Wed, 11 Mar 2020 11:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/talk/chao1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distance-Based Measures of Spatial Concentration: Introducing a Relative Density Function</title>
+      <link>https://ericmarcon.github.io/fr/publication/lang-2014/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/lang-2014/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/s00168-019-00946-7&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mise à jour du thème Academic</title>
+      <link>https://ericmarcon.github.io/fr/post/majacademic/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/post/majacademic/</guid>
+      <description>
+
+
+&lt;p&gt;Ce site est généré par &lt;code&gt;blogdown&lt;/code&gt; sous R, avec le thème Academic pour Hugo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La documentation suivante est valide pour les versions d’Academic antérieures à septembre 2020.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Le version en cours ne nécessite plus de mise à jour du thème par Git mais installe une version à jour à chaque compilation avec &lt;em&gt;Go&lt;/em&gt;.
+Se référer à la &lt;a href=&#34;https://ericmarcon.github.io/travailleR/chap-rediger.html#sec:blogdown&#34;&gt;documentation à jour&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;installation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;L’installation est faite dans RStudio en suivant la &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;documentation&lt;/a&gt; d’Academic.
+C’est un &lt;em&gt;fork&lt;/em&gt; du dépôt &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34;&gt;Academic-Kickstart&lt;/a&gt;, ce qui permet de le mettre à jour.&lt;/p&gt;
+&lt;p&gt;Le &lt;em&gt;fork&lt;/em&gt; doit être complété par l’installation du sous-module correspondant au thème avec la commande &lt;code&gt;git submodule update --init --recursive&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pour le bon fonctionnement de &lt;code&gt;blogdown&lt;/code&gt;, le fichier &lt;code&gt;config/_default/config.toml&lt;/code&gt; doit être déplacé à la racine du projet.
+Enfin, si le site est multilingue, le contenu du site (dossier &lt;code&gt;content&lt;/code&gt;) doit être copié dans un dossier correspondant à chaque langue. Par exemple, le fichier &lt;code&gt;content/authors/admin/_index.md&lt;/code&gt; qui contient les informations sur le propriétaire du site est dupliqué dans &lt;code&gt;content/en/authors/admin/_index.md&lt;/code&gt; et &lt;code&gt;content/fr/authors/admin/_index.md&lt;/code&gt; si le site supporte l’Anglais et le Français.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mise-à-jour&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Mise à jour&lt;/h1&gt;
+&lt;div id=&#34;fusion-des-modifications&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Fusion des modifications&lt;/h2&gt;
+&lt;p&gt;La structure du site et le thème peuvent être mis à jour à tout moment, dès que le dépôt GitHub indique qu’il est en retard sur l’original (ici: “1 commit behind sourcethemes:master.”):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;github.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;La mise à jour est lancée en cliquant sur le bouton &lt;em&gt;Compare&lt;/em&gt;, à droite de l’écran.&lt;/p&gt;
+&lt;p&gt;Les deux dépôts à comparer sont affichés, mais le sens d’une mise à jour du modèle par le dépôt local:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Il faut l’inverser.
+Sélectionner le dépôt local à gauche:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare_forks.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Cliquer sur “compare accross forks”:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare2.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Sélectionner “sourcethemes/academic-kickstart” à droite:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;compare3.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Cliquer sur le bouton “View Pull resquest”.
+Les modifications qui ne peuvent pas être intégrées automatiquement sont affichées:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;conflict.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Typiquement, deux fichiers posent problème:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;config/_default/config.toml&lt;/code&gt; qui a été déplacé pour &lt;code&gt;blogdown&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content/authors/admin/_index.md&lt;/code&gt; se trouve dans les dossiers propres aux langues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cliquer sur “view command line instructions” et les suivre :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dans RStudio, ouvrir le terminal et exécuter &lt;code&gt;git checkout -b sourcethemes-master master&lt;/code&gt; pour créer une nouvelle branche, &lt;code&gt;sourcethemes-master&lt;/code&gt;, dans le dépôt local. Exécuter ensuite &lt;code&gt;git pull https://github.com/sourcethemes/academic-kickstart.git master&lt;/code&gt; pour y placer le contenu du dépôt Academic-Kickstart.&lt;/li&gt;
+&lt;li&gt;Régler les conflits :
+&lt;ul&gt;
+&lt;li&gt;supprimer les deux fichiers cités qui n’existent plus dans le dépôt local (il faudra mettre leur contenu à jour manuellement);&lt;/li&gt;
+&lt;li&gt;régler les autres conflits de façon classique en retenant la version correspondant à la mise à jour d’Academic-Kickstart.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Valider les modifications par des &lt;em&gt;Commit&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il reste à mettre à jour les fichiers déplacés. Pour celà, afficher le dépôt &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34;&gt;Academic-Kickstart&lt;/a&gt; sur GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;kickstart.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Cliquer sur le texte décrivant le dernier &lt;em&gt;Commit&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Examiner les modifications effectuées sur les fichiers non mis à jour et les reporter manuellement dans les fichiers concernées. Ici, 7 lignes doivent être ajoutées au fichier &lt;code&gt;config.toml&lt;/code&gt;, et le champ “name” doit être renommé “title” dans les deux exemplaires de &lt;code&gt;authors/admin/_index.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;modifications.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Fusionner la branche mise à jour dans la branche principale: &lt;code&gt;git checkout master&lt;/code&gt; puis &lt;code&gt;git merge --no-ff sourcethemes-master&lt;/code&gt;;&lt;/p&gt;
+&lt;p&gt;Le résultat peut être poussé sur GitHub.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mise-à-jour-du-thème&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Mise à jour du thème&lt;/h2&gt;
+&lt;p&gt;Il faut encore mettre à jour le sous-module du thème &lt;em&gt;Academic&lt;/em&gt;, qui est dépôt Git lui-même.&lt;/p&gt;
+&lt;p&gt;Dans le terminal de RStudio, exécuter &lt;code&gt;cd themes/academic/&lt;/code&gt; pour que le répertoire de travail soit celui du thème, puis &lt;code&gt;git checkout master&lt;/code&gt; pour vérifier le placement dans la branche principale et enfin &lt;code&gt;git pull&lt;/code&gt; pour tirer les mises à jour.
+Revenir dans le dépôt principal par les commandes &lt;code&gt;cd ..\..&lt;/code&gt; puis &lt;code&gt;git checkout master&lt;/code&gt;.
+Les mises à jour du thème apparaissent dans la fenêtre Git de RStudio, et doivent être validée par un Commit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TRY plant trait database - enhanced coverage and open access</title>
+      <link>https://ericmarcon.github.io/fr/publication/kattge-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/kattge-2020/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/gcb.14904&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mesure de la biodiversité et de la structuration spatiale de l&#39;activité économique par l&#39;entropie</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2019/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.3917/reco.703.0305&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Climatic controls of decomposition drive the global biogeography of forest tree symbioses</title>
+      <link>https://ericmarcon.github.io/fr/publication/steidinger-2019/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/steidinger-2019/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1038/s41586-019-1128-0&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Les configurations de points</title>
+      <link>https://ericmarcon.github.io/fr/publication/floch-2018/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/floch-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial distribution of points</title>
+      <link>https://ericmarcon.github.io/fr/publication/floch-2018-a/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/floch-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesures de la Biodiversité</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2014-d/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2014-d/</guid>
+      <description>&lt;p&gt;La mise à jour permanente de ce document est lisible sur &lt;a href=&#34;https://EricMarcon.github.io/MesuresBioDiv2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les mises à jour importantes sont publiées sur &lt;a href=&#34;https://hal-agroparistech.archives-ouvertes.fr/cel-01205813&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Organisation du travail autour de R</title>
+      <link>https://ericmarcon.github.io/fr/talk/rr2018/</link>
+      <pubDate>Thu, 05 Jul 2018 11:20:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/talk/rr2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://ericmarcon.github.io/fr/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://ericmarcon.github.io/fr/privacy/</guid>
+      <description>&lt;p&gt;Ce site ne vous demande pas de vous identifier.&lt;/p&gt;
+&lt;p&gt;Il utilise Google Analytics pour le suivi d&amp;rsquo;audience. Ce service collecte des informations sur vous: reportez-vous aux 
+&lt;a href=&#34;https://www.google.com/analytics/policies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;règles de Google Analytics&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mesure de la biodiversité et de la structuration spatiale de l&#39;activité économique par l&#39;entropie</title>
+      <link>https://ericmarcon.github.io/fr/talk/rochebrune2018/</link>
+      <pubDate>Wed, 17 Jan 2018 17:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/talk/rochebrune2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the role of the spatial scale in the analysis of lagoon biodiversity . A case-study on the macrobenthic fauna of the Po River Delta</title>
+      <link>https://ericmarcon.github.io/fr/publication/lasinio-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/lasinio-2017/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1016/j.ecolind.2017.05.037&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Generalized Simpson&#39;s Entropy is a Measure of Biodiversity</title>
+      <link>https://ericmarcon.github.io/fr/publication/grabchak-2016/</link>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/grabchak-2016/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1371/journal.pone.0173305&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Typology of Distance-Based Measures of Spatial Concentration</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2012-c/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2012-c/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1016/j.regsciurbeco.2016.10.004&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Measuring temporal trends in biodiversity</title>
+      <link>https://ericmarcon.github.io/fr/publication/buckland-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/buckland-2017/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/s10182-017-0308-1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>‘Equivalent numbers&#39; for species, phylogenetic or functional diversity in a nested hierarchy of multiple scales</title>
+      <link>https://ericmarcon.github.io/fr/publication/pavoine-2015-a/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/pavoine-2015-a/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/2041-210X.12591&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Practical Estimation of Diversity from Abundance Data</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2015-a/</link>
+      <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2015-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entropart, an R Package to Measure and Partition Diversity</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2014-c/</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2014-c/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.18637/jss.v067.i08&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools to Characterize Point Patterns: dbmss for R</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2014/</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2014/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.18637/jss.v067.c03&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Landscape patterns influence communities of medium- to large-bodied vertebrate in undisturbed terra firme forests of French Guiana</title>
+      <link>https://ericmarcon.github.io/fr/publication/richard-hansen-2015/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/richard-hansen-2015/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1017/S0266467415000255&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mesures de la concentration spatiale en espace continu : théorie et applications</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2015/</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decomposing Phylodiversity</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2014-b/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2014-b/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/2041-210X.12323&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generalization of the Partitioning of Shannon Diversity</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2014-a/</link>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2014-a/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1371/journal.pone.0090289&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Decomposition of Similarity-Based Diversity and its Bias Correction</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2014-e/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2014-e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing randomness of spatial point patterns with the Ripley statistic</title>
+      <link>https://ericmarcon.github.io/fr/publication/lang-2013/</link>
+      <pubDate>Mon, 04 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/lang-2013/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1051/ps/2012027&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Statistical Test for Ripley&#39;s Function Rejection of Poisson Null Hypothesis</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2013/</link>
+      <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2013/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1155/2013/753475&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Characterizing the Relative Spatial Structure of Point Patterns</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2012/</link>
+      <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2012/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1155/2012/619281&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>La mesure en économie internationale</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2012-b/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2012-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Decomposition of Shannon&#39;s Entropy and a Confidence Interval for Beta Diversity</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2012-a/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2012-a/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/j.1600-0706.2011.19267.x&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessing foliar chlorophyll contents with the SPAD-502 chlorophyll meter: a calibration test with thirteen tree species of tropical rainforest in French Guiana</title>
+      <link>https://ericmarcon.github.io/fr/publication/coste-2010-b/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/coste-2010-b/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1051/forest/2010020&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integrating functional diversity into tropical forest plantation designs to study ecosystem processes</title>
+      <link>https://ericmarcon.github.io/fr/publication/baraloto-2010-b/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/baraloto-2010-b/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1051/forest/2009110&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Measures of the Geographic Concentration of Industries: Improving Distance-Based Methods</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2010/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1093/jeg/lbp056&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistiques spatiales avec applications à l&#39;écologie et à l&#39;économie</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2010-a/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2010-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamics of aboveground carbon stocks in a selectively logged tropical forest</title>
+      <link>https://ericmarcon.github.io/fr/publication/blanc-2009/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/blanc-2009/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1890/08-1572.1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The successional status of tropical rainforest tree species is associated with differences in leaf carbon isotope discrimination and functional traits</title>
+      <link>https://ericmarcon.github.io/fr/publication/bonal-2007/</link>
+      <pubDate>Sat, 24 Feb 2007 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/bonal-2007/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1051/forest:2006101&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A trait database for Guianan rain forest trees permits intra- and inter-specific contrasts</title>
+      <link>https://ericmarcon.github.io/fr/publication/ollivier-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/ollivier-2007/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1051/forest:2007058&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concentration géographique de l&#39;emploi industriel et dynamiques territoriales en France de 1993 à 2001</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2005/</link>
+      <pubDate>Sun, 01 May 2005 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the geographic concentration of industries using distance-based methods</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-2003-a/</link>
+      <pubDate>Wed, 01 Oct 2003 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-2003-a/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1093/jeg/lbg016&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Forest surveys on a tree by tree basis: A theoretical and practical approach</title>
+      <link>https://ericmarcon.github.io/fr/publication/marcon-1999/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/fr/publication/marcon-1999/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

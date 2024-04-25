@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephen T. Buckland | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/en/author/stephen-t.-buckland/</link>
+      <atom:link href="https://ericmarcon.github.io/en/author/stephen-t.-buckland/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stephen T. Buckland</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/EricMarcon.jpg</url>
+      <title>Stephen T. Buckland</title>
+      <link>https://ericmarcon.github.io/en/author/stephen-t.-buckland/</link>
+    </image>
+    
+    <item>
+      <title>Measuring temporal trends in biodiversity</title>
+      <link>https://ericmarcon.github.io/en/publication/buckland-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/en/publication/buckland-2017/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/s10182-017-0308-1&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
