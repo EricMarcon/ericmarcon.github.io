@@ -37,6 +37,8 @@
   <meta name="description" content="Méthode pour diagnostiquer la précision de l&#39;inversion numérique d&#39;une matrice.">
 
   
+  <link rel="alternate" hreflang="en" href="https://ericmarcon.github.io/en/post/invmatrice/">
+  
   <link rel="alternate" hreflang="fr-fr" href="https://ericmarcon.github.io/fr/post/invmatrice/">
 
   
@@ -836,6 +838,21 @@
       
 
       
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link " data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item dropdown-item-active">
+            <span>Français</span>
+          </div>
+          
+          <a class="dropdown-item" href="https://ericmarcon.github.io/en/post/invmatrice/">
+            <span>English</span>
+          </a>
+          
+        </div>
+      </li>
+      
 
     </ul>
 
@@ -978,18 +995,18 @@ XR &lt;- X %*% R</code></pre>
 <p>Les normes des matrices sont calculées:</p>
 <pre class="r"><code># Matrice à inverser
 norm.matrix(A)</code></pre>
-<pre><code>## [1] 1000.727</code></pre>
+<pre><code>## [1] 1000.386</code></pre>
 <pre class="r"><code># Inversion numérique
 norm.matrix(X)</code></pre>
-<pre><code>## [1] 28.92012</code></pre>
+<pre><code>## [1] 35.27479</code></pre>
 <pre class="r"><code># Ecart d&#39;inversion
 norm_R &lt;- norm.matrix(R)
 norm_XR &lt;- norm.matrix(XR)</code></pre>
 <p>Finalement, l’encadrement de la norme de <span class="math inline">\(A^{-1} - X\)</span> est fourni:</p>
 <pre class="r"><code>norm_XR / (1 + norm_R)</code></pre>
-<pre><code>## [1] 2.975316e-12</code></pre>
+<pre><code>## [1] 4.756909e-12</code></pre>
 <pre class="r"><code>norm_XR / (1 - norm_R)</code></pre>
-<pre><code>## [1] 2.975316e-12</code></pre>
+<pre><code>## [1] 4.756909e-12</code></pre>
 <p>La norme de <span class="math inline">\(A^{-1} - X\)</span> est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.</p>
 </div>
 <div id="référence" class="section level1">
