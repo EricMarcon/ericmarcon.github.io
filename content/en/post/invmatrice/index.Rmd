@@ -1,0 +1,91 @@
+---
+title: "Matrix inversion accuracy"
+subtitle: ""
+summary: "Method for diagnosing the accuracy of digital matrix inversion."
+authors: []
+tags: []
+categories: []
+date: 2023-09-13
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+---
+
+# Theory
+
+Inversion of large matrices is difficult.
+Newman (1974) proposes a method for testing inversion accuracy.
+
+Let $A$ be the (square, non-singular) matrix to be inverted.
+$X$ is the approximation of $A^{-1}$ obtained by calculation.
+$N(Y)={sqrt{sum_{i,j}{y_{i,j}^2}}$ is the Euclidean norm of a matrix $Y=(y_{i,j})$.
+
+$R = I - AX$ is the difference (ideally zero) between the identity matrix and the product of $A$ and its calculated inverse.
+
+The norm of $R$ is not a good indicator of inversion accuracy (Newman, 1974, section 3).
+On the other hand, the norm of $A^{-1} - X$ is, but $A^{-1}$ is unknown.
+Newman shows that
+$$\frac{N(XR)}{1 + N(XR)} \leq N(A^{-1} - X) \leq \frac{N(XR)}{1 - N(XR)},$$
+which allows to bound the value of $N(A^{-1} - X)$ between the calculated values of $X$ and $R$.
+
+The aim is for this value to be small, ideally zero if $A^{-1} = X$, relative to the norm of $X$.
+
+
+# Example
+
+The `size` parameter sets the size (number of rows and columns) of the matrices used, here a 1000 x 1000 matrix.
+
+```{r}
+size <- 1000
+```
+
+A matrix is created:
+```{r}
+A <- matrix(rnorm(size^2), nrow = size)
+```
+
+It is inverted numerically ($X$ is calculated), then $R$ and $XR$ are calculated:
+```{r}
+X <- solve(A)
+AX <- A %*% X
+R <- diag(size) - AX
+XR <- X %*% R
+```
+
+The Euclidean norm function is defined:
+```{r}
+norm.matrix <- function(X) {
+  sqrt(sum(X^2))
+}
+```
+
+Matrix norms are calculated:
+```{r}
+# Matrix to invert
+norm.matrix(A)
+# Numerical inversion
+norm.matrix(X)
+# Inversion deviation
+norm_R <- norm.matrix(R)
+norm_XR <- norm.matrix(XR)
+```
+
+Finally, the bounds of the norm of $A^{-1} - X$ is provided:
+```{r}
+norm_XR / (1 + norm_R)
+norm_XR / (1 - norm_R)
+```
+
+The norm of $A^{-1} - X$ is very close to 0: matrix inversion in R works well.
+
+
+# Reference
+
+Newman, M. (1974). How to Determine the Accuracy of the Output of a Matrix Inversion Program. *JOURNAL OF RESEARCH of the National Bureau of Standards - B. Mathematical Sciences*, [788(2), 65–68](https://nvlpubs.nist.gov/nistpubs/jres/78B/jresv78Bn2p65_A1b.pdf).
