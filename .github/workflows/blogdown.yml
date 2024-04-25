@@ -9,32 +9,24 @@ name: blogdown
 
 jobs:
   buildsite:
-    runs-on: ubuntu-latest
-    container:
-      image: rocker/r2u:22.04
+    runs-on: macOS-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
       - name: Install pandoc
         uses: r-lib/actions/setup-pandoc@v2
       - name: Install packages
         run: |
+          options(pkgType = "binary")
+          options(install.packages.check.source = "no")
           install.packages(c("remotes", "blogdown", "formatR"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
-      - uses: actions/setup-go@v5
-        with:
-          go-version-file: 'go.mod'
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.101.0'
-      - name: Install git
-        run: |
-          apt-get install git -q -y
       - name: Build website
         run: |
-          options(blogdown.hugo.version = "0.101.0")
+          blogdown::install_hugo(version = "0.101.0", force = TRUE)
           blogdown::build_site(local = TRUE, build_rmd = TRUE)
         shell: Rscript {0}
       - name: Upload artifact
