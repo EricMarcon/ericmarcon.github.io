@@ -46,5 +46,5 @@
     weight = 130
   [[fr.menu.main]]
     name = "CV"
-    url = "CV/Eric_Marcon-fr.pdf"
+    url = "../CV/Eric_Marcon-fr.pdf"
     weight = 30
