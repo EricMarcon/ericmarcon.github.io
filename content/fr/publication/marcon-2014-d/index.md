@@ -3,7 +3,7 @@ title: "Mesures de la Biodiversité"
 date: 2018-09-12
 publishDate: 2020-04-12T22:31:15.393522Z
 authors: ["Eric Marcon"]
-publication_types: ["5"]
+publication_types: ["book"]
 abstract: |
   La biodiversité peut être mesurée de nombreuses façons.
 

@@ -3,7 +3,7 @@ title: "30 Years of postdisturbance recruitment in a Neotropical forest"
 date: 2021-10-13
 publishDate: 2021-10-07T22:31:15.331559Z
 authors: ["Ariane Mirabel", "Eric Marcon", "Bruno Hérault"]
-publication_types: ["2"]
+publication_types: ["article-journal"]
 abstract: "Questions:
 Long-term community response to disturbance can follow manifold successional pathways depending on the interplay between various recruitment processes. Analyzing the succession of recruited communities provides a long-term perspective on forest response to disturbance. Specifically, postdisturbance recruitment trajectories assess (a) the successive phases of postdisturbance response and the role of deterministic recruitment processes, and (b) the return to predisturbance state of recruits taxonomic/functional diversity/composition.
 <br>

@@ -1,0 +1,56 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Default language
+en:
+  languageCode: en-us
+  contentDir: content/en
+
+fr:
+  languageCode: "fr-fr"
+  contentDir: "content/fr"
+  title: "Eric Marcon"
+  params:
+    description: "Page personnelle d'Eric Marcon"
+    date_format: "02-Jan-2006"
+    time_format: "15:04"
+  menu:
+    main:
+      - name: "Accueil"
+        url: "#about"
+        weight: 20
+      - name: "Publications"
+        url: "#featured"
+        weight: 40
+      - name: "Communications"
+        url: "#talks"
+        weight: 60
+      - name: "Logiciels"
+        url: "#software"
+        weight: 70
+      - name: "Cours"
+        url: "#course"
+        weight: 80
+      - name: "Articles"
+        url: "#posts"
+        weight: 90
+      - name: "Contact"
+        url: "#contact"
+        weight: 130
+      - name: "CV"
+        url: "../CV/Eric_Marcon-fr.pdf"
+        weight: 30
+
+# Uncomment the lines below to configure your website in a second language.
+#zh:
+#  languageCode: zh-Hans
+#  contentDir: content/zh
+#  title: Chinese website title...
+#  params:
+#    description: Site description in Chinese...
+#  menu:
+#    main:
+#      - name: 传
+#        url: '#about'
+#        weight: 1

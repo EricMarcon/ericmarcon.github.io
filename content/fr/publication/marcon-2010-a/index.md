@@ -3,7 +3,7 @@ title: "Statistiques spatiales avec applications à l'écologie et à l'économi
 date: 2010-01-01
 publishDate: 2020-04-12T22:31:15.365478Z
 authors: ["Eric Marcon"]
-publication_types: ["7"]
+publication_types: ["thesis"]
 abstract: |
   Les statistiques spatiales sont pour les écologues un ensemble d'outils permettant de caractériser la structure d'un semis de points, par exemple une carte représentant des emplacements des arbres dans une parcelle de forêt. Cette structure est définie implicitement comme un écart à semis complètement aléatoire, résultat d'un processus de Poisson.
   L'hétérogénéité du processus ponctuel dont le semis de points est une réalisation et la non-indépendance des points en sont les causes indiscernables, ce qui amène généralement à supposer l'intensité du processus connu et nommer "concentration spatiale" ou "agrégation" (la régularité spatiale est possible, mais rare en pratique) la non-indépendance. Une revue de la littérature des processus ponctuels et des mesures de structures spatiales est fournie pour clarifier les concepts et les choix. L'objectif de ce travail de thèse était de produire des améliorations méthodologiques. Ses résultats principaux sont : 

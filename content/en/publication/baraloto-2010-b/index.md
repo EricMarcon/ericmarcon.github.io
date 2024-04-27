@@ -3,7 +3,7 @@ title: "Integrating functional diversity into tropical forest plantation designs
 date: 2010-01-01
 publishDate: 2020-04-12T22:31:15.370908Z
 authors: ["Christopher Baraloto", "Eric Marcon", "François Morneau", "Sandrine Pavoine", "Jean-Christophe Roggy"]
-publication_types: ["2"]
+publication_types: ["article-journal"]
 abstract: |
   * The elucidation of relationships between biodiversity and ecosystem processes has been limited by the definition of metrics of biodiversity and their integration into experimental design. Functional trait screening can strengthen the performance of these designs.
   * We suggest the use of Rao's quadratic entropy to measure both functional diversity and phyloge- netic diversity of species mixtures proposed for an experimental design, and demonstrate how they can provide complementary information.

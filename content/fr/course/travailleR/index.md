@@ -5,7 +5,7 @@ title: "Travailler avec R"
 subtitle: "AgroParisTech"
 summary: ""
 authors: ""
-tags: []
+tags: [r]
 categories: []
 date: 2020-04-13
 lastmod: 2020-11-02

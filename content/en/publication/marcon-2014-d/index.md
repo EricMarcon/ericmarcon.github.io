@@ -3,13 +3,13 @@ title: "Mesures de la Biodiversité"
 date: 2018-09-12
 publishDate: 2020-04-12T22:31:15.393522Z
 authors: ["Eric Marcon"]
-publication_types: ["5"]
+publication_types: ["book"]
 abstract: |
   La biodiversité peut être mesurée de nombreuses façons.
 
   La dualité entropie-diversité fournit un cadre clair et rigoureux pour le faire. 
   L'entropie est la surprise moyenne fournie par les individus d'une communauté.
-  Le choix de la fonction d'information qui mesure cette surprise à partir des probabilités d'occurence des espèces (ou d'autres catégories) permet de définir les mesures de diversités neutres, fonctionnelles ou phylogénétique présentées ici. 
+  Le choix de la fonction d'information qui mesure cette surprise à partir des probabilités d’occurrence des espèces (ou d'autres catégories) permet de définir les mesures de diversités neutres, fonctionnelles ou phylogénétique présentées ici. 
   L'entropie est transformée en diversité au sens strict par une fonction croissante (l'exponentielle déformée), ce qui simplifie son interprétation en tant que nombre équivalent d'espèces.
 
   L'entropie phylogénétique généralise les indices de diversité classique, intègre si nécessaire la distance entre espèces, peut être écomposée et corrigée des biais d'estimation.

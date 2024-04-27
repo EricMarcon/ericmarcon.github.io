@@ -5,7 +5,7 @@ title: "Forest Dynamics"
 subtitle: "AgroParisTech"
 summary: ""
 authors: ""
-tags: []
+tags: [ecology]
 categories: []
 date: 2024-04-24
 lastmod: 2024-04-24

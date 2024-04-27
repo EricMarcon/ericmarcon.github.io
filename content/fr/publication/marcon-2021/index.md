@@ -3,7 +3,7 @@ title: "Travailler avec R"
 date: 2021-09-07
 publishDate: 2021-09-07T22:31:15.393522Z
 authors: ["Eric Marcon"]
-publication_types: ["5"]
+publication_types: ["book"]
 abstract: |
   Cet ouvrage propose une organisation du travail autour de R et RStudio pour, au-delà des statistiques, rédiger des documents efficacement avec R Markdown, aux formats variés (mémos, articles scientifiques, mémoires d'étudiants, livres, diaporamas), créer son site web et des applications R en ligne (Shiny), produire des packages et utiliser R pour l'enseignement.
 featured: true

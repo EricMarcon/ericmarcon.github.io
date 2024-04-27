@@ -6,6 +6,14 @@ title: Eric Marcon
 authors:
 - admin
 
+# Full name (for SEO)
+first_name: Eric
+last_name: Marcon
+
+# Status emoji
+status:
+  icon: ☕️
+  
 # Is this the primary user of the site?
 superuser: true
 

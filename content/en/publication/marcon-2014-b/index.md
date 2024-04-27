@@ -3,7 +3,7 @@ title: "Decomposing Phylodiversity"
 date: 2015-01-01
 publishDate: 2020-04-12T22:31:15.374722Z
 authors: ["Eric Marcon", "Bruno Hérault"]
-publication_types: ["2"]
+publication_types: ["article-journal"]
 abstract: |
   Measuring functional or phylogenetic diversity is the object of an active literature. The main issues to address are relating measures to a clear conceptual framework, allowing unavoidable estimation-bias correction and decomposing diversity along spatial scales. We provide a general mathematical framework to decompose measures of species-neutral, phylogenetic or functional diversity into $\alpha$ and $\beta$ components. 
   We first unify the definitions of phylogenetic and functional entropy and diversity as a generalization of HCDT entropy and Hill numbers when an ultrametric tree is considered. We then derive the decomposition of diversity. We propose a bias correction of the estimates allowing meaningful computation from real, often undersampled communities. 
