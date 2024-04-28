@@ -18,7 +18,7 @@ status:
 superuser: true
 
 # Role/position
-role: Chercheur en écologie
+role: Enseignant-chercheur en écologie
 
 # Organizations/Affiliations
 organizations:

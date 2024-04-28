@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Researcher in Ecology 
+role: Senior Researcher in Ecology 
 
 # Organizations/Affiliations
 organizations:
