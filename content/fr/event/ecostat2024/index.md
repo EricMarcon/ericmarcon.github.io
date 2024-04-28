@@ -1,7 +1,7 @@
 ---
 title: "Documents reproductibles avec memoiR"
 event: "Journées du GDR EcoStat 2024"
-event_url: https://r2018-rennes.sciencesconf.org/
+event_url: https://ecostat2024.sciencesconf.org/
 
 location: Montpellier
 
@@ -11,8 +11,8 @@ abstract: |
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2024-04-29"
-# date_end: "2024-04-29"
+date: "2024-04-29T09:00:00Z"
+date_end: "2024-04-29T11:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
