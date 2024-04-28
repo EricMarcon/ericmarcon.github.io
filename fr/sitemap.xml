@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/</loc>
+    <lastmod>2024-04-29T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ericmarcon.github.io/event/</loc>
+    <lastmod>2024-04-29T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/event/"
+                />
+  </url><url>
     <loc>https://ericmarcon.github.io/course/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -432,23 +450,9 @@
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ericmarcon.github.io/talk/chao1/</loc>
+    <loc>https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/</loc>
     <lastmod>2020-03-11T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://ericmarcon.github.io/talk/</loc>
-    <lastmod>2020-03-11T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/talk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/talk/"
-                />
   </url><url>
     <loc>https://ericmarcon.github.io/publication/lang-2014/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
@@ -562,7 +566,7 @@
                 href="https://ericmarcon.github.io/publication/marcon-2014-d/"
                 />
   </url><url>
-    <loc>https://ericmarcon.github.io/talk/rr2018/</loc>
+    <loc>https://ericmarcon.github.io/talk/organisation-du-travail-autour-de-r/</loc>
     <lastmod>2018-07-05T11:20:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -580,7 +584,7 @@
                 href="https://ericmarcon.github.io/privacy/"
                 />
   </url><url>
-    <loc>https://ericmarcon.github.io/talk/rochebrune2018/</loc>
+    <loc>https://ericmarcon.github.io/talk/mesure-de-la-biodiversite-et-de-la-structuration-spatiale-de-lactivite-economique-par-lentropie/</loc>
     <lastmod>2018-01-17T17:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

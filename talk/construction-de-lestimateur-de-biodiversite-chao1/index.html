@@ -321,17 +321,15 @@
 
   
 
-<meta name="description" content="L&#39;utilisation de l&#39;environnement fourni par R et RStudio dépasse largement le seul outil statistique.
-Les outils disponibles permettent de redéfinir la façon de travailler d&#39;une équipe de recherche ou autre, au point même de les utiliser indépendamment du traitement des données. 
-Je présente une organisation du travail collaboratif efficace et robuste construite autour de RStudio, GitHub et RMarkdown pour la production de documents de qualité et reproductibles (articles scientifiques, mémoires et ouvrages, sites web...
+<meta name="description" content="Pour estimer le nombre d&#39;espèces (richesse spécifique) d&#39;une communauté à partir d&#39;un échantillon, l&#39;estimateur Chao1 est l&#39;outil le plus utilisé.
 
-A partir de l&#39;expérience de mon unité de recherche. Les difficultés et les limites de l&#39;exercice ne sont pas cachés, mais le bilan d&#39;une expérience en grandeur réelle est prometteur.
+Sa construction est expliquée et son efficacité est testée sur des données simulées.
 " />
 
 
 
-<link rel="alternate" hreflang="fr-fr" href="https://ericmarcon.github.io/talk/rr2018/" />
-<link rel="canonical" href="https://ericmarcon.github.io/talk/rr2018/" />
+<link rel="alternate" hreflang="fr-fr" href="https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/" />
+<link rel="canonical" href="https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/" />
 
 
 
@@ -361,7 +359,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://ericmarcon.github.io/talk/rr2018/featured.png" />
+<meta property="twitter:image" content="https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/featured.png" />
 
 
 
@@ -369,23 +367,21 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Eric Marcon" />
-<meta property="og:url" content="https://ericmarcon.github.io/talk/rr2018/" />
-<meta property="og:title" content="Organisation du travail autour de R | Eric Marcon" />
-<meta property="og:description" content="L&#39;utilisation de l&#39;environnement fourni par R et RStudio dépasse largement le seul outil statistique.
-Les outils disponibles permettent de redéfinir la façon de travailler d&#39;une équipe de recherche ou autre, au point même de les utiliser indépendamment du traitement des données. 
-Je présente une organisation du travail collaboratif efficace et robuste construite autour de RStudio, GitHub et RMarkdown pour la production de documents de qualité et reproductibles (articles scientifiques, mémoires et ouvrages, sites web...
+<meta property="og:url" content="https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/" />
+<meta property="og:title" content="Construction de l&#39;estimateur de biodiversité Chao1 | Eric Marcon" />
+<meta property="og:description" content="Pour estimer le nombre d&#39;espèces (richesse spécifique) d&#39;une communauté à partir d&#39;un échantillon, l&#39;estimateur Chao1 est l&#39;outil le plus utilisé.
 
-A partir de l&#39;expérience de mon unité de recherche. Les difficultés et les limites de l&#39;exercice ne sont pas cachés, mais le bilan d&#39;une expérience en grandeur réelle est prometteur.
-" /><meta property="og:image" content="https://ericmarcon.github.io/talk/rr2018/featured.png" /><meta property="og:locale" content="fr-fr" />
+Sa construction est expliquée et son efficacité est testée sur des données simulées.
+" /><meta property="og:image" content="https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/featured.png" /><meta property="og:locale" content="fr-fr" />
 
   
     <meta
       property="article:published_time"
-      content="2020-04-16T00:00:00&#43;00:00"
+      content="2020-04-14T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2018-07-05T11:20:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-03-11T11:00:00&#43;00:00">
   
 
 
@@ -395,6 +391,46 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 
 
   
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/"
+  },
+  "name": "Construction de l'estimateur de biodiversité Chao1",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Université de Guyane"
+  },
+  
+  
+  "image": [
+    "https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/featured.png"
+  ],
+  
+  "startDate": "2020-03-11T11:00:00Z",
+  
+  "endDate": "2020-03-11T12:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Eric Marcon"
+  },
+  
+  "description": "Pour estimer le nombre d'espèces (richesse spécifique) d'une communauté à partir d'un échantillon, l'estimateur Chao1 est l'outil le plus utilisé.\n\nSa construction est expliquée et son efficacité est testée sur des données simulées.\n"
+}
+</script>
+
+  
 
 
 
@@ -410,7 +446,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 
 
   
-  <title>Organisation du travail autour de R | Eric Marcon</title>
+  <title>Construction de l&#39;estimateur de biodiversité Chao1 | Eric Marcon</title>
 
   
   
@@ -430,7 +466,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f3d7f8e7dfa8100a8928a9973068638e" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="895b252915dcb968bf0bb150545ff83a" >
 
   
   
@@ -882,7 +918,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
     
     
 
-    <article class="article">
+    <div class="pub">
 
   
 
@@ -913,7 +949,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 
 
 <div class="article-container pt-3">
-  <h1>Organisation du travail autour de R</h1>
+  <h1>Construction de l&#39;estimateur de biodiversité Chao1</h1>
 
   
 
@@ -925,14 +961,6 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
   
   
 
-  
-  <span class="article-date">
-    
-    
-      
-    
-    05-juil.-2018
-  </span>
   
 
   
@@ -971,7 +999,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/RR2018/RR2018.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/Chao1/Chao1.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -982,7 +1010,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/EricMarcon/RR2018/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/EricMarcon/Chao1" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -997,7 +1025,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="/RR2018/RR2018.html" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/Chao1/Chao1.html" target="_blank" rel="noopener">
   Diapositives
 </a>
 
@@ -1013,16 +1041,72 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 129px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 432px;">
   <div style="position: relative">
-    <img src="/talk/rr2018/featured_hua27f963b759a7fadf064e838c47ee115_301056_b83b954c08961c7be3403502ee653c7a.webp" width="720" height="129" alt="" class="featured-image">
-    <span class="article-header-caption">Rennes</span>
+    <img src="/talk/construction-de-lestimateur-de-biodiversite-chao1/featured_hu562e7e83c705ca692dfcc52c1f508f95_10317_bfbb49c741f67327c6aa74814316d345.webp" width="720" height="432" alt="" class="featured-image">
+    <span class="article-header-caption">Produit scalaire des vecteurs $v_0$ et $v_2$</span>
   </div>
 </div>
 
 
 
   <div class="article-container">
+
+    
+      <h3>Résumé</h3>
+      <p class="pub-abstract"><p>Pour estimer le nombre d&rsquo;espèces (richesse spécifique) d&rsquo;une communauté à partir d&rsquo;un échantillon, l&rsquo;estimateur Chao1 est l&rsquo;outil le plus utilisé.</p>
+<p>Sa construction est expliquée et son efficacité est testée sur des données simulées.</p>
+</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            11-mars-2020 11:00 &mdash; 12:00
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Évènement</div>
+          <div class="col-12 col-md-9">
+            <a href="https://eduscol.education.fr/cid59178/semaine-des-mathematiques.html" target="_blank" rel="noopener">
+            Semaine des mathématiques 2020
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Lieu</div>
+          <div class="col-12 col-md-9">Université de Guyane</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
 
     <div class="article-style">
       
@@ -1051,7 +1135,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Frr2018%2F&amp;text=Organisation&#43;du&#43;travail&#43;autour&#43;de&#43;R" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fconstruction-de-lestimateur-de-biodiversite-chao1%2F&amp;text=Construction&#43;de&#43;l%27estimateur&#43;de&#43;biodiversit%C3%A9&#43;Chao1" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1068,7 +1152,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Frr2018%2F&amp;t=Organisation&#43;du&#43;travail&#43;autour&#43;de&#43;R" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fconstruction-de-lestimateur-de-biodiversite-chao1%2F&amp;t=Construction&#43;de&#43;l%27estimateur&#43;de&#43;biodiversit%C3%A9&#43;Chao1" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1087,7 +1171,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
         
       
       <li>
-        <a href="mailto:?subject=Organisation%20du%20travail%20autour%20de%20R&amp;body=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Frr2018%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Construction%20de%20l%27estimateur%20de%20biodiversit%C3%A9%20Chao1&amp;body=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fconstruction-de-lestimateur-de-biodiversite-chao1%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1104,7 +1188,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Frr2018%2F&amp;title=Organisation&#43;du&#43;travail&#43;autour&#43;de&#43;R" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fconstruction-de-lestimateur-de-biodiversite-chao1%2F&amp;title=Construction&#43;de&#43;l%27estimateur&#43;de&#43;biodiversit%C3%A9&#43;Chao1" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1121,7 +1205,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
       
       
       <li>
-        <a href="whatsapp://send?text=Organisation&#43;du&#43;travail&#43;autour&#43;de&#43;R%20https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Frr2018%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Construction&#43;de&#43;l%27estimateur&#43;de&#43;biodiversit%C3%A9&#43;Chao1%20https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fconstruction-de-lestimateur-de-biodiversite-chao1%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1138,7 +1222,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Frr2018%2F&amp;title=Organisation&#43;du&#43;travail&#43;autour&#43;de&#43;R" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fconstruction-de-lestimateur-de-biodiversite-chao1%2F&amp;title=Construction&#43;de&#43;l%27estimateur&#43;de&#43;biodiversit%C3%A9&#43;Chao1" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1267,7 +1351,7 @@ A partir de l&#39;expérience de mon unité de recherche. Les difficultés et le
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">

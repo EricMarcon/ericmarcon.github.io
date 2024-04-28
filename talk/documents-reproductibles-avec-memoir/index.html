@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 28, 2024 --><html lang="en-us" >
+<!-- Last Published: 28 avril 2024 --><html lang="fr-fr" >
 
 
 <head>
@@ -321,17 +321,17 @@
 
   
 
-<meta name="description" content="Recent developments in biodiversity measurement are applied to Paris trees data to explore the biodiversity of trees.
+<meta name="description" content="Rédiger avec RMarkdown : principes et application rapide pour la production de documents reproductibles.
 " />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://ericmarcon.github.io/en/talk/paristrees/" />
-<link rel="canonical" href="https://ericmarcon.github.io/en/talk/paristrees/" />
+<link rel="alternate" hreflang="fr-fr" href="https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/" />
+<link rel="canonical" href="https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/" />
 
 
 
-  <link rel="manifest" href="/en/manifest.webmanifest" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
 
 
@@ -357,7 +357,7 @@
 
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://ericmarcon.github.io/en/talk/paristrees/featured.png" />
+<meta property="twitter:image" content="https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/featured.png" />
 
 
 
@@ -365,19 +365,19 @@
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Eric Marcon" />
-<meta property="og:url" content="https://ericmarcon.github.io/en/talk/paristrees/" />
-<meta property="og:title" content="Urban biodiversity: a study on Parisian trees | Eric Marcon" />
-<meta property="og:description" content="Recent developments in biodiversity measurement are applied to Paris trees data to explore the biodiversity of trees.
-" /><meta property="og:image" content="https://ericmarcon.github.io/en/talk/paristrees/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/" />
+<meta property="og:title" content="Documents reproductibles avec memoiR | Eric Marcon" />
+<meta property="og:description" content="Rédiger avec RMarkdown : principes et application rapide pour la production de documents reproductibles.
+" /><meta property="og:image" content="https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/featured.png" /><meta property="og:locale" content="fr-fr" />
 
   
     <meta
       property="article:published_time"
-      content="2020-04-14T00:00:00&#43;00:00"
+      content="2024-04-29T09:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2019-05-24T11:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-04-29T09:00:00&#43;00:00">
   
 
 
@@ -387,6 +387,46 @@
 
 
   
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/"
+  },
+  "name": "Documents reproductibles avec memoiR",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Montpellier"
+  },
+  
+  
+  "image": [
+    "https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/featured.png"
+  ],
+  
+  "startDate": "2024-04-29T09:00:00Z",
+  
+  "endDate": "2024-04-29T11:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Eric Marcon"
+  },
+  
+  "description": "Rédiger avec RMarkdown : principes et application rapide pour la production de documents reproductibles.\n"
+}
+</script>
+
+  
 
 
 
@@ -402,7 +442,7 @@
 
 
   
-  <title>Urban biodiversity: a study on Parisian trees | Eric Marcon</title>
+  <title>Documents reproductibles avec memoiR | Eric Marcon</title>
 
   
   
@@ -422,7 +462,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="5953eb6fc83e2ca4c07e956d768d96ff" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6a693f0522462a73486848344b47dbb2" >
 
   
   
@@ -444,18 +484,18 @@
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1>Rechercher</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Fermer"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        <input name="q" id="search-query" placeholder="Recherche..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
+        aria-label="Recherche...">
         
       </div>
 
@@ -501,20 +541,20 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/en/">Eric Marcon</a>
+        <a class="navbar-brand" href="/">Eric Marcon</a>
       </div>
       
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Ouvrir la barre de navigation">
       <span><i class="fas fa-bars"></i></span>
       </button>
       
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/en/">Eric Marcon</a>
+        <a class="navbar-brand" href="/">Eric Marcon</a>
       </div>
       
 
@@ -547,10 +587,47 @@
               
             
             
+              
+              
+              
+                
+              
+              
+            
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/CV/Eric_Marcon-en.pdf"><span>CV</span></a>
+            <a class="nav-link " href="/#about"><span>Accueil</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/CV/Eric_Marcon-fr.pdf"><span>CV</span></a>
           </li>
 
           
@@ -587,7 +664,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/en/#featured"><span>Publications</span></a>
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
           </li>
 
           
@@ -624,7 +701,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/en/#talks"><span>Talks</span></a>
+            <a class="nav-link " href="/#talks"><span>Communications</span></a>
           </li>
 
           
@@ -661,7 +738,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/en/#software"><span>Software</span></a>
+            <a class="nav-link " href="/#software"><span>Logiciels</span></a>
           </li>
 
           
@@ -698,7 +775,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/en/#course"><span>Courses</span></a>
+            <a class="nav-link " href="/#course"><span>Cours</span></a>
           </li>
 
           
@@ -735,7 +812,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+            <a class="nav-link " href="/#posts"><span>Articles</span></a>
           </li>
 
           
@@ -772,7 +849,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/en/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -795,7 +872,7 @@
         
         
         <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+          <a class="nav-link js-search" href="#" aria-label="Rechercher"><i class="fas fa-search" aria-hidden="true"></i></a>
         </li>
         
 
@@ -803,18 +880,18 @@
         
         
         <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Préférences d&#39;affichage">
             <i class="fas fa-moon" aria-hidden="true"></i>
           </a>
           <div class="dropdown-menu">
             <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
+              <span>Clair</span>
             </a>
             <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
+              <span>Sombre</span>
             </a>
             <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
+              <span>Automatique</span>
             </a>
           </div>
         </li>
@@ -837,7 +914,7 @@
     
     
 
-    <article class="article">
+    <div class="pub">
 
   
 
@@ -868,7 +945,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Urban biodiversity: a study on Parisian trees</h1>
+  <h1>Documents reproductibles avec memoiR</h1>
 
   
 
@@ -880,14 +957,6 @@
   
   
 
-  
-  <span class="article-date">
-    
-    
-      
-    
-    May 24, 2019
-  </span>
   
 
   
@@ -921,25 +990,11 @@
 
 
   
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header" href="/ParisTrees/ParisTrees.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/EricMarcon/ParisTrees" target="_blank" rel="noopener">
-  Code
-</a>
+
 
 
 
@@ -952,8 +1007,8 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="/ParisTrees/ParisTrees.html" target="_blank" rel="noopener">
-  Slides
+<a class="btn btn-outline-primary btn-page-header" href="https://1drv.ms/p/s!Amvhelr37CHjkegoEB7aCf0IYgqFqQ?e=EAJPmg" target="_blank" rel="noopener">
+  Diapositives
 </a>
 
 
@@ -968,10 +1023,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 432px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 239px; max-height: 279px;">
   <div style="position: relative">
-    <img src="/en/talk/paristrees/featured_hu013ef5bc7c92a11fddb870b8f4be8e57_305608_93b2825b8e870334d134ad3a82ad69f4.webp" width="720" height="432" alt="" class="featured-image">
-    
+    <img src="/talk/documents-reproductibles-avec-memoir/featured_hu18a6066e6938d62d67bc9194d737a8f3_16888_48a2ebaf1e6f22b5ecea3a3e99e63b54.webp" width="239" height="279" alt="" class="featured-image">
+    <span class="article-header-caption">package memoiR</span>
   </div>
 </div>
 
@@ -979,8 +1034,69 @@
 
   <div class="article-container">
 
+    
+      <h3>Résumé</h3>
+      <p class="pub-abstract">Rédiger avec RMarkdown : principes et application rapide pour la production de documents reproductibles.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            29-avr.-2024 09:00 &mdash; 11:00
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Évènement</div>
+          <div class="col-12 col-md-9">
+            <a href="https://ecostat2024.sciencesconf.org/" target="_blank" rel="noopener">
+            Journées du GDR EcoStat 2024
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Lieu</div>
+          <div class="col-12 col-md-9">Montpellier</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
     <div class="article-style">
-      
+      <p>Rédiger avec RMarkdown, principes et application rapide :</p>
+<ul>
+<li>Utiliser des modèles pour produire des documents HTML et PDF (accessoirement, Word) : le package <a href="https://ericmarcon.github.io/memoiR/" target="_blank" rel="noopener">memoiR </a></li>
+<li>Utiliser l’intégration continue sur GitHub pour automatiser les calculs et la publication : <a href="https://ericmarcon.github.io/JTE-22-105/" target="_blank" rel="noopener">exemple d’article </a> et de <a href="https://github.com/EricMarcon/MesuresBioDiv2" target="_blank" rel="noopener">livre</a></li>
+<li>Présentation des techniques avancées : gestion des langues, données confidentielles dans un projet public, calculs longs.</li>
+<li>Discussion sur Quarto comme successeur de bookdown.</li>
+</ul>
+
     </div>
 
     
@@ -1006,7 +1122,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fericmarcon.github.io%2Fen%2Ftalk%2Fparistrees%2F&amp;text=Urban&#43;biodiversity%3A&#43;a&#43;study&#43;on&#43;Parisian&#43;trees" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fdocuments-reproductibles-avec-memoir%2F&amp;text=Documents&#43;reproductibles&#43;avec&#43;memoiR" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1023,7 +1139,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fericmarcon.github.io%2Fen%2Ftalk%2Fparistrees%2F&amp;t=Urban&#43;biodiversity%3A&#43;a&#43;study&#43;on&#43;Parisian&#43;trees" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fdocuments-reproductibles-avec-memoir%2F&amp;t=Documents&#43;reproductibles&#43;avec&#43;memoiR" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1042,7 +1158,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Urban%20biodiversity%3A%20a%20study%20on%20Parisian%20trees&amp;body=https%3A%2F%2Fericmarcon.github.io%2Fen%2Ftalk%2Fparistrees%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Documents%20reproductibles%20avec%20memoiR&amp;body=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fdocuments-reproductibles-avec-memoir%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1059,7 +1175,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fericmarcon.github.io%2Fen%2Ftalk%2Fparistrees%2F&amp;title=Urban&#43;biodiversity%3A&#43;a&#43;study&#43;on&#43;Parisian&#43;trees" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fdocuments-reproductibles-avec-memoir%2F&amp;title=Documents&#43;reproductibles&#43;avec&#43;memoiR" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1076,7 +1192,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Urban&#43;biodiversity%3A&#43;a&#43;study&#43;on&#43;Parisian&#43;trees%20https%3A%2F%2Fericmarcon.github.io%2Fen%2Ftalk%2Fparistrees%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Documents&#43;reproductibles&#43;avec&#43;memoiR%20https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fdocuments-reproductibles-avec-memoir%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1093,7 +1209,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fericmarcon.github.io%2Fen%2Ftalk%2Fparistrees%2F&amp;title=Urban&#43;biodiversity%3A&#43;a&#43;study&#43;on&#43;Parisian&#43;trees" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fericmarcon.github.io%2Ftalk%2Fdocuments-reproductibles-avec-memoir%2F&amp;title=Documents&#43;reproductibles&#43;avec&#43;memoiR" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1126,14 +1242,31 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://ericmarcon.github.io/"><img class="avatar mr-3 avatar-circle" src="/en/authors/admin/avatar_huee38caab862a170717331bcb21405d6d_260496_270x270_fill_q75_lanczos_center.jpg" alt="Eric Marcon"></a>
+      <a href="https://ericmarcon.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huee38caab862a170717331bcb21405d6d_260496_270x270_fill_q75_lanczos_center.jpg" alt="Eric Marcon"></a>
     
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://ericmarcon.github.io/">Eric Marcon</a></h5>
-      <h6 class="card-subtitle">Senior Researcher in Ecology</h6>
-      <p class="card-text">My research interests include ecology, economics and R computing.</p>
+      <h6 class="card-subtitle">Enseignant-chercheur en écologie</h6>
+      <p class="card-text">Mes centres d&rsquo;intérêts en recherche incluent l&rsquo;écologie, l&rsquo;économie et la programmation avec R.</p>
       <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
   
     
     
@@ -1205,7 +1338,7 @@
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">
@@ -1236,7 +1369,7 @@
 
 <p class="powered-by">
   
-  <a href="/en/privacy/">Privacy Policy</a>
+  <a href="/privacy/">Politique de Confidentialité</a>
   
   
 </p>
@@ -1299,7 +1432,7 @@
       
       
       
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Publié avec <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — le générateur <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">libre</a> de site web gratuit permetant aux créateurs de s&rsquo;épanouir.
     
   </p>
 </footer>
@@ -1406,7 +1539,7 @@
   
 
 
-<script src="/en/js/wowchemy.min.0d344310ba75ea019adb1e7aa1de0b6a.js"></script>
+<script src="/fr/js/wowchemy.min.a13b3d53a915defe9bc74e3a79cddbf3.js"></script>
 
 
 
@@ -1420,7 +1553,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title">Citation</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1431,10 +1564,10 @@
       </div>
       <div class="modal-footer">
         <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
+          <i class="fas fa-copy"></i> Copier
         </a>
         <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+          <i class="fas fa-download"></i> Télécharger
         </a>
         <div id="modal-error"></div>
       </div>
