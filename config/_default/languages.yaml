@@ -13,8 +13,9 @@ fr:
   title: "Eric Marcon"
   params:
     description: "Page personnelle d'Eric Marcon"
-    date_format: "02-Jan-2006"
-    time_format: "15:04"
+    locale:
+      date_format: "02-Jan-2006"
+      time_format: "15:04"
   menu:
     main:
       - name: "Accueil"
