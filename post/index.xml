@@ -7,7 +7,7 @@
     <description>Posts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ericmarcon.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://ericmarcon.github.io/post/</link>
     </image>
@@ -53,18 +53,18 @@ XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
 norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1000.687&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 999.8287&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
 norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 138.0634&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 36.36226&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
 norm_R &amp;lt;- norm.matrix(R)
 norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 5.039896e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 5.700013e-12&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 5.039896e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 5.700013e-12&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;

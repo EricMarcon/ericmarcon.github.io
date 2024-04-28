@@ -336,8 +336,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -424,7 +424,7 @@
     "name": "Eric Marcon",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ericmarcon.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+      "url": "https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Method for diagnosing the accuracy of digital matrix inversion."
@@ -1029,18 +1029,18 @@ XR &lt;- X %*% R</code></pre>
 <p>Matrix norms are calculated:</p>
 <pre class="r"><code># Matrix to invert
 norm.matrix(A)</code></pre>
-<pre><code>## [1] 998.7764</code></pre>
+<pre><code>## [1] 999.8989</code></pre>
 <pre class="r"><code># Numerical inversion
 norm.matrix(X)</code></pre>
-<pre><code>## [1] 30.899</code></pre>
+<pre><code>## [1] 48.20709</code></pre>
 <pre class="r"><code># Inversion deviation
 norm_R &lt;- norm.matrix(R)
 norm_XR &lt;- norm.matrix(XR)</code></pre>
 <p>Finally, the bounds of the norm of <span class="math inline">\(A^{-1} - X\)</span> is provided:</p>
 <pre class="r"><code>norm_XR / (1 + norm_R)</code></pre>
-<pre><code>## [1] 3.665177e-12</code></pre>
+<pre><code>## [1] 1.203951e-11</code></pre>
 <pre class="r"><code>norm_XR / (1 - norm_R)</code></pre>
-<pre><code>## [1] 3.665177e-12</code></pre>
+<pre><code>## [1] 1.203951e-11</code></pre>
 <p>The norm of <span class="math inline">\(A^{-1} - X\)</span> is very close to 0: matrix inversion in R works well.</p>
 </div>
 <div id="reference" class="section level1">
@@ -1198,7 +1198,7 @@ norm_XR &lt;- norm.matrix(XR)</code></pre>
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://ericmarcon.github.io/">Eric Marcon</a></h5>
-      <h6 class="card-subtitle">Researcher in Ecology</h6>
+      <h6 class="card-subtitle">Senior Researcher in Ecology</h6>
       <p class="card-text">My research interests include ecology, economics and R computing.</p>
       <ul class="network-icon" aria-hidden="true">
   
