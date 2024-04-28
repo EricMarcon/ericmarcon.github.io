@@ -44,7 +44,7 @@ sections:
       title: Featured Publications
       text: |-
         {{% callout note %}}
-        Afficher [toutes les publications](./publication/).
+        Show [all publications](./publication/).
         {{% /callout %}}
       filters:
         folders:
