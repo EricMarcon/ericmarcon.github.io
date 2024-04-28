@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/publication-type/chapter/</link>
+      <atom:link href="https://ericmarcon.github.io/publication-type/chapter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chapter</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Chapter</title>
+      <link>https://ericmarcon.github.io/publication-type/chapter/</link>
+    </image>
+    
+    <item>
+      <title>Les configurations de points</title>
+      <link>https://ericmarcon.github.io/publication/floch-2018/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/publication/floch-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial distribution of points</title>
+      <link>https://ericmarcon.github.io/publication/floch-2018-a/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/publication/floch-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La mesure en économie internationale</title>
+      <link>https://ericmarcon.github.io/publication/marcon-2012-b/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/publication/marcon-2012-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concentration géographique de l&#39;emploi industriel et dynamiques territoriales en France de 1993 à 2001</title>
+      <link>https://ericmarcon.github.io/publication/marcon-2005/</link>
+      <pubDate>Sun, 01 May 2005 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/publication/marcon-2005/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

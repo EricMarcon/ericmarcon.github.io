@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/tag/r/</link>
+      <atom:link href="https://ericmarcon.github.io/tag/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>R</title>
+      <link>https://ericmarcon.github.io/tag/r/</link>
+    </image>
+    
+    <item>
+      <title>Statistiques sous R </title>
+      <link>https://ericmarcon.github.io/course/r-geeft/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/course/r-geeft/</guid>
+      <description>&lt;p&gt;Ce cours de remise à niveau en statistiques avec R est destiné aux étudiants d&amp;rsquo;AgroParisTech en dernière année, en dominante d&amp;rsquo;approfondissement &lt;a href=&#34;https://www.genv-agroparistech.fr/fr/nos-formations/ingenieur-agroparistech-da-geeft&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GEEFT&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Travailler avec R</title>
+      <link>https://ericmarcon.github.io/course/travailler/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/course/travailler/</guid>
+      <description>&lt;p&gt;Ce cours propose une organisation du travail autour de R et RStudio pour, au-delà des statistiques, rédiger des documents efficacement avec R Markdown, aux formats variés (mémos, articles scientifiques, mémoires d&amp;rsquo;étudiants, livres, diaporamas), créer son site web et des applications R en ligne (Shiny), produire des packages et utiliser R pour l&amp;rsquo;enseignement.&lt;/p&gt;
+&lt;h1 id=&#34;prérequis&#34;&gt;Prérequis&lt;/h1&gt;
+&lt;p&gt;Utilisation courante de R.&lt;/p&gt;
+&lt;p&gt;Formations préalables :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://juba.github.io/tidyverse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction à R et au tidyverse&lt;/a&gt; : pour les faux-débutants, un excellent cours.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/onboarding/learn?from=home&amp;amp;technology=r&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DataCamp Start Learning R&lt;/a&gt; : formation interactive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;préparation&#34;&gt;Préparation&lt;/h1&gt;
+&lt;p&gt;Installation de l&amp;rsquo;environnement de travail.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ericmarcon.github.io/Cours-travailleR/11-Preparation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/11-Preparation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;contrôle-de-source&#34;&gt;Contrôle de Source&lt;/h1&gt;
+&lt;p&gt;Utiliser git et GitHub pour le contrôle de source, la collaboration et la publication de documents.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/12-git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/12-git.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;rédiger-avec-r-markdown&#34;&gt;Rédiger avec R Markdown&lt;/h1&gt;
+&lt;p&gt;Utiliser R Markdown pour la rédaction de documents reproductibles : mémos, articles, rapports, thèses, livres, sites web.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/21-Rediger.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/21-Rediger.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;langage&#34;&gt;Langage&lt;/h1&gt;
+&lt;p&gt;Aspects avancés du langage de R&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/31-Langage.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/31-Langage.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;tidyverse&#34;&gt;TidyVerse&lt;/h1&gt;
+&lt;p&gt;Les bases de l&amp;rsquo;univers bien rangé.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/32-Tidyverse.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/32-Tidyverse.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;package&#34;&gt;Package&lt;/h1&gt;
+&lt;p&gt;Ecrire un package.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/33-Package.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voir le support&lt;/a&gt; ou le &lt;a href=&#34;https://EricMarcon.github.io/Cours-travailleR/33-Package.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;télécharger&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
