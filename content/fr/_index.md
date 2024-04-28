@@ -67,7 +67,7 @@ sections:
       title: Exposés
       filters:
         folders:
-          - talk
+          - event
     design:
       columns: '2'
       view: compact

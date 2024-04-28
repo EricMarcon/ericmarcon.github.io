@@ -69,7 +69,7 @@ sections:
       title: Talks
       filters:
         folders:
-          - talk
+          - event
     design:
       columns: '2'
       view: compact
