@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/</loc>
-    <lastmod>2024-04-29T09:00:00+00:00</lastmod>
+    <loc>https://ericmarcon.github.io/talk/mesures-de-biodiversite-et-de-concentration-spatiale-par-lentropie-une-approche-multidisciplinaire/</loc>
+    <lastmod>2024-05-17T11:20:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ericmarcon.github.io/event/</loc>
-    <lastmod>2024-04-29T09:00:00+00:00</lastmod>
+    <lastmod>2024-05-17T11:20:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -19,6 +19,10 @@
                 hreflang="fr-fr"
                 href="https://ericmarcon.github.io/event/"
                 />
+  </url><url>
+    <loc>https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/</loc>
+    <lastmod>2024-04-29T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ericmarcon.github.io/course/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
