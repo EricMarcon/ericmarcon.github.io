@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/post/</link>
+      <atom:link href="https://ericmarcon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://ericmarcon.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Précision de l&#39;inversion de matrice</title>
+      <link>https://ericmarcon.github.io/post/invmatrice/</link>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/post/invmatrice/</guid>
+      <description>
+
+
+&lt;div id=&#34;théorie&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Théorie&lt;/h1&gt;
+&lt;p&gt;L’inversion de matrices de grande taille est difficile.
+Newman(1974) propose une méthode pour tester la précision de l’inversion.&lt;/p&gt;
+&lt;p&gt;Soit &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; la matrice (carrée, non singulière) à inverser.
+&lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; est l’approximation de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1}\)&lt;/span&gt; obtenue par calcul.
+&lt;span class=&#34;math inline&#34;&gt;\(N(Y)=\sqrt{\sum_{i,j}{y_{i,j}^2}}\)&lt;/span&gt; est la norme euclidienne d’une matrice &lt;span class=&#34;math inline&#34;&gt;\(Y=(y_{i,j})\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(R = I - AX\)&lt;/span&gt; est l’écart (idéalement nul) entre la matrice identité et le produit de &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; et son inverse calculé.&lt;/p&gt;
+&lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; n’est pas un bon indicateur de la précision de l’inversion (Newman, 1974, section 3).
+En revanche, la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; en est un, mais &lt;span class=&#34;math inline&#34;&gt;\(A^{-1}\)&lt;/span&gt; est inconnu.
+Newman montre que
+&lt;span class=&#34;math display&#34;&gt;\[\frac{N(XR)}{1 + N(XR)} \leq N(A^{-1} - X) \leq \frac{N(XR)}{1 - N(XR)},\]&lt;/span&gt;
+ce qui permet d’encadrer la valeur de &lt;span class=&#34;math inline&#34;&gt;\(N(A^{-1} - X)\)&lt;/span&gt; avec les valeurs calculées de &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;L’objectif est que cette valeur soit petite, idéalement nulle si &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} = X\)&lt;/span&gt;, par rapport à la norme de &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exemple&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exemple&lt;/h1&gt;
+&lt;p&gt;Le paramètre &lt;code&gt;size&lt;/code&gt; fixe la taille (nombre de ligne et de colonnes) des matrices utilisées, ici une matrice de 1000 x 1000.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;size &amp;lt;- 1000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Une matrice est crée:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;A &amp;lt;- matrix(rnorm(size^2), nrow = size)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Elle est inversée numériquement (calcul de &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;) puis &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(XR\)&lt;/span&gt; sont calculées:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;X &amp;lt;- solve(A)
+AX &amp;lt;- A %*% X
+R &amp;lt;- diag(size) - AX
+XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La fonction norme euclidienne est définie:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm.matrix &amp;lt;- function(X) {
+  sqrt(sum(X^2))
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
+norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 999.2067&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
+norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 86.59398&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
+norm_R &amp;lt;- norm.matrix(R)
+norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2.34169e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2.34169e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Référence&lt;/h1&gt;
+&lt;p&gt;Newman, M. (1974). How to Determine the Accuracy of the Output of a Matrix Inversion Program. &lt;em&gt;JOURNAL OF RESEARCH of the National Bureau of Standards - B. Mathematical Sciences&lt;/em&gt;, &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/jres/78B/jresv78Bn2p65_A1b.pdf&#34;&gt;788(2), 65–68&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Performance de R</title>
+      <link>https://ericmarcon.github.io/post/perfr/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/post/perfr/</guid>
+      <description>
+
+
+&lt;p&gt;L’optimisation de la vitesse de R est utile pour des tâches répétées un grand nombre de fois (comme des simulations) ou des tâches complexes nécessitant de plusieurs secondes à plusieurs heures.
+L’approche est différente dans les deux cas.&lt;/p&gt;
+&lt;p&gt;Dans l’usage quotidien de R, c’est-à-dire des tâches courtes en ligne de commande, de bonnes pratiques de codage suffisent.
+Pour du code réutilisable, c’est-à-dire un package ou du code bien documenté diffusé sous d’autres formes, il est souvent préférable de sacrifier un peu de performance au profit de la lisibilité: c’est la philosophie du tidyverse par exemple.&lt;/p&gt;
+&lt;p&gt;Ceci dit, des efforts peuvent être rentables dans les cas où le temps d’exécution est critique: c’est l’objet des sections 2.3 à 2.7 du document &lt;a href=&#34;&#34;&gt;Travailler avec R&lt;/a&gt;. On se reportera à &lt;a href=&#34;https://adv-r.hadley.nz/&#34;&gt;&lt;em&gt;Advanced R&lt;/em&gt;&lt;/a&gt; d’Hadley Wickam pour une présentation plus détaillée.&lt;/p&gt;
+&lt;p&gt;Le premier objectif est de mesurer le temps d’exécution de code R. Ensuite, les techniques de parallélisation sont présentées. Une étude de cas permet de comparer l’efficacité de code réel.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/travailleR/chap-utiliseR.html#mesure-du-temps-dex%C3%A9cution&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/travailleR/travailleR.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inférence bayesienne</title>
+      <link>https://ericmarcon.github.io/post/bayes/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/post/bayes/</guid>
+      <description>
+
+
+&lt;p&gt;Ce document explique et montre comment réaliser l’inférence bayesienne, c’est-à-dire l’estimation des paramètres, d’un modèle simple.
+Son objectif est pédagogique : bien comprendre les étapes de l’inférence en ayant écrit une fois tout le code R nécessaire est un préalable à l’utilisation d’outils plus performants.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Inference-bayesienne/Inference-bayesienne.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Inference-bayesienne/Inference-bayesienne.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Krigeage avec R</title>
+      <link>https://ericmarcon.github.io/post/krigeage/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/post/krigeage/</guid>
+      <description>
+
+
+&lt;p&gt;Pour cartographier facilement une variable continue, 4 méthodes sont disponibles, dans les packages &lt;code&gt;akima&lt;/code&gt;, &lt;code&gt;spatial&lt;/code&gt;, &lt;code&gt;gstat&lt;/code&gt; et &lt;code&gt;automap&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Des méthodes plus élaborées ne sont pas traitées ici :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;l’estimation d’un modèle de prédiction de la valeur à partir de variables explicatives (krigeage ordinaire ou krigeage universel). Voir l’aide de la fonction &lt;code&gt;gstat&lt;/code&gt; pour leur utilisation.&lt;/li&gt;
+&lt;li&gt;l’estimation bayesienne de ces modèles ou le co-krigeage (estimation de plusieurs variables non indépendantes). Les packages &lt;code&gt;RGeostats1&lt;/code&gt; ou &lt;code&gt;INLA2&lt;/code&gt; permettent une modélisation complexe, mais au prix d’un effort bien supérieur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bibliométrie avec R</title>
+      <link>https://ericmarcon.github.io/post/bibliometrie/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/post/bibliometrie/</guid>
+      <description>
+
+
+&lt;p&gt;Tutoriel pour la bibliométrie avec les données de Google Scholar ou de Scopus.&lt;/p&gt;
+&lt;p&gt;Le package &lt;em&gt;scholar&lt;/em&gt; permet d’accéder à l’API de Google Scholar pour analyser la production d’un auteur (ou d’une structure) disposant d’un identifiant, donc d’une page, Google Scholar.
+Par exemple, les citations annuelles sont obtenues facilement:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;scholar&amp;quot;)
+library(&amp;quot;tidyverse&amp;quot;)
+
+&amp;quot;4iLBmbUAAAAJ&amp;quot; %&amp;gt;%  # Eric Marcon
+  get_citation_history()  %&amp;gt;% # Google Scholar API
+  ggplot(aes(year, cites)) +
+    geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = &amp;#39;darkgrey&amp;#39;) +
+    geom_point(size = 3, color = &amp;#39;firebrick&amp;#39;) +
+    labs(title = &amp;quot;Citations per year&amp;quot;, 
+         caption = &amp;quot;Source: Google Scholar&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package &lt;em&gt;bibliometrix&lt;/em&gt; permet de nombreuses analyses.&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Bibliometrie/Bibliometrie.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Bibliometrie/Bibliometrie.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Densité avec réflexion</title>
+      <link>https://ericmarcon.github.io/post/densite/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/post/densite/</guid>
+      <description>
+
+
+&lt;p&gt;L’estimation de la densité d’une distribution sous R avec la fonction &lt;code&gt;density&lt;/code&gt; pose des problèmes si ses valeurs sont bornées.
+L’exemple suivant est un histogramme de 1000 tirages d’une loi uniforme entre 1 et 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/histogramme-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;L’estimation avec la fonction &lt;code&gt;density&lt;/code&gt; n’est pas nulle hors de l’intervalle &lt;span class=&#34;math inline&#34;&gt;\([1, 2]\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/densite-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt; et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/censure-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.&lt;/p&gt;
+&lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Pavia2015&#34;&gt;Pavia 2015&lt;/a&gt;)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/GoFKernel-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Référence&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-Pavia2015&#34; class=&#34;csl-entry&#34;&gt;
+Pavia, Jose M. 2015. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Testing Goodness-of-Fit with the Kernel Density Estimator: GoFKernel&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Statistical Software&lt;/em&gt; 66 (Code Snippet 1). &lt;a href=&#34;https://doi.org/10.18637/jss.v066.c01&#34;&gt;https://doi.org/10.18637/jss.v066.c01&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3159 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: June 4, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.f6689966c0a10712f95f034011917db0.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-121X2M6WV2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-121X2M6WV2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Eric Marcon" />
+
+
+
+
+
+  
+
+<meta name="description" content="Eric Marcon&#39;s homepage." />
+
+
+
+  <link rel="alternate" hreflang="fr" href="https://ericmarcon.github.io/publication-type/article-journal/" />
+
+<link rel="alternate" hreflang="en-us" href="https://ericmarcon.github.io/en/publication-type/article-journal/" />
+<link rel="canonical" href="https://ericmarcon.github.io/en/publication-type/article-journal/" />
+
+
+
+  <link rel="manifest" href="/en/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Eric Marcon" />
+<meta property="og:url" content="https://ericmarcon.github.io/en/publication-type/article-journal/" />
+<meta property="og:title" content="Article-Journal | Eric Marcon" />
+<meta property="og:description" content="Eric Marcon&#39;s homepage." /><meta property="og:image" content="https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta property="og:updated_time" content="2024-05-31T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    <link rel="alternate" href="/en/publication-type/article-journal/index.xml" type="application/rss+xml" title="Eric Marcon" />
+  
+
+  
+
+
+  
+  <title>Article-Journal | Eric Marcon</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.9e4214442a7711d35691acd58f6f6361.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/en/">Eric Marcon</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/en/">Eric Marcon</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/CV/Eric_Marcon-en.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/en/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/en/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/en/#software"><span>Software</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/en/#course"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/en/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://ericmarcon.github.io/publication-type/article-journal/">
+              <span>Français</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>Article-Journal</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/penel-2022/" >Macrotermes termite mounds influence the spatial pattern of tree species in two African rainforest sites, in northern Congo. But were they really forests in the past?</a>
+    </div>
+
+    
+    <a href="/en/publication/penel-2022/"  class="summary-link">
+      <div class="article-style">
+        Termite mounds have been poorly studied in tropical rainforest in contrast to those of savannahs where they create fertility hotspots …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Benoit Penel</span>, <span >
+      Vincent Freycon</span>, <span >
+      Éric Marcon</span>, <span >
+      Vivien Rossi</span>, <span >
+      Guillaume Cornu</span>, <span >
+      Fabrice Bénédet</span>, <span >
+      Éric Forni</span>, <span >
+      Sylvie Gourlet-Fleury</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.cambridge.org/core/product/identifier/S0266467422000165/type/journal_article" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/penel-2022/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1017/S0266467422000165" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/mirabel-2021/" >30 Years of postdisturbance recruitment in a Neotropical forest</a>
+    </div>
+
+    
+    <a href="/en/publication/mirabel-2021/"  class="summary-link">
+      <div class="article-style">
+        Questions: Long-term community response to disturbance can follow manifold successional pathways depending on the interplay between …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Ariane Mirabel</span>, <span >
+      Eric Marcon</span>, <span >
+      Bruno Hérault</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/mirabel-2021/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1002/ece3.7634" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/schmitt-2020/" >Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest</a>
+    </div>
+
+    
+    <a href="/en/publication/schmitt-2020/"  class="summary-link">
+      <div class="article-style">
+        Tropical forests shelter the highest species diversity worldwide, although genus diversity is lower than expected. In the species‐rich …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Sylvain Schmitt</span>, <span >
+      Bruno Hérault</span>, <span >
+      Émilie Ducouret</span>, <span >
+      Anne Baranger</span>, <span >
+      Niklas Tysklind</span>, <span >
+      Myriam Heuertz</span>, <span >
+      Éric Marcon</span>, <span >
+      Saint Omer Cazal</span>, <span >
+      Géraldine Derroire</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/oik.07488" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/schmitt-2020/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/oik.07488" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/mirabel-2020/" >Diverging taxonomic and functional trajectories following disturbance in a Neotropical forest</a>
+    </div>
+
+    
+    <a href="/en/publication/mirabel-2020/"  class="summary-link">
+      <div class="article-style">
+        In the current global change context, it is urgent to anticipate the fate of tropical forests. This means understanding tree community …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Ariane Mirabel</span>, <span >
+      Bruno Hérault</span>, <span >
+      Eric Marcon</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/mirabel-2020/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/J.SCITOTENV.2020.137397" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/lang-2014/" >Distance-Based Measures of Spatial Concentration: Introducing a Relative Density Function</a>
+    </div>
+
+    
+    <a href="/en/publication/lang-2014/"  class="summary-link">
+      <div class="article-style">
+        For a decade, distance-based methods have been widely employed and constantly improved in the field of spatial economics. These methods …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Gabriel Lang</span>, <span >
+      Eric Marcon</span>, <span >
+      Florence Puech</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hal.archives-ouvertes.fr/hal-01082178" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/lang-2014/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s00168-019-00946-7" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/kattge-2020/" >TRY plant trait database - enhanced coverage and open access</a>
+    </div>
+
+    
+    <a href="/en/publication/kattge-2020/"  class="summary-link">
+      <div class="article-style">
+        Plant traits—the morphological, anatomical, physiological, biochemical and phenological characteristics of plants—determine how plants …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Jens Kattge</span>, <span >
+      Gerhard Bonisch</span>, <span >
+      Sandra Diaz</span>, <span >
+      Sandra Lavorel</span>, <span >
+      Iain Colin Prentice</span>, <span >
+      Paul Leadley</span>, <span >
+      Susanne Tautenhahn</span>, <span >
+      Gijsbert D. A. Werner</span>, <span >
+      Tuomas Aakala</span>, <span >
+      Mehdi Abedi</span>, <span >
+      Alicia T. R. Acosta</span>, <span >
+      George C. Adamidis</span>, <span >
+      Kairi Adamson</span>, <span >
+      Masahiro Aiba</span>, <span >
+      Cecile H. Albert</span>, <span >
+      Julio M. Alcantara</span>, <span >
+      Carolina Alcazar C</span>, <span >
+      Izabela Aleixo</span>, <span >
+      Hamada Ali</span>, <span >
+      Bernard Amiaud</span>, <span >
+      Christian Ammer</span>, <span >
+      Mariano M. Amoroso</span>, <span >
+      Madhur Anand</span>, <span >
+      Carolyn Anderson</span>, <span >
+      Niels Anten</span>, <span >
+      Joseph Antos</span>, <span >
+      Deborah Mattos Guimaraes Apgaua</span>, <span >
+      Tia-Lynn Ashman</span>, <span >
+      Degi Harja Asmara</span>, <span >
+      Gregory P. Asner</span>, <span >
+      Michael Aspinwall</span>, <span >
+      Owen Atkin</span>, <span >
+      Isabelle Aubin</span>, <span >
+      Lars Baastrup-Spohr</span>, <span >
+      Khadijeh Bahalkeh</span>, <span >
+      Michael Bahn</span>, <span >
+      Timothy Baker</span>, <span >
+      William J. Baker</span>, <span >
+      Jan P. Bakker</span>, <span >
+      Dennis Baldocchi</span>, <span >
+      Jennifer Baltzer</span>, <span >
+      Arindam Banerjee</span>, <span >
+      Anne Baranger</span>, <span >
+      Jos Barlow</span>, <span >
+      Diego R. Barneche</span>, <span >
+      Zdravko Baruch</span>, <span >
+      Denis Bastianelli</span>, <span >
+      John Battles</span>, <span >
+      William Bauerle</span>, <span >
+      Marijn Bauters</span>, <span >
+      Erika Bazzato</span>, <span >
+      Michael Beckmann</span>, <span >
+      Hans Beeckman</span>, <span >
+      Carl Beierkuhnlein</span>, <span >
+      Renee Bekker</span>, <span >
+      Gavin Belfry</span>, <span >
+      Michael Belluau</span>, <span >
+      Mirela Beloiu</span>, <span >
+      Raquel Benavides</span>, <span >
+      Lahcen Benomar</span>, <span >
+      Mary Lee Berdugo-Lattke</span>, <span >
+      Erika Berenguer</span>, <span >
+      Rodrigo Bergamin</span>, <span >
+      Joana Bergmann</span>, <span >
+      Marcos Bergmann Carlucci</span>, <span >
+      Logan Berner</span>, <span >
+      Markus Bernhardt-Romermann</span>, <span >
+      Christof Bigler</span>, <span >
+      Anne D. Bjorkman</span>, <span >
+      Chris Blackman</span>, <span >
+      Carolina Blanco</span>, <span >
+      Benjamin Blonder</span>, <span >
+      Dana Blumenthal</span>, <span >
+      Kelly T. Bocanegra-Gonzalez</span>, <span >
+      Pascal Boeckx</span>, <span >
+      Stephanie Bohlman</span>, <span >
+      Katrin Bohning-Gaese</span>, <span >
+      Laura Boisvert-Marsh</span>, <span >
+      William Bond</span>, <span >
+      Ben Bond-Lamberty</span>, <span >
+      Arnoud Boom</span>, <span >
+      Coline C. F. Boonman</span>, <span >
+      Kauane Bordin</span>, <span >
+      Elizabeth H. Boughton</span>, <span >
+      Vanessa Boukili</span>, <span >
+      David M. J. S. Bowman</span>, <span >
+      Sandra Bravo</span>, <span >
+      Marco Richard Brendel</span>, <span >
+      Martin R. Broadley</span>, <span >
+      Kerry A. Brown</span>, <span >
+      Helge Bruelheide</span>, <span >
+      Federico Brumnich</span>, <span >
+      Hans Henrik Bruun</span>, <span >
+      David Bruy</span>, <span >
+      Serra W. Buchanan</span>, <span >
+      Solveig Franziska Bucher</span>, <span >
+      Nina Buchmann</span>, <span >
+      Robert Buitenwerf</span>, <span >
+      Daniel E. Bunker</span>, <span >
+      Jana Burger</span>, <span >
+      Sabina Burrascano</span>, <span >
+      David F. R. P. Burslem</span>, <span >
+      Bradley J. Butterfield</span>, <span >
+      Chaeho Byun</span>, <span >
+      Marcia Marques</span>, <span >
+      Marina C. Scalon</span>, <span >
+      Marco Caccianiga</span>, <span >
+      Marc Cadotte</span>, <span >
+      Maxime Cailleret</span>, <span >
+      James Camac</span>, <span >
+      Jesus Julio Camarero</span>, <span >
+      Courtney Campany</span>, <span >
+      Giandiego Campetella</span>, <span >
+      Juan Antonio Campos</span>, <span >
+      Laura Cano-Arboleda</span>, <span >
+      Roberto Canullo</span>, <span >
+      Michele Carbognani</span>, <span >
+      Fabio Carvalho</span>, <span >
+      Fernando Casanoves</span>, <span >
+      Bastien Castagneyrol</span>, <span >
+      Jane A. Catford</span>, <span >
+      Jeannine Cavender-Bares</span>, <span >
+      Bruno E. L. Cerabolini</span>, <span >
+      Marco Cervellini</span>, <span >
+      Eduardo Chacon-Madrigal</span>, <span >
+      Kenneth Chapin</span>, <span >
+      F. Stuart Chapin</span>, <span >
+      Stefano Chelli</span>, <span >
+      Si-Chong Chen</span>, <span >
+      Anping Chen</span>, <span >
+      Paolo Cherubini</span>, <span >
+      Francesco Chianucci</span>, <span >
+      Brendan Choat</span>, <span >
+      Kyong-Sook Chung</span>, <span >
+      Milan Chytry</span>, <span >
+      Daniela Ciccarelli</span>, <span >
+      Lluis Coll</span>, <span >
+      Courtney G. Collins</span>, <span >
+      Luisa Conti</span>, <span >
+      David Coomes</span>, <span >
+      Johannes H. C. Cornelissen</span>, <span >
+      William K. Cornwell</span>, <span >
+      Piermaria Corona</span>, <span >
+      Marie Coyea</span>, <span >
+      Joseph Craine</span>, <span >
+      Dylan Craven</span>, <span >
+      Joris P. G. M. Cromsigt</span>, <span >
+      Aniko Csecserits</span>, <span >
+      Katarina Cufar</span>, <span >
+      Matthias Cuntz</span>, <span >
+      Ana Carolina Silva</span>, <span >
+      Kyla M. Dahlin</span>, <span >
+      Matteo Dainese</span>, <span >
+      Igor Dalke</span>, <span >
+      Michele Dalle Fratte</span>, <span >
+      Anh Tuan Dang-Le</span>, <span >
+      Jiri Danihelka</span>, <span >
+      Masako Dannoura</span>, <span >
+      Samantha Dawson</span>, <span >
+      Arend Jacobus Beer</span>, <span >
+      Angel De Frutos</span>, <span >
+      Jonathan R. De Long</span>, <span >
+      Benjamin Dechant</span>, <span >
+      Sylvain Delagrange</span>, <span >
+      Nicolas Delpierre</span>, <span >
+      Geraldine Derroire</span>, <span >
+      Arildo S. Dias</span>, <span >
+      Milton Hugo Diaz-Toribio</span>, <span >
+      Panayiotis G. Dimitrakopoulos</span>, <span >
+      Mark Dobrowolski</span>, <span >
+      Daniel Doktor</span>, <span >
+      Pavel Drevojan</span>, <span >
+      Ning Dong</span>, <span >
+      John Dransfield</span>, <span >
+      Stefan Dressler</span>, <span >
+      Leandro Duarte</span>, <span >
+      Emilie Ducouret</span>, <span >
+      Stefan Dullinger</span>, <span >
+      Walter Durka</span>, <span >
+      Remko Duursma</span>, <span >
+      Olga Dymova</span>, <span >
+      Anna E-Vojtko</span>, <span >
+      Rolf Lutz Eckstein</span>, <span >
+      Hamid Ejtehadi</span>, <span >
+      James Elser</span>, <span >
+      Thaise Emilio</span>, <span >
+      Kristine Engemann</span>, <span >
+      Mohammad Bagher Erfanian</span>, <span >
+      Alexandra Erfmeier</span>, <span >
+      Adriane Esquivel-Muelbert</span>, <span >
+      Gerd Esser</span>, <span >
+      Marc Estiarte</span>, <span >
+      Tomas F. Domingues</span>, <span >
+      William F. Fagan</span>, <span >
+      Jaime Fagundez</span>, <span >
+      Daniel S. Falster</span>, <span >
+      Ying Fan</span>, <span >
+      Jingyun Fang</span>, <span >
+      Emmanuele Farris</span>, <span >
+      Fatih Fazlioglu</span>, <span >
+      Yanhao Feng</span>, <span >
+      Fernando Fernandez-Mendez</span>, <span >
+      Carlotta Ferrara</span>, <span >
+      Joice Ferreira</span>, <span >
+      Alessandra Fidelis</span>, <span >
+      Bryan Finegan</span>, <span >
+      Jennifer Firn</span>, <span >
+      Timothy J. Flowers</span>, <span >
+      Dan F. B. Flynn</span>, <span >
+      Veronika Fontana</span>, <span >
+      Estelle Forey</span>, <span >
+      Cristiane Forgiarini</span>, <span >
+      Louis Francois</span>, <span >
+      Marcelo Frangipani</span>, <span >
+      Dorothea Frank</span>, <span >
+      Cedric Frenette-Dussault</span>, <span >
+      Gregoire T. Freschet</span>, <span >
+      Ellen L. Fry</span>, <span >
+      Nikolaos M. Fyllas</span>, <span >
+      Guilherme G. Mazzochini</span>, <span >
+      Sophie Gachet</span>, <span >
+      Rachael Gallagher</span>, <span >
+      Gislene Ganade</span>, <span >
+      Francesca Ganga</span>, <span >
+      Pablo Garcia-Palacios</span>, <span >
+      Veronica Gargaglione</span>, <span >
+      Eric Garnier</span>, <span >
+      Jose Luis Garrido</span>, <span >
+      Andre Luis Gasper</span>, <span >
+      Guillermo Gea-Izquierdo</span>, <span >
+      David Gibson</span>, <span >
+      Andrew N. Gillison</span>, <span >
+      Aelton Giroldo</span>, <span >
+      Mary-Claire Glasenhardt</span>, <span >
+      Sean Gleason</span>, <span >
+      Mariana Gliesch</span>, <span >
+      Emma Goldberg</span>, <span >
+      Bastian Goldel</span>, <span >
+      Erika Gonzalez-Akre</span>, <span >
+      Jose L. Gonzalez-Andujar</span>, <span >
+      Andres Gonzalez-Melo</span>, <span >
+      Ana Gonzalez-Robles</span>, <span >
+      Bente Jessen Graae</span>, <span >
+      Elena Granda</span>, <span >
+      Sarah Graves</span>, <span >
+      Walton A. Green</span>, <span >
+      Thomas Gregor</span>, <span >
+      Nicolas Gross</span>, <span >
+      Greg R. Guerin</span>, <span >
+      Angela Gunther</span>, <span >
+      Alvaro G. Gutierrez</span>, <span >
+      Lillie Haddock</span>, <span >
+      Anna Haines</span>, <span >
+      Jefferson Hall</span>, <span >
+      Alain Hambuckers</span>, <span >
+      Wenxuan Han</span>, <span >
+      Sandy P. Harrison</span>, <span >
+      Wesley Hattingh</span>, <span >
+      Joseph E. Hawes</span>, <span >
+      Tianhua He</span>, <span >
+      Pengcheng He</span>, <span >
+      Jacob Mason Heberling</span>, <span >
+      Aveliina Helm</span>, <span >
+      Stefan Hempel</span>, <span >
+      Jorn Hentschel</span>, <span >
+      Bruno Herault</span>, <span >
+      Ana-Maria Heres</span>, <span >
+      Katharina Herz</span>, <span >
+      Myriam Heuertz</span>, <span >
+      Thomas Hickler</span>, <span >
+      Peter Hietz</span>, <span >
+      Pedro Higuchi</span>, <span >
+      Andrew L. Hipp</span>, <span >
+      Andrew Hirons</span>, <span >
+      Maria Hock</span>, <span >
+      James Aaron Hogan</span>, <span >
+      Karen Holl</span>, <span >
+      Olivier Honnay</span>, <span >
+      Daniel Hornstein</span>, <span >
+      Enqing Hou</span>, <span >
+      Nate Hough-Snee</span>, <span >
+      Knut Anders Hovstad</span>, <span >
+      Tomoaki Ichie</span>, <span >
+      Boris Igic</span>, <span >
+      Estela Illa</span>, <span >
+      Marney Isaac</span>, <span >
+      Masae Ishihara</span>, <span >
+      Leonid Ivanov</span>, <span >
+      Larissa Ivanova</span>, <span >
+      Colleen M. Iversen</span>, <span >
+      Jordi Izquierdo</span>, <span >
+      Robert B. Jackson</span>, <span >
+      Benjamin Jackson</span>, <span >
+      Herve Jactel</span>, <span >
+      Andrzej M. Jagodzinski</span>, <span >
+      Ute Jandt</span>, <span >
+      Steven Jansen</span>, <span >
+      Thomas Jenkins</span>, <span >
+      Anke Jentsch</span>, <span >
+      Jens Rasmus Plantener Jespersen</span>, <span >
+      Guo-Feng Jiang</span>, <span >
+      Jesper Liengaard Johansen</span>, <span >
+      David Johnson</span>, <span >
+      Eric J. Jokela</span>, <span >
+      Carlos Alfredo Joly</span>, <span >
+      Gregory J. Jordan</span>, <span >
+      Grant Stuart Joseph</span>, <span >
+      Decky Junaedi</span>, <span >
+      Robert R. Junker</span>, <span >
+      Eric Justes</span>, <span >
+      Richard Kabzems</span>, <span >
+      Jeffrey Kane</span>, <span >
+      Zdenek Kaplan</span>, <span >
+      Teja Kattenborn</span>, <span >
+      Lyudmila Kavelenova</span>, <span >
+      Elizabeth Kearsley</span>, <span >
+      Anne Kempel</span>, <span >
+      Tanaka Kenzo</span>, <span >
+      Andrew Kerkhoff</span>, <span >
+      Mohammed I. Khalil</span>, <span >
+      Nicole L. Kinlock</span>, <span >
+      Wilm Daniel Kissling</span>, <span >
+      Kaoru Kitajima</span>, <span >
+      Thomas Kitzberger</span>, <span >
+      Rasmus Kjoller</span>, <span >
+      Tamir Klein</span>, <span >
+      Michael Kleyer</span>, <span >
+      Jitka Klimesova</span>, <span >
+      Joice Klipel</span>, <span >
+      Brian Kloeppel</span>, <span >
+      Stefan Klotz</span>, <span >
+      Johannes M. H. Knops</span>, <span >
+      Takashi Kohyama</span>, <span >
+      Fumito Koike</span>, <span >
+      Johannes Kollmann</span>, <span >
+      Benjamin Komac</span>, <span >
+      Kimberly Komatsu</span>, <span >
+      Christian Konig</span>, <span >
+      Nathan J. B. Kraft</span>, <span >
+      Koen Kramer</span>, <span >
+      Holger Kreft</span>, <span >
+      Ingolf Kuhn</span>, <span >
+      Dushan Kumarathunge</span>, <span >
+      Jonas Kuppler</span>, <span >
+      Hiroko Kurokawa</span>, <span >
+      Yoko Kurosawa</span>, <span >
+      Shem Kuyah</span>, <span >
+      Jean-Paul Laclau</span>, <span >
+      Benoit Lafleur</span>, <span >
+      Erik Lallai</span>, <span >
+      Eric Lamb</span>, <span >
+      Andrea Lamprecht</span>, <span >
+      Daniel J. Larkin</span>, <span >
+      Daniel Laughlin</span>, <span >
+      Yoann Le Bagousse-Pinguet</span>, <span >
+      Guerric Maire</span>, <span >
+      Peter C. Roux</span>, <span >
+      Elizabeth Roux</span>, <span >
+      Tali Lee</span>, <span >
+      Frederic Lens</span>, <span >
+      Simon L. Lewis</span>, <span >
+      Barbara Lhotsky</span>, <span >
+      Yuanzhi Li</span>, <span >
+      Xine Li</span>, <span >
+      Jeremy W. Lichstein</span>, <span >
+      Mario Liebergesell</span>, <span >
+      Jun Ying Lim</span>, <span >
+      Yan-Shih Lin</span>, <span >
+      Juan Carlos Linares</span>, <span >
+      Chunjiang Liu</span>, <span >
+      Daijun Liu</span>, <span >
+      Udayangani Liu</span>, <span >
+      Stuart Livingstone</span>, <span >
+      Joan Llusia</span>, <span >
+      Madelon Lohbeck</span>, <span >
+      Alvaro Lopez-Garcia</span>, <span >
+      Gabriela Lopez-Gonzalez</span>, <span >
+      Zdenka Lososova</span>, <span >
+      Frederique Louault</span>, <span >
+      Balazs A. Lukacs</span>, <span >
+      Petr Lukes</span>, <span >
+      Yunjian Luo</span>, <span >
+      Michele Lussu</span>, <span >
+      Siyan Ma</span>, <span >
+      Camilla Maciel Rabelo Pereira</span>, <span >
+      Michelle Mack</span>, <span >
+      Vincent Maire</span>, <span >
+      Annikki Makela</span>, <span >
+      Harri Makinen</span>, <span >
+      Ana Claudia Mendes Malhado</span>, <span >
+      Azim Mallik</span>, <span >
+      Peter Manning</span>, <span >
+      Stefano Manzoni</span>, <span >
+      Zuleica Marchetti</span>, <span >
+      Luca Marchino</span>, <span >
+      Vinicius Marcilio-Silva</span>, <span >
+      Eric Marcon</span>, <span >
+      Michela Marignani</span>, <span >
+      Lars Markesteijn</span>, <span >
+      Adam Martin</span>, <span >
+      Cristina Martinez-Garza</span>, <span >
+      Jordi Martinez-Vilalta</span>, <span >
+      Tereza Maskova</span>, <span >
+      Kelly Mason</span>, <span >
+      Norman Mason</span>, <span >
+      Tara Joy Massad</span>, <span >
+      Jacynthe Masse</span>, <span >
+      Itay Mayrose</span>, <span >
+      James McCarthy</span>, <span >
+      M. Luke McCormack</span>, <span >
+      Katherine McCulloh</span>, <span >
+      Ian R. McFadden</span>, <span >
+      Brian J. McGill</span>, <span >
+      Mara Y. McPartland</span>, <span >
+      Juliana S. Medeiros</span>, <span >
+      Belinda E. Medlyn</span>, <span >
+      Pierre Meerts</span>, <span >
+      Zia Mehrabi</span>, <span >
+      Patrick Meir</span>, <span >
+      Felipe P. L. Melo</span>, <span >
+      Maurizio Mencuccini</span>, <span >
+      Celine Meredieu</span>, <span >
+      Julie Messier</span>, <span >
+      Ilona Meszaros</span>, <span >
+      Juha Metsaranta</span>, <span >
+      Sean T. Michaletz</span>, <span >
+      Chrysanthi Michelaki</span>, <span >
+      Svetlana Migalina</span>, <span >
+      Ruben Milla</span>, <span >
+      Jesse E. D. Miller</span>, <span >
+      Vanessa Minden</span>, <span >
+      Ray Ming</span>, <span >
+      Karel Mokany</span>, <span >
+      Angela T. Moles</span>, <span >
+      Attila Molnar</span>, <span >
+      Jane Molofsky</span>, <span >
+      Martin Molz</span>, <span >
+      Rebecca A. Montgomery</span>, <span >
+      Arnaud Monty</span>, <span >
+      Lenka Moravcova</span>, <span >
+      Alvaro Moreno-Martinez</span>, <span >
+      Marco Moretti</span>, <span >
+      Akira S. Mori</span>, <span >
+      Shigeta Mori</span>, <span >
+      Dave Morris</span>, <span >
+      Jane Morrison</span>, <span >
+      Ladislav Mucina</span>, <span >
+      Sandra Mueller</span>, <span >
+      Christopher D. Muir</span>, <span >
+      Sandra Cristina Muller</span>, <span >
+      Francois Munoz</span>, <span >
+      Isla H. Myers-Smith</span>, <span >
+      Randall W. Myster</span>, <span >
+      Masahiro Nagano</span>, <span >
+      Shawna Naidu</span>, <span >
+      Ayyappan Narayanan</span>, <span >
+      Balachandran Natesan</span>, <span >
+      Luka Negoita</span>, <span >
+      Andrew S. Nelson</span>, <span >
+      Eike Lena Neuschulz</span>, <span >
+      Jian Ni</span>, <span >
+      Georg Niedrist</span>, <span >
+      Jhon Nieto</span>, <span >
+      Ulo Niinemets</span>, <span >
+      Rachael Nolan</span>, <span >
+      Henning Nottebrock</span>, <span >
+      Yann Nouvellon</span>, <span >
+      Alexander Novakovskiy</span>, <span >
+      Kristin Odden Nystuen</span>, <span >
+      Anthony O&#39;Grady</span>, <span >
+      Kevin O&#39;Hara</span>, <span >
+      Andrew O&#39;Reilly-Nugent</span>, <span >
+      Simon Oakley</span>, <span >
+      Walter Oberhuber</span>, <span >
+      Toshiyuki Ohtsuka</span>, <span >
+      Ricardo Oliveira</span>, <span >
+      Kinga Ollerer</span>, <span >
+      Mark E. Olson</span>, <span >
+      Vladimir Onipchenko</span>, <span >
+      Yusuke Onoda</span>, <span >
+      Renske E. Onstein</span>, <span >
+      Jenny C. Ordonez</span>, <span >
+      Noriyuki Osada</span>, <span >
+      Ivika Ostonen</span>, <span >
+      Gianluigi Ottaviani</span>, <span >
+      Sarah Otto</span>, <span >
+      Gerhard E. Overbeck</span>, <span >
+      Wim A. Ozinga</span>, <span >
+      Anna T. Pahl</span>, <span >
+      C. E. Timothy Paine</span>, <span >
+      Robin J. Pakeman</span>, <span >
+      Aristotelis C. Papageorgiou</span>, <span >
+      Evgeniya Parfionova</span>, <span >
+      Meelis Partel</span>, <span >
+      Marco Patacca</span>, <span >
+      Susana Paula</span>, <span >
+      Juraj Paule</span>, <span >
+      Harald Pauli</span>, <span >
+      Juli G. Pausas</span>, <span >
+      Begona Peco</span>, <span >
+      Josep Penuelas</span>, <span >
+      Antonio Perea</span>, <span >
+      Pablo Luis Peri</span>, <span >
+      Ana Carolina Petisco-Souza</span>, <span >
+      Alessandro Petraglia</span>, <span >
+      Any Mary Petritan</span>, <span >
+      Oliver L. Phillips</span>, <span >
+      Simon Pierce</span>, <span >
+      Valerio D. Pillar</span>, <span >
+      Jan Pisek</span>, <span >
+      Alexandr Pomogaybin</span>, <span >
+      Hendrik Poorter</span>, <span >
+      Angelika Portsmuth</span>, <span >
+      Peter Poschlod</span>, <span >
+      Catherine Potvin</span>, <span >
+      Devon Pounds</span>, <span >
+      A. Shafer Powell</span>, <span >
+      Sally A. Power</span>, <span >
+      Andreas Prinzing</span>, <span >
+      Giacomo Puglielli</span>, <span >
+      Petr Pysek</span>, <span >
+      Valerie Raevel</span>, <span >
+      Anja Rammig</span>, <span >
+      Johannes Ransijn</span>, <span >
+      Courtenay A. Ray</span>, <span >
+      Peter B. Reich</span>, <span >
+      Markus Reichstein</span>, <span >
+      Douglas E. B. Reid</span>, <span >
+      Maxime Rejou-Mechain</span>, <span >
+      Victor Resco Dios</span>, <span >
+      Sabina Ribeiro</span>, <span >
+      Sarah Richardson</span>, <span >
+      Kersti Riibak</span>, <span >
+      Matthias C. Rillig</span>, <span >
+      Fiamma Riviera</span>, <span >
+      Elisabeth M. R. Robert</span>, <span >
+      Scott Roberts</span>, <span >
+      Bjorn Robroek</span>, <span >
+      Adam Roddy</span>, <span >
+      Arthur Vinicius Rodrigues</span>, <span >
+      Alistair Rogers</span>, <span >
+      Emily Rollinson</span>, <span >
+      Victor Rolo</span>, <span >
+      Christine Romermann</span>, <span >
+      Dina Ronzhina</span>, <span >
+      Christiane Roscher</span>, <span >
+      Julieta A. Rosell</span>, <span >
+      Milena Fermina Rosenfield</span>, <span >
+      Christian Rossi</span>, <span >
+      David B. Roy</span>, <span >
+      Samuel Royer-Tardif</span>, <span >
+      Nadja Ruger</span>, <span >
+      Ricardo Ruiz-Peinado</span>, <span >
+      Sabine B. Rumpf</span>, <span >
+      Graciela M. Rusch</span>, <span >
+      Masahiro Ryo</span>, <span >
+      Lawren Sack</span>, <span >
+      Angela Saldana</span>, <span >
+      Beatriz Salgado-Negret</span>, <span >
+      Roberto Salguero-Gomez</span>, <span >
+      Ignacio Santa-Regina</span>, <span >
+      Ana Carolina Santacruz-Garcia</span>, <span >
+      Joaquim Santos</span>, <span >
+      Jordi Sardans</span>, <span >
+      Brandon Schamp</span>, <span >
+      Michael Scherer-Lorenzen</span>, <span >
+      Matthias Schleuning</span>, <span >
+      Bernhard Schmid</span>, <span >
+      Marco Schmidt</span>, <span >
+      Sylvain Schmitt</span>, <span >
+      Julio v. Schneider</span>, <span >
+      Simon D. Schowanek</span>, <span >
+      Julian Schrader</span>, <span >
+      Franziska Schrodt</span>, <span >
+      Bernhard Schuldt</span>, <span >
+      Frank Schurr</span>, <span >
+      Galia Selaya Garvizu</span>, <span >
+      Marina Semchenko</span>, <span >
+      Colleen Seymour</span>, <span >
+      Julia C. Sfair</span>, <span >
+      Joanne M. Sharpe</span>, <span >
+      Christine S. Sheppard</span>, <span >
+      Serge Sheremetiev</span>, <span >
+      Satomi Shiodera</span>, <span >
+      Bill Shipley</span>, <span >
+      Tanvir Ahmed Shovon</span>, <span >
+      Alrun Siebenkas</span>, <span >
+      Carlos Sierra</span>, <span >
+      Vasco Silva</span>, <span >
+      Mateus Silva</span>, <span >
+      Tommaso Sitzia</span>, <span >
+      Henrik Sjoman</span>, <span >
+      Martijn Slot</span>, <span >
+      Nicholas G. Smith</span>, <span >
+      Darwin Sodhi</span>, <span >
+      Pamela Soltis</span>, <span >
+      Douglas Soltis</span>, <span >
+      Ben Somers</span>, <span >
+      Gregory Sonnier</span>, <span >
+      Mia Vedel Sorensen</span>, <span >
+      Enio Egon Sosinski</span>, <span >
+      Nadejda A. Soudzilovskaia</span>, <span >
+      Alexandre F. Souza</span>, <span >
+      Marko Spasojevic</span>, <span >
+      Marta Gaia Sperandii</span>, <span >
+      Amanda B. Stan</span>, <span >
+      James Stegen</span>, <span >
+      Klaus Steinbauer</span>, <span >
+      Jorg G. Stephan</span>, <span >
+      Frank Sterck</span>, <span >
+      Dejan B. Stojanovic</span>, <span >
+      Tanya Strydom</span>, <span >
+      Maria Laura Suarez</span>, <span >
+      Jens-Christian Svenning</span>, <span >
+      Ivana Svitkova</span>, <span >
+      Marek Svitok</span>, <span >
+      Miroslav Svoboda</span>, <span >
+      Emily Swaine</span>, <span >
+      Nathan Swenson</span>, <span >
+      Marcelo Tabarelli</span>, <span >
+      Kentaro Takagi</span>, <span >
+      Ulrike Tappeiner</span>, <span >
+      Ruben Tarifa</span>, <span >
+      Simon Taugourdeau</span>, <span >
+      Cagatay Tavsanoglu</span>, <span >
+      Mariska Beest</span>, <span >
+      Leho Tedersoo</span>, <span >
+      Nelson Thiffault</span>, <span >
+      Dominik Thom</span>, <span >
+      Evert Thomas</span>, <span >
+      Ken Thompson</span>, <span >
+      Peter E. Thornton</span>, <span >
+      Wilfried Thuiller</span>, <span >
+      Lubomir Tichy</span>, <span >
+      David Tissue</span>, <span >
+      Mark G. Tjoelker</span>, <span >
+      David Yue Phin Tng</span>, <span >
+      Joseph Tobias</span>, <span >
+      Peter Torok</span>, <span >
+      Tonantzin Tarin</span>, <span >
+      Jose M. Torres-Ruiz</span>, <span >
+      Bela Tothmeresz</span>, <span >
+      Martina Treurnicht</span>, <span >
+      Valeria Trivellone</span>, <span >
+      Franck Trolliet</span>, <span >
+      Volodymyr Trotsiuk</span>, <span >
+      James L. Tsakalos</span>, <span >
+      Ioannis Tsiripidis</span>, <span >
+      Niklas Tysklind</span>, <span >
+      Toru Umehara</span>, <span >
+      Vladimir Usoltsev</span>, <span >
+      Matthew Vadeboncoeur</span>, <span >
+      Jamil Vaezi</span>, <span >
+      Fernando Valladares</span>, <span >
+      Jana Vamosi</span>, <span >
+      Peter M. Bodegom</span>, <span >
+      Michiel Breugel</span>, <span >
+      Elisa Van Cleemput</span>, <span >
+      Martine Weg</span>, <span >
+      Stephni Merwe</span>, <span >
+      Fons Plas</span>, <span >
+      Masha T. Sande</span>, <span >
+      Mark Kleunen</span>, <span >
+      Koenraad Van Meerbeek</span>, <span >
+      Mark Vanderwel</span>, <span >
+      Kim Andre Vanselow</span>, <span >
+      Angelica Varhammar</span>, <span >
+      Laura Varone</span>, <span >
+      Maribel Yesenia Vasquez Valderrama</span>, <span >
+      Kiril Vassilev</span>, <span >
+      Mark Vellend</span>, <span >
+      Erik J. Veneklaas</span>, <span >
+      Hans Verbeeck</span>, <span >
+      Kris Verheyen</span>, <span >
+      Alexander Vibrans</span>, <span >
+      Ima Vieira</span>, <span >
+      Jaime Villacis</span>, <span >
+      Cyrille Violle</span>, <span >
+      Pandi Vivek</span>, <span >
+      Katrin Wagner</span>, <span >
+      Matthew Waldram</span>, <span >
+      Anthony Waldron</span>, <span >
+      Anthony P. Walker</span>, <span >
+      Martyn Waller</span>, <span >
+      Gabriel Walther</span>, <span >
+      Han Wang</span>, <span >
+      Feng Wang</span>, <span >
+      Weiqi Wang</span>, <span >
+      Harry Watkins</span>, <span >
+      James Watkins</span>, <span >
+      Ulrich Weber</span>, <span >
+      James T. Weedon</span>, <span >
+      Liping Wei</span>, <span >
+      Patrick Weigelt</span>, <span >
+      Evan Weiher</span>, <span >
+      Aidan W. Wells</span>, <span >
+      Camilla Wellstein</span>, <span >
+      Elizabeth Wenk</span>, <span >
+      Mark Westoby</span>, <span >
+      Alana Westwood</span>, <span >
+      Philip John White</span>, <span >
+      Mark Whitten</span>, <span >
+      Mathew Williams</span>, <span >
+      Daniel E. Winkler</span>, <span >
+      Klaus Winter</span>, <span >
+      Chevonne Womack</span>, <span >
+      Ian J. Wright</span>, <span >
+      S. Joseph Wright</span>, <span >
+      Justin Wright</span>, <span >
+      Bruno X. Pinho</span>, <span >
+      Fabiano Ximenes</span>, <span >
+      Toshihiro Yamada</span>, <span >
+      Keiko Yamaji</span>, <span >
+      Ruth Yanai</span>, <span >
+      Nikolay Yankov</span>, <span >
+      Benjamin Yguel</span>, <span >
+      Katia Janaina Zanini</span>, <span >
+      Amy E. Zanne</span>, <span >
+      David Zeleny</span>, <span >
+      Yun-Peng Zhao</span>, <span >
+      Jingming Zheng</span>, <span >
+      Ji Zheng</span>, <span >
+      Kasia Zieminska</span>, <span >
+      Chad R. Zirbel</span>, <span >
+      Georg Zizka</span>, <span >
+      Irie Casimir Zo-Bi</span>, <span >
+      Gerhard Zotz</span>, <span >
+      Christian Wirth</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14904" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/kattge-2020/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/gcb.14904" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/marcon-2019/" >Mesure de la biodiversité et de la structuration spatiale de l&#39;activité économique par l&#39;entropie</a>
+    </div>
+
+    
+    <a href="/en/publication/marcon-2019/"  class="summary-link">
+      <div class="article-style">
+        Les mesures de la concentration spatiale et de la spécialisation en économie sont très similaires à celles de la biodiversité et de la …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Eric Marcon</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/marcon-2019/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3917/reco.703.0305" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/steidinger-2019/" >Climatic controls of decomposition drive the global biogeography of forest tree symbioses</a>
+    </div>
+
+    
+    <a href="/en/publication/steidinger-2019/"  class="summary-link">
+      <div class="article-style">
+        The identity of the dominant root-associated microbial symbionts in a forest determines the ability of trees to access limiting …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Brian S. Steidinger</span>, <span >
+      T. W. Crowther</span>, <span >
+      Jingjing Liang</span>, <span >
+      M. E. Van Nuland</span>, <span >
+      G. D. A. Werner</span>, <span >
+      Peter B. Reich</span>, <span >
+      G. Nabuurs</span>, <span >
+      S. De-Miguel</span>, <span >
+      M. Zhou</span>, <span >
+      Nicolas Picard</span>, <span >
+      Bruno Herault</span>, <span >
+      X. Zhao</span>, <span >
+      C. Zhang</span>, <span >
+      D. Routh</span>, <span >
+      K. G. Peay</span>, <span >
+      Meinrad Abegg</span>, <span >
+      C. Yves {Adou Yao</span>, <span >
+      Giorgio Alberti</span>, <span >
+      Angelica {Almeyda Zambrano</span>, <span >
+      Esteban Alvarez-Davila</span>, <span >
+      Patricia Alvarez-Loayza</span>, <span >
+      Luciana F. Alves</span>, <span >
+      Christian Ammer</span>, <span >
+      Clara Anton-Fernandez</span>, <span >
+      Alejandro Araujo-Murakami</span>, <span >
+      Luzmila Arroyo</span>, <span >
+      Valerio Avitabile</span>, <span >
+      Gerardo Aymard</span>, <span >
+      Timothy Baker</span>, <span >
+      Radomir Balazy</span>, <span >
+      Olaf Banki</span>, <span >
+      Jorcely Barroso</span>, <span >
+      Meredith Bastian</span>, <span >
+      Jean-Francois Bastin</span>, <span >
+      Luca Birigazzi</span>, <span >
+      Philippe Birnbaum</span>, <span >
+      Robert Bitariho</span>, <span >
+      Pascal Boeckx</span>, <span >
+      Frans Bongers</span>, <span >
+      Olivier Bouriaud</span>, <span >
+      Pedro H. S. Brancalion</span>, <span >
+      Susanne Brandl</span>, <span >
+      Francis Q. Brearley</span>, <span >
+      Roel Brienen</span>, <span >
+      Eben Broadbent</span>, <span >
+      Helge Bruelheide</span>, <span >
+      Filippo Bussotti</span>, <span >
+      Roberto Cazzolla Gatti</span>, <span >
+      Ricardo Cesar</span>, <span >
+      Goran Cesljar</span>, <span >
+      Robin Chazdon</span>, <span >
+      Han Y. H. Chen</span>, <span >
+      Chelsea Chisholm</span>, <span >
+      Emil Cienciala</span>, <span >
+      Connie J. Clark</span>, <span >
+      David Clark</span>, <span >
+      Gabriel Colletta</span>, <span >
+      Richard Condit</span>, <span >
+      David Coomes</span>, <span >
+      Fernando Cornejo Valverde</span>, <span >
+      Jose J. Corral-Rivas</span>, <span >
+      Philip Crim</span>, <span >
+      Jonathan Cumming</span>, <span >
+      Selvadurai Dayanandan</span>, <span >
+      Andre L. De Gasper</span>, <span >
+      Mathieu Decuyper</span>, <span >
+      Geraldine Derroire</span>, <span >
+      Ben DeVries</span>, <span >
+      Ilija Djordjevic</span>, <span >
+      Amaral Ieda</span>, <span >
+      Aurelie Dourdain</span>, <span >
+      Nestor Laurier Engone Obiang</span>, <span >
+      Brian Enquist</span>, <span >
+      Teresa Eyre</span>, <span >
+      Adande Belarmain Fandohan</span>, <span >
+      Tom M. Fayle</span>, <span >
+      Ted R. Feldpausch</span>, <span >
+      Leena Finer</span>, <span >
+      Markus Fischer</span>, <span >
+      Christine Fletcher</span>, <span >
+      Jonas Fridman</span>, <span >
+      Lorenzo Frizzera</span>, <span >
+      Javier G. P. Gamarra</span>, <span >
+      Damiano Gianelle</span>, <span >
+      Henry B. Glick</span>, <span >
+      David Harris</span>, <span >
+      Andrew Hector</span>, <span >
+      Andreas Hemp</span>, <span >
+      Geerten Hengeveld</span>, <span >
+      John Herbohn</span>, <span >
+      Martin Herold</span>, <span >
+      Annika Hillers</span>, <span >
+      Euridice N. Honorio Coronado</span>, <span >
+      Markus Huber</span>, <span >
+      Cang Hui</span>, <span >
+      Hyunkook Cho</span>, <span >
+      Thomas Ibanez</span>, <span >
+      Ilbin Jung</span>, <span >
+      Nobuo Imai</span>, <span >
+      Andrzej M. Jagodzinski</span>, <span >
+      Bogdan Jaroszewicz</span>, <span >
+      Vivian Johannsen</span>, <span >
+      Carlos A. Joly</span>, <span >
+      Tommaso Jucker</span>, <span >
+      Viktor Karminov</span>, <span >
+      Kuswata Kartawinata</span>, <span >
+      Elizabeth Kearsley</span>, <span >
+      David Kenfack</span>, <span >
+      Deborah Kennard</span>, <span >
+      Sebastian Kepfer-Rojas</span>, <span >
+      Gunnar Keppel</span>, <span >
+      Mohammed Latif Khan</span>, <span >
+      Timothy Killeen</span>, <span >
+      Hyun Seok Kim</span>, <span >
+      Kanehiro Kitayama</span>, <span >
+      Michael Kohl</span>, <span >
+      Henn Korjus</span>, <span >
+      Florian Kraxner</span>, <span >
+      Diana Laarmann</span>, <span >
+      Mait Lang</span>, <span >
+      Simon Lewis</span>, <span >
+      Huicui Lu</span>, <span >
+      Natalia Lukina</span>, <span >
+      Brian Maitner</span>, <span >
+      Yadvinder Malhi</span>, <span >
+      Eric Marcon</span>, <span >
+      Beatriz Schwantes Marimon</span>, <span >
+      Ben Hur Marimon-Junior</span>, <span >
+      Andrew Robert Marshall</span>, <span >
+      Emanuel H. Martin</span>, <span >
+      Olga Martynenko</span>, <span >
+      Jorge Arturo Meave</span>, <span >
+      Omar Melo-Cruz</span>, <span >
+      Casimiro Mendoza</span>, <span >
+      Cory Merow</span>, <span >
+      Abel Monteagudo Mendoza</span>, <span >
+      Vanessa Moreno</span>, <span >
+      Sharif A. Mukul</span>, <span >
+      Philip Mundhenk</span>, <span >
+      Maria G. Nava-Miranda</span>, <span >
+      David Neill</span>, <span >
+      Victor Neldner</span>, <span >
+      Radovan Nevenic</span>, <span >
+      Michael Ngugi</span>, <span >
+      Pascal Niklaus</span>, <span >
+      Jacek Oleksyn</span>, <span >
+      Petr Ontikov</span>, <span >
+      Edgar Ortiz-Malavasi</span>, <span >
+      Yude Pan</span>, <span >
+      Alain Paquette</span>, <span >
+      Alexander Parada-Gutierrez</span>, <span >
+      Elena Parfenova</span>, <span >
+      Minjee Park</span>, <span >
+      Marc Parren</span>, <span >
+      Narayanaswamy Parthasarathy</span>, <span >
+      Pablo L. Peri</span>, <span >
+      Sebastian Pfautsch</span>, <span >
+      Oliver Phillips</span>, <span >
+      Maria Teresa Piedade</span>, <span >
+      Daniel Piotto</span>, <span >
+      Nigel C. A. Pitman</span>, <span >
+      Irina Polo</span>, <span >
+      Lourens Poorter</span>, <span >
+      Axel Dalberg Poulsen</span>, <span >
+      John R. Poulsen</span>, <span >
+      Hans Pretzsch</span>, <span >
+      Freddy Ramirez Arevalo</span>, <span >
+      Zorayda Restrepo-Correa</span>, <span >
+      Mirco Rodeghiero</span>, <span >
+      Samir Rolim</span>, <span >
+      Anand Roopsind</span>, <span >
+      Francesco Rovero</span>, <span >
+      Ervan Rutishauser</span>, <span >
+      Purabi Saikia</span>, <span >
+      Philippe Saner</span>, <span >
+      Peter Schall</span>, <span >
+      Mart-Jan Schelhaas</span>, <span >
+      Dmitry Schepaschenko</span>, <span >
+      Michael Scherer-Lorenzen</span>, <span >
+      Bernhard Schmid</span>, <span >
+      Jochen Schongart</span>, <span >
+      Eric Searle</span>, <span >
+      Vladimir Seben</span>, <span >
+      Josep M. Serra-Diaz</span>, <span >
+      Christian Salas-Eljatib</span>, <span >
+      Douglas Sheil</span>, <span >
+      Anatoly Shvidenko</span>, <span >
+      Javier Silva-Espejo</span>, <span >
+      Marcos Silveira</span>, <span >
+      James Singh</span>, <span >
+      Plinio Sist</span>, <span >
+      Ferry Slik</span>, <span >
+      Bonaventure Sonke</span>, <span >
+      Alexandre F. Souza</span>, <span >
+      Krzysztof Sterenczak</span>, <span >
+      Jens-Christian Svenning</span>, <span >
+      Miroslav Svoboda</span>, <span >
+      Natalia Targhetta</span>, <span >
+      Nadja Tchebakova</span>, <span >
+      Hans Ter Steege</span>, <span >
+      Raquel Thomas</span>, <span >
+      Elena Tikhonova</span>, <span >
+      Peter Umunay</span>, <span >
+      Vladimir Usoltsev</span>, <span >
+      Fernando Valladares</span>, <span >
+      Fons Van Der Plas</span>, <span >
+      Tran Van Do</span>, <span >
+      Rodolfo Vasquez Martinez</span>, <span >
+      Hans Verbeeck</span>, <span >
+      Helder Viana</span>, <span >
+      Simone Vieira</span>, <span >
+      Klaus Von Gadow</span>, <span >
+      Hua-Feng Wang</span>, <span >
+      James Watson</span>, <span >
+      Bertil Westerlund</span>, <span >
+      Susan Wiser</span>, <span >
+      Florian Wittmann</span>, <span >
+      Verginia Wortel</span>, <span >
+      Roderick Zagt</span>, <span >
+      Tomasz Zawila-Niedzwiecki</span>, <span >
+      Zhi-Xin Zhu</span>, <span >
+      Irie Casimir Zo-Bi</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/steidinger-2019/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1038/s41586-019-1128-0" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/lasinio-2017/" >Assessing the role of the spatial scale in the analysis of lagoon biodiversity . A case-study on the macrobenthic fauna of the Po River Delta</a>
+    </div>
+
+    
+    <a href="/en/publication/lasinio-2017/"  class="summary-link">
+      <div class="article-style">
+        The analysis of benthic assemblages is a valuable tool to describe the ecological status of transitional water ecosystems, but species …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Giovanna Jona Lasinio</span>, <span >
+      Alessio Pollice</span>, <span >
+      Eric Marcon</span>, <span >
+      Elisa Anna Fano</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/lasinio-2017/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.ecolind.2017.05.037" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/en/publication/grabchak-2016/" >The Generalized Simpson&#39;s Entropy is a Measure of Biodiversity</a>
+    </div>
+
+    
+    <a href="/en/publication/grabchak-2016/"  class="summary-link">
+      <div class="article-style">
+        Modern measures of diversity satisfy reasonable axioms, are parameterized to produce diversity profiles, can be expressed as an …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Michael Grabchak</span>, <span >
+      Eric Marcon</span>, <span >
+      Gabriel Lang</span>, <span >
+      Zhiyi Zhang</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173305" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/en/publication/grabchak-2016/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1371/journal.pone.0173305" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+
+  
+
+  
+<nav class="mt-1">
+  <ul class="pagination justify-content-center">
+    
+    <li class="page-item"><a class="page-link" href="/en/publication-type/article-journal/">&laquo;</a></li>
+    
+    
+    <li class="page-item"><a class="page-link" href="/en/publication-type/article-journal/page/3/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+<p class="powered-by">
+  
+  <a href="/en/privacy/">Privacy Policy</a>
+  
+  
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Eric Marcon. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.0d344310ba75ea019adb1e7aa1de0b6a.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

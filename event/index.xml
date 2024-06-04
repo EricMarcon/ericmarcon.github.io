@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/event/</link>
+      <atom:link href="https://ericmarcon.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Fri, 17 May 2024 11:20:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://ericmarcon.github.io/event/</link>
+    </image>
+    
+    <item>
+      <title>Mesures de biodiversité et de concentration spatiale par l’entropie : une approche multidisciplinaire</title>
+      <link>https://ericmarcon.github.io/talk/mesures-de-biodiversite-et-de-concentration-spatiale-par-lentropie-une-approche-multidisciplinaire/</link>
+      <pubDate>Fri, 17 May 2024 11:20:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/talk/mesures-de-biodiversite-et-de-concentration-spatiale-par-lentropie-une-approche-multidisciplinaire/</guid>
+      <description>&lt;p&gt;Les mesures de la concentration spatiale et de la spécialisation en économie sont très similaires à celles de la biodiversité et de la valence des espèces en écologie. Les développements méthodologiques, inspirés de la physique statistique, sont plus avancés en écologie mais gagnent progressivement l’économie.
+L’entropie est la notion fondamentale, issue de la physique statistique et la théorie de l’information, utilisée pour mesurer la concentration et la spécialisation. La notion de nombre effectif, qui est un nombre de catégories dans une distribution idéale simplifiée, est introduite. La décomposition de la diversité totale d’une distribution en concentration ou spécialisation absolue et relative et en réplication, est présentée. L’ensemble fournit un cadre théorique complet et robuste pour mesurer à la fois la structuration spatiale et la diversité.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Documents reproductibles avec memoiR</title>
+      <link>https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/</link>
+      <pubDate>Mon, 29 Apr 2024 09:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/talk/documents-reproductibles-avec-memoir/</guid>
+      <description>&lt;p&gt;Rédiger avec RMarkdown, principes et application rapide :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Utiliser des modèles pour produire des documents HTML et PDF (accessoirement, Word) : le package &lt;a href=&#34;https://ericmarcon.github.io/memoiR/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;memoiR &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Utiliser l’intégration continue sur GitHub pour automatiser les calculs et la publication : &lt;a href=&#34;https://ericmarcon.github.io/JTE-22-105/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exemple d’article &lt;/a&gt; et de &lt;a href=&#34;https://github.com/EricMarcon/MesuresBioDiv2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;livre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Présentation des techniques avancées : gestion des langues, données confidentielles dans un projet public, calculs longs.&lt;/li&gt;
+&lt;li&gt;Discussion sur Quarto comme successeur de bookdown.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Construction de l&#39;estimateur de biodiversité Chao1</title>
+      <link>https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/</link>
+      <pubDate>Wed, 11 Mar 2020 11:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/talk/construction-de-lestimateur-de-biodiversite-chao1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organisation du travail autour de R</title>
+      <link>https://ericmarcon.github.io/talk/organisation-du-travail-autour-de-r/</link>
+      <pubDate>Thu, 05 Jul 2018 11:20:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/talk/organisation-du-travail-autour-de-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesure de la biodiversité et de la structuration spatiale de l&#39;activité économique par l&#39;entropie</title>
+      <link>https://ericmarcon.github.io/talk/mesure-de-la-biodiversite-et-de-la-structuration-spatiale-de-lactivite-economique-par-lentropie/</link>
+      <pubDate>Wed, 17 Jan 2018 17:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/talk/mesure-de-la-biodiversite-et-de-la-structuration-spatiale-de-lactivite-economique-par-lentropie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
