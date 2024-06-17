@@ -18,7 +18,7 @@ image:
   preview_only: false
 ---
 
-Pour cartographier facilement une variable continue, 4 méthodes sont disponibles, dans les packages `akima`, `spatial`, `gstat` et `automap`.
+Pour cartographier facilement une variable continue, 5 méthodes sont disponibles, dans les packages `akima`, `spatial`, `spatstat`, `gstat` et `automap`.
 
 Des méthodes plus élaborées ne sont pas traitées ici :
 
@@ -26,7 +26,7 @@ Des méthodes plus élaborées ne sont pas traitées ici :
 * l'estimation bayesienne de ces modèles ou le co-krigeage (estimation de plusieurs variables non indépendantes). Les packages `RGeostats1` ou `INLA2` permettent une modélisation complexe, mais au prix d'un effort bien supérieur.
 
 
-Suivre les liens pour accéder au tutoriel complet:
+Suivre les liens pour accéder au tutoriel complet :
 
-* [lire en ligne](https://ericmarcon.github.io/Krigeage/Krigeage.html);
+* [lire en ligne](https://ericmarcon.github.io/Krigeage/Krigeage.html) ;
 * [télécharger](https://ericmarcon.github.io/Krigeage/Krigeage.pdf).
