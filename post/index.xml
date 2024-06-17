@@ -53,18 +53,18 @@ XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
 norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 999.1723&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 998.8967&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
 norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 593.351&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 203.3254&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
 norm_R &amp;lt;- norm.matrix(R)
 norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 6.511704e-10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1.059409e-10&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 6.511704e-10&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1.059409e-10&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
@@ -122,15 +122,15 @@ Son objectif est pédagogique : bien comprendre les étapes de l’inférence en
       <description>
 
 
-&lt;p&gt;Pour cartographier facilement une variable continue, 4 méthodes sont disponibles, dans les packages &lt;code&gt;akima&lt;/code&gt;, &lt;code&gt;spatial&lt;/code&gt;, &lt;code&gt;gstat&lt;/code&gt; et &lt;code&gt;automap&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pour cartographier facilement une variable continue, 5 méthodes sont disponibles, dans les packages &lt;code&gt;akima&lt;/code&gt;, &lt;code&gt;spatial&lt;/code&gt;, &lt;code&gt;spatstat&lt;/code&gt;, &lt;code&gt;gstat&lt;/code&gt; et &lt;code&gt;automap&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Des méthodes plus élaborées ne sont pas traitées ici :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;l’estimation d’un modèle de prédiction de la valeur à partir de variables explicatives (krigeage ordinaire ou krigeage universel). Voir l’aide de la fonction &lt;code&gt;gstat&lt;/code&gt; pour leur utilisation.&lt;/li&gt;
 &lt;li&gt;l’estimation bayesienne de ces modèles ou le co-krigeage (estimation de plusieurs variables non indépendantes). Les packages &lt;code&gt;RGeostats1&lt;/code&gt; ou &lt;code&gt;INLA2&lt;/code&gt; permettent une modélisation complexe, mais au prix d’un effort bien supérieur.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
+&lt;p&gt;Suivre les liens pour accéder au tutoriel complet :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.html&#34;&gt;lire en ligne&lt;/a&gt; ;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Krigeage/Krigeage.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
