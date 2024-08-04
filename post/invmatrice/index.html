@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: 28 juillet 2024 --><html lang="fr-fr" >
+<!-- Last Published: 4 août 2024 --><html lang="fr-fr" >
 
 
 <head>
@@ -1066,18 +1066,18 @@ XR &lt;- X %*% R</code></pre>
 <p>Les normes des matrices sont calculées:</p>
 <pre class="r"><code># Matrice à inverser
 norm.matrix(A)</code></pre>
-<pre><code>## [1] 999.5537</code></pre>
+<pre><code>## [1] 1001.102</code></pre>
 <pre class="r"><code># Inversion numérique
 norm.matrix(X)</code></pre>
-<pre><code>## [1] 138.9706</code></pre>
+<pre><code>## [1] 38.20905</code></pre>
 <pre class="r"><code># Ecart d&#39;inversion
 norm_R &lt;- norm.matrix(R)
 norm_XR &lt;- norm.matrix(XR)</code></pre>
 <p>Finalement, l’encadrement de la norme de <span class="math inline">\(A^{-1} - X\)</span> est fourni:</p>
 <pre class="r"><code>norm_XR / (1 + norm_R)</code></pre>
-<pre><code>## [1] 2.201381e-11</code></pre>
+<pre><code>## [1] 4.941441e-12</code></pre>
 <pre class="r"><code>norm_XR / (1 - norm_R)</code></pre>
-<pre><code>## [1] 2.201381e-11</code></pre>
+<pre><code>## [1] 4.941441e-12</code></pre>
 <p>La norme de <span class="math inline">\(A^{-1} - X\)</span> est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.</p>
 </div>
 <div id="référence" class="section level1">
