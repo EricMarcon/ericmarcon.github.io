@@ -5,12 +5,21 @@
     <link>https://ericmarcon.github.io/publication/</link>
       <atom:link href="https://ericmarcon.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://ericmarcon.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Dominance and rarity in tree communities across the globe: Patterns, predictors and threats</title>
+      <link>https://ericmarcon.github.io/publication/hordijk-2024/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/publication/hordijk-2024/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/geb.13889&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Positive feedbacks and alternative stable states in forest leaf types</title>
