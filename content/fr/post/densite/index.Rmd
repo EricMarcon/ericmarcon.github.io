@@ -21,18 +21,22 @@ bibliography: references.bib
 ---
 
 ```{r options, echo=FALSE, message=FALSE}
-knitr::opts_chunk$set(cache=FALSE, echo = FALSE, tidy=FALSE, tidy.opts=list(blank=FALSE, width.cutoff=50), out.width='\\maxwidth')
-options(width=50)
+knitr::opts_chunk$set(
+  cache = FALSE, echo = TRUE, tidy = FALSE, message = FALSE,
+  tidy.opts = list(blank = FALSE, width.cutoff = 50), 
+  out.width = '\\maxwidth'
+)
+options(width = 50)
 # Installation des packages si nécessaire et chargement
-Library <- function(Packages) {
-  InstallAndLoad <- function(Package) {
-    if (!Package %in% installed.packages()[, 1]) {install.packages(Package, repos="https://cran.rstudio.com/")}
-    require(Package, character.only = TRUE)
+install_packages <- function(packages) {
+  install_package <- function(package) {
+    if (!package %in% installed.packages()[, 1]) {
+      install.packages(package, repos = "https://cran.rstudio.com/")
+    }
   }
-  invisible(sapply(Packages, InstallAndLoad))
+  invisible(sapply(packages, install_package))
 }
-# Ajouter les packages nécessaires ici
-Library(c("GoFKernel"))
+install_packages(c("GoFKernel", "tidyverse"))
 ```
 
 L'estimation de la densité d'une distribution sous R avec la fonction `density` pose des problèmes si ses valeurs sont bornées.
@@ -83,6 +87,18 @@ abline(v=borne_gauche, lty=2)
 abline(v=borne_droite, lty=2)
 lines(d_GoFKernel, col="green")
 ```
+
+Avec _ggplot2_, l'argument `bounds` de `geom_density()` a le même effet.
+
+```{r}
+library("tidyverse")
+distribution %>% 
+  as_tibble %>% 
+  ggplot() + 
+  geom_density(aes(x = value), bounds = c(borne_gauche, borne_droite)) +
+  geom_vline(xintercept = c(borne_gauche, borne_droite), lty = 2)
+```
+
 
 Suivre les liens pour accéder au tutoriel complet:
 
