@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: December 29, 2024 --><html lang="en-us" >
+<!-- Last Published: January 5, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -1029,18 +1029,18 @@ XR &lt;- X %*% R</code></pre>
 <p>Matrix norms are calculated:</p>
 <pre class="r"><code># Matrix to invert
 norm.matrix(A)</code></pre>
-<pre><code>## [1] 998.6274</code></pre>
+<pre><code>## [1] 999.8897</code></pre>
 <pre class="r"><code># Numerical inversion
 norm.matrix(X)</code></pre>
-<pre><code>## [1] 37.57638</code></pre>
+<pre><code>## [1] 98.54252</code></pre>
 <pre class="r"><code># Inversion deviation
 norm_R &lt;- norm.matrix(R)
 norm_XR &lt;- norm.matrix(XR)</code></pre>
 <p>Finally, the bounds of the norm of <span class="math inline">\(A^{-1} - X\)</span> is provided:</p>
 <pre class="r"><code>norm_XR / (1 + norm_R)</code></pre>
-<pre><code>## [1] 8.150756e-12</code></pre>
+<pre><code>## [1] 3.495882e-11</code></pre>
 <pre class="r"><code>norm_XR / (1 - norm_R)</code></pre>
-<pre><code>## [1] 8.150756e-12</code></pre>
+<pre><code>## [1] 3.495882e-11</code></pre>
 <p>The norm of <span class="math inline">\(A^{-1} - X\)</span> is very close to 0: matrix inversion in R works well.</p>
 </div>
 <div id="reference" class="section level1">
@@ -1335,7 +1335,7 @@ norm_XR &lt;- norm.matrix(XR)</code></pre>
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Eric Marcon. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Eric Marcon. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
