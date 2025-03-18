@@ -58,7 +58,7 @@ L'estimation avec la fonction `density` n'est pas nulle hors de l'intervalle $[1
 # Choix d'une bande passante pour l'estimation
 bande_passante <- bw.SJ(distribution)
 # Estimation de la densité
-d_reference <- density(distribution, bw=bande_passante)
+d_reference <- density(distribution, bw = bande_passante)
 plot(d_reference)
 ```
 
@@ -66,11 +66,11 @@ plot(d_reference)
 Censurer l'estimation avec les arguments `from` et `to` revient simplement de supprimer les valeurs estimées hors de l'intervalle pour obtenir la courbe rouge.
 
 ```{r censure}
-plot(d_reference, main="")
-d_censuree <- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
-lines(d_censuree, col="red")
-abline(v=borne_gauche, lty=2)
-abline(v=borne_droite, lty=2)
+plot(d_reference, main = "")
+d_censuree <- density(distribution, bw = bande_passante, from = borne_gauche, to = borne_droite)
+lines(d_censuree, col = "red")
+abline(v = borne_gauche, lty = 2)
+abline(v = borne_droite, lty = 2)
 ```
 
 L'estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.
@@ -80,12 +80,12 @@ Le package _GoFKernel_ [@Pavia2015] propose la fonction `density.reflected` pour
 ```{r GoFKernel}
 library("GoFKernel")
 d_GoFKernel <- density.reflected(distribution, lower = borne_gauche, upper = borne_droite, bw = bande_passante)
-plot(d_reference, main="")
-d_censuree <- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
-lines(d_censuree, col="red")
-abline(v=borne_gauche, lty=2)
-abline(v=borne_droite, lty=2)
-lines(d_GoFKernel, col="green")
+plot(d_reference, main = "")
+d_censuree <- density(distribution, bw = bande_passante, from = borne_gauche, to = borne_droite)
+lines(d_censuree, col = "red")
+abline(v = borne_gauche, lty = 2)
+abline(v = borne_droite, lty = 2)
+lines(d_GoFKernel, col = "green")
 ```
 
 Avec _ggplot2_, l'argument `bounds` de `geom_density()` a le même effet.
