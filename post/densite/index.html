@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: 16 mars 2025 --><html lang="fr-fr" >
+<!-- Last Published: 18 mars 2025 --><html lang="fr-fr" >
 
 
 <head>
@@ -1029,26 +1029,26 @@ hist(distribution)</code></pre>
 <pre class="r"><code># Choix d&#39;une bande passante pour l&#39;estimation
 bande_passante &lt;- bw.SJ(distribution)
 # Estimation de la densité
-d_reference &lt;- density(distribution, bw=bande_passante)
+d_reference &lt;- density(distribution, bw = bande_passante)
 plot(d_reference)</code></pre>
 <p><img src="https://ericmarcon.github.io/post/densite/index_files/figure-html/densite-1.png" width="\maxwidth" /></p>
 <p>Censurer l’estimation avec les arguments <code>from</code> et <code>to</code> revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.</p>
-<pre class="r"><code>plot(d_reference, main=&quot;&quot;)
-d_censuree &lt;- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
-lines(d_censuree, col=&quot;red&quot;)
-abline(v=borne_gauche, lty=2)
-abline(v=borne_droite, lty=2)</code></pre>
+<pre class="r"><code>plot(d_reference, main = &quot;&quot;)
+d_censuree &lt;- density(distribution, bw = bande_passante, from = borne_gauche, to = borne_droite)
+lines(d_censuree, col = &quot;red&quot;)
+abline(v = borne_gauche, lty = 2)
+abline(v = borne_droite, lty = 2)</code></pre>
 <p><img src="https://ericmarcon.github.io/post/densite/index_files/figure-html/censure-1.png" width="\maxwidth" /></p>
 <p>L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.</p>
 <p>Le package <em>GoFKernel</em> <span class="citation">(<a href="#ref-Pavia2015">Pavia 2015</a>)</span> propose la fonction <code>density.reflected</code> pour estimer correctement la densité précédente, en vert.</p>
 <pre class="r"><code>library(&quot;GoFKernel&quot;)
 d_GoFKernel &lt;- density.reflected(distribution, lower = borne_gauche, upper = borne_droite, bw = bande_passante)
-plot(d_reference, main=&quot;&quot;)
-d_censuree &lt;- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
-lines(d_censuree, col=&quot;red&quot;)
-abline(v=borne_gauche, lty=2)
-abline(v=borne_droite, lty=2)
-lines(d_GoFKernel, col=&quot;green&quot;)</code></pre>
+plot(d_reference, main = &quot;&quot;)
+d_censuree &lt;- density(distribution, bw = bande_passante, from = borne_gauche, to = borne_droite)
+lines(d_censuree, col = &quot;red&quot;)
+abline(v = borne_gauche, lty = 2)
+abline(v = borne_droite, lty = 2)
+lines(d_GoFKernel, col = &quot;green&quot;)</code></pre>
 <p><img src="https://ericmarcon.github.io/post/densite/index_files/figure-html/GoFKernel-1.png" width="\maxwidth" /></p>
 <p>Avec <em>ggplot2</em>, l’argument <code>bounds</code> de <code>geom_density()</code> a le même effet.</p>
 <pre class="r"><code>library(&quot;tidyverse&quot;)

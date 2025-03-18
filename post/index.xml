@@ -53,18 +53,18 @@ XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Les normes des matrices sont calculées:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrice à inverser
 norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 999.8725&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1000.188&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion numérique
 norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 70.20714&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 6247.729&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Ecart d&amp;#39;inversion
 norm_R &amp;lt;- norm.matrix(R)
 norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finalement, l’encadrement de la norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est fourni:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 2.473886e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3.086247e-08&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 2.473886e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3.086247e-08&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;La norme de &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; est ici très proche de 0 : l’inversion de matrice dans R fonctionne bien.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;référence&#34; class=&#34;section level1&#34;&gt;
@@ -155,8 +155,10 @@ library(&amp;quot;tidyverse&amp;quot;)
   ggplot(aes(year, cites)) +
     geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = &amp;#39;darkgrey&amp;#39;) +
     geom_point(size = 3, color = &amp;#39;firebrick&amp;#39;) +
-    labs(title = &amp;quot;Citations per year&amp;quot;, 
-         caption = &amp;quot;Source: Google Scholar&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+    labs(
+      title = &amp;quot;Citations per year&amp;quot;, 
+      caption = &amp;quot;Source: Google Scholar&amp;quot;
+    )&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package &lt;em&gt;bibliometrix&lt;/em&gt; permet de nombreuses analyses.&lt;/p&gt;
 &lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
@@ -189,26 +191,26 @@ hist(distribution)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Choix d&amp;#39;une bande passante pour l&amp;#39;estimation
 bande_passante &amp;lt;- bw.SJ(distribution)
 # Estimation de la densité
-d_reference &amp;lt;- density(distribution, bw=bande_passante)
+d_reference &amp;lt;- density(distribution, bw = bande_passante)
 plot(d_reference)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/densite-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt; et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(d_reference, main=&amp;quot;&amp;quot;)
-d_censuree &amp;lt;- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
-lines(d_censuree, col=&amp;quot;red&amp;quot;)
-abline(v=borne_gauche, lty=2)
-abline(v=borne_droite, lty=2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(d_reference, main = &amp;quot;&amp;quot;)
+d_censuree &amp;lt;- density(distribution, bw = bande_passante, from = borne_gauche, to = borne_droite)
+lines(d_censuree, col = &amp;quot;red&amp;quot;)
+abline(v = borne_gauche, lty = 2)
+abline(v = borne_droite, lty = 2)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/censure-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.&lt;/p&gt;
 &lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Pavia2015&#34;&gt;Pavia 2015&lt;/a&gt;)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;GoFKernel&amp;quot;)
 d_GoFKernel &amp;lt;- density.reflected(distribution, lower = borne_gauche, upper = borne_droite, bw = bande_passante)
-plot(d_reference, main=&amp;quot;&amp;quot;)
-d_censuree &amp;lt;- density(distribution, bw=bande_passante, from=borne_gauche, to=borne_droite)
-lines(d_censuree, col=&amp;quot;red&amp;quot;)
-abline(v=borne_gauche, lty=2)
-abline(v=borne_droite, lty=2)
-lines(d_GoFKernel, col=&amp;quot;green&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+plot(d_reference, main = &amp;quot;&amp;quot;)
+d_censuree &amp;lt;- density(distribution, bw = bande_passante, from = borne_gauche, to = borne_droite)
+lines(d_censuree, col = &amp;quot;red&amp;quot;)
+abline(v = borne_gauche, lty = 2)
+abline(v = borne_droite, lty = 2)
+lines(d_GoFKernel, col = &amp;quot;green&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/GoFKernel-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Avec &lt;em&gt;ggplot2&lt;/em&gt;, l’argument &lt;code&gt;bounds&lt;/code&gt; de &lt;code&gt;geom_density()&lt;/code&gt; a le même effet.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;tidyverse&amp;quot;)
