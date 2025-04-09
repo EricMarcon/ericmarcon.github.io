@@ -5,12 +5,21 @@
     <link>https://ericmarcon.github.io/en/publication/</link>
       <atom:link href="https://ericmarcon.github.io/en/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://ericmarcon.github.io/en/publication/</link>
     </image>
+    
+    <item>
+      <title>Love Thy Neighbour? Tropical Tree Growth and Its Response to Climate Anomalies Is Mediated by Neighbourhood Hierarchy and Dissimilarity in Carbon‐ and Water‐Related Traits</title>
+      <link>https://ericmarcon.github.io/en/publication/nemetschek-2025/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/en/publication/nemetschek-2025/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1111/ele.70028&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Local Forest Structure and Host Specificity Influence Liana Community Composition in a Moist Central African Forest</title>
