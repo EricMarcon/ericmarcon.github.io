@@ -176,7 +176,7 @@ ggraph(g, layout = "auto") +
   theme_graph(title_size = 16, base_family = "sans")
 ```
 
-Indice h: `r AuthorID %>% get_profile %>% pluck("h_index")`.
+Indice h: `r AuthorID %>% get_profile %>% pluck("h_index")` ([Google Scholar](`r paste0("https://scholar.google.com/citations?user=", AuthorID)`)).
 
 ```{r citations, message=FALSE}
 AuthorID %>% 
