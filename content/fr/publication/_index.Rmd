@@ -176,11 +176,11 @@ ggraph(g, layout = "auto") +
   theme_graph(title_size = 16, base_family = "sans")
 ```
 
-Indice h: `r AuthorID %>% get_profile %>% pluck("h_index")` ([Google Scholar](`r paste0("https://scholar.google.com/citations?user=", AuthorID)`)).
+Indice h: `r AuthorID %>% get_profile() %>% pluck("h_index")` ([Google Scholar](`r paste0("https://scholar.google.com/citations?user=", AuthorID)`)).
 
 ```{r citations, message=FALSE}
 AuthorID %>% 
-  get_citation_history %>% 
+  get_citation_history() %>% 
   ggplot(aes(year, cites)) +
     geom_segment(
       aes(xend = year, yend = 0), 
@@ -188,8 +188,10 @@ AuthorID %>%
       color = 'darkgrey'
     ) +
     geom_point(size = 3, color = 'firebrick') +
-    labs(title = "Citations par année", 
-         caption = "Source: Google Scholar",
-         x = "Année",
-         y = "Citations")
+    labs(
+      title = "Citations par année",
+      caption = "Source: Google Scholar",
+      x = "Année",
+      y = "Citations"
+    )
 ```

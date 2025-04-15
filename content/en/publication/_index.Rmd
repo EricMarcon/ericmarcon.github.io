@@ -7,11 +7,6 @@ title: Publications
 #   3 = Card
 #   4 = Citation
 view: 4
-
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: ""
 ---
 
 ```{r options, include=FALSE}
@@ -185,18 +180,20 @@ ggraph(g, layout = "auto") +
 ```
 
 
-h Index: `r AuthorID %>% get_profile %>% pluck("h_index")`.
+h Index: `r AuthorID %>% get_profile() %>% pluck("h_index")` ([Google Scholar](`r paste0("https://scholar.google.com/citations?user=", AuthorID)`)).
 
 ```{r citations, message=FALSE}
 AuthorID %>%
-  get_citation_history  %>% 
+  get_citation_history()  %>% 
   ggplot(aes(year, cites)) +
     geom_segment(
       aes(xend = year, yend = 0), 
-      linewidth=1, 
-      color='darkgrey'
+      linewidth = 1, 
+      color = 'darkgrey'
     ) +
     geom_point(size = 3, color = 'firebrick') +
-    labs(title = "Citations per year", 
-         caption = "Source: Google Scholar")
+    labs(
+      title = "Citations per year", 
+      caption = "Source: Google Scholar"
+    )
 ```
