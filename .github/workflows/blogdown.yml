@@ -9,7 +9,7 @@ name: blogdown
 
 jobs:
   buildsite:
-    runs-on: windows-latest
+    runs-on: macOS-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
