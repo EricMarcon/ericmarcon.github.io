@@ -31,6 +31,6 @@ url_code: "https://github.com/EricMarcon/dbmss"
 url_project: "https://ericmarcon.github.io/dbmss/"
 ---
 
-*dbmss* est un package R destiné au calcul des statistiques spatiales non paramétriques pour caractériser la structure spatiale d'objets cartographiés. Les principales sont la fonction K de Ripley et ses dérivées et celles utilisées par les économistes comme la fonction Kd de Duranton et Overman et la fonction M de Marcon et Puech.
+*dbmss* est un package R destiné au calcul des statistiques spatiales non paramétriques pour caractériser la structure spatiale d'objets cartographiés. Les principales sont la fonction *K* de Ripley et ses dérivées et celles utilisées par les économistes comme la fonction *Kd* de Duranton et Overman et la fonction *M* de Marcon et Puech.
 
 Le package s'appuie sur *spatstat* pour une partie des calculs.
