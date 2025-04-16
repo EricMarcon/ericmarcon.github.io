@@ -64,7 +64,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Exposés
+      title: Commnunications
       filters:
         folders:
           - event
