@@ -1,0 +1,3100 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: 22 avril 2025 --><html lang="fr-fr" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.f6689966c0a10712f95f034011917db0.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-121X2M6WV2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-121X2M6WV2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Eric Marcon" />
+
+
+
+
+
+  
+
+<meta name="description" content="Eric Marcon&#39;s homepage." />
+
+
+
+  <link rel="alternate" hreflang="en" href="https://ericmarcon.github.io/en/publication-type/article-journal/" />
+
+<link rel="alternate" hreflang="fr-fr" href="https://ericmarcon.github.io/publication-type/article-journal/" />
+<link rel="canonical" href="https://ericmarcon.github.io/publication-type/article-journal/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Eric Marcon" />
+<meta property="og:url" content="https://ericmarcon.github.io/publication-type/article-journal/" />
+<meta property="og:title" content="Article-Journal | Eric Marcon" />
+<meta property="og:description" content="Eric Marcon&#39;s homepage." /><meta property="og:image" content="https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="fr-fr" />
+
+  
+    <meta property="og:updated_time" content="2025-04-08T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    <link rel="alternate" href="/publication-type/article-journal/index.xml" type="application/rss+xml" title="Eric Marcon" />
+  
+
+  
+
+
+  
+  <title>Article-Journal | Eric Marcon</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.9e4214442a7711d35691acd58f6f6361.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Rechercher</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Fermer"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Recherche..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Recherche...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Eric Marcon</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Ouvrir la barre de navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Eric Marcon</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Accueil</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/CV/Eric_Marcon-fr.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Communications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#software"><span>Logiciels</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#course"><span>Cours</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Articles</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Rechercher"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Préférences d&#39;affichage">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Clair</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Sombre</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatique</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Langues">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>Français</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://ericmarcon.github.io/en/publication-type/article-journal/">
+              <span>English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>Article-Journal</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/nemetschek-2025/" >Love Thy Neighbour? Tropical Tree Growth and Its Response to Climate Anomalies Is Mediated by Neighbourhood Hierarchy and Dissimilarity in Carbon‐ and Water‐Related Traits</a>
+    </div>
+
+    
+    <a href="/publication/nemetschek-2025/"  class="summary-link">
+      <div class="article-style">
+        Taxonomic diversity effects on forest productivity and response to climate extremes range from positive to negative, suggesting a key …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Daniela Nemetschek</span>, <span >
+      Claire Fortunel</span>, <span >
+      Eric Marcon</span>, <span >
+      Johanna Auer</span>, <span >
+      Vincyane Badouard</span>, <span >
+      Christopher Baraloto</span>, <span >
+      Marion Boisseaux</span>, <span >
+      Damien Bonal</span>, <span >
+      Sabrina Coste</span>, <span >
+      Elia Dardevet</span>, <span >
+      Patrick Heuret</span>, <span >
+      Peter Hietz</span>, <span >
+      Sébastien Levionnois</span>, <span >
+      Isabelle Maréchaux</span>, <span >
+      Clément Stahl</span>, <span >
+      Jason Vleminckx</span>, <span >
+      Wolfgang Wanek</span>, <span >
+      Camille Ziegler</span>, <span >
+      Géraldine Derroire</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/10.1111/ele.70028" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/nemetschek-2025/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/ele.70028" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/kacamak-2025/" >Local Forest Structure and Host Specificity Influence Liana Community Composition in a Moist Central African Forest</a>
+    </div>
+
+    
+    <a href="/publication/kacamak-2025/"  class="summary-link">
+      <div class="article-style">
+        Lianas are important components of tropical forest diversity and dynamics, yet little is known about the drivers of their community …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Begüm Kaçamak</span>, <span >
+      Maxime Réjou-Méchain</span>, <span >
+      Nick Rowe</span>, <span >
+      Vivien Rossi</span>, <span >
+      Nicolas Barbier</span>, <span >
+      Samantha Bazan</span>, <span >
+      Eric Forni</span>, <span >
+      Daniel Guibal</span>, <span >
+      David J. Harris</span>, <span >
+      Grace Jopaul Loubota Panzou</span>, <span >
+      Jean-Joël Loumeto</span>, <span >
+      Eric Marcon</span>, <span >
+      Bruno X. Pinho</span>, <span >
+      Isaac Zombo</span>, <span >
+      Sylvie Gourlet-Fleury</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/kacamak-2025/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1002/ece3.71075" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/goulpeau-2025/" >Dissecting earthworm diversity in tropical rainforests</a>
+    </div>
+
+    
+    <a href="/publication/goulpeau-2025/"  class="summary-link">
+      <div class="article-style">
+        Tropical rainforests are among the most emblematic ecosystems in terms of biodiversity. However, our understanding of the structure of …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Arnaud Goulpeau</span>, <span >
+      Mickaël Hedde</span>, <span >
+      Pierre Ganault</span>, <span >
+      Emmanuel Lapied</span>, <span >
+      Marie-Eugénie Maggia</span>, <span >
+      Eric Marcon</span>, <span >
+      Thibaud Decaëns</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/goulpeau-2025/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/ecog.07697" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/mo-2024/" >The global distribution and drivers of wood density and their impact on forest carbon stocks</a>
+    </div>
+
+    
+    <a href="/publication/mo-2024/"  class="summary-link">
+      <div class="article-style">
+        The density of wood is a key indicator of the carbon investment strategies of trees, impacting productivity and carbon storage. Despite …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Mo, Lidong</span>, <span >
+      Crowther, Thomas W.</span>, <span >
+      Maynard, Daniel S.</span>, <span >
+      Van Den Hoogen, Johan</span>, <span >
+      Ma, Haozhi</span>, <span >
+      Bialic-Murphy, Lalasia</span>, <span >
+      Liang, Jingjing</span>, <span >
+      De-Miguel, Sergio</span>, <span >
+      Nabuurs, Gert-Jan</span>, <span >
+      Reich, Peter B.</span>, <span >
+      Phillips, Oliver L.</span>, <span >
+      Abegg, Meinrad</span>, <span >
+      Adou Yao, Yves C.</span>, <span >
+      Alberti, Giorgio</span>, <span >
+      Almeyda Zambrano, Angelica M.</span>, <span >
+      Alvarado, Braulio Vilchez</span>, <span >
+      Alvarez-Dávila, Esteban</span>, <span >
+      Alvarez-Loayza, Patricia</span>, <span >
+      Alves, Luciana F.</span>, <span >
+      Amaral, Iêda</span>, <span >
+      Ammer, Christian</span>, <span >
+      Antón-Fernández, Clara</span>, <span >
+      Araujo-Murakami, Alejandro</span>, <span >
+      Arroyo, Luzmila</span>, <span >
+      Avitabile, Valerio</span>, <span >
+      Aymard, Gerardo A.</span>, <span >
+      Baker, Timothy R.</span>, <span >
+      Bałazy, Radomir</span>, <span >
+      Banki, Olaf</span>, <span >
+      Barroso, Jorcely G.</span>, <span >
+      Bastian, Meredith L.</span>, <span >
+      Bastin, Jean-Francois</span>, <span >
+      Birigazzi, Luca</span>, <span >
+      Birnbaum, Philippe</span>, <span >
+      Bitariho, Robert</span>, <span >
+      Boeckx, Pascal</span>, <span >
+      Bongers, Frans</span>, <span >
+      Boonman, Coline C. F.</span>, <span >
+      Bouriaud, Olivier</span>, <span >
+      Brancalion, Pedro H. S.</span>, <span >
+      Brandl, Susanne</span>, <span >
+      Brearley, Francis Q.</span>, <span >
+      Brienen, Roel</span>, <span >
+      Broadbent, Eben N.</span>, <span >
+      Bruelheide, Helge</span>, <span >
+      Bussotti, Filippo</span>, <span >
+      Gatti, Roberto Cazzolla</span>, <span >
+      César, Ricardo G.</span>, <span >
+      Cesljar, Goran</span>, <span >
+      Chazdon, Robin</span>, <span >
+      Chen, Han Y. H.</span>, <span >
+      Chisholm, Chelsea</span>, <span >
+      Cho, Hyunkook</span>, <span >
+      Cienciala, Emil</span>, <span >
+      Clark, Connie</span>, <span >
+      Clark, David</span>, <span >
+      Colletta, Gabriel D.</span>, <span >
+      Coomes, David A.</span>, <span >
+      Valverde, Fernando Cornejo</span>, <span >
+      Corral-Rivas, José J.</span>, <span >
+      Crim, Philip M.</span>, <span >
+      Cumming, Jonathan R.</span>, <span >
+      Dayanandan, Selvadurai</span>, <span >
+      De Gasper, André L.</span>, <span >
+      Decuyper, Mathieu</span>, <span >
+      Derroire, Géraldine</span>, <span >
+      DeVries, Ben</span>, <span >
+      Djordjevic, Ilija</span>, <span >
+      Dolezal, Jiri</span>, <span >
+      Dourdain, Aurélie</span>, <span >
+      Engone Obiang, Nestor Laurier</span>, <span >
+      Enquist, Brian J.</span>, <span >
+      Eyre, Teresa J.</span>, <span >
+      Fandohan, Adandé Belarmain</span>, <span >
+      Fayle, Tom M.</span>, <span >
+      Feldpausch, Ted R.</span>, <span >
+      Ferreira, Leandro V.</span>, <span >
+      Finér, Leena</span>, <span >
+      Fischer, Markus</span>, <span >
+      Fletcher, Christine</span>, <span >
+      Frizzera, Lorenzo</span>, <span >
+      Gamarra, Javier G. P.</span>, <span >
+      Gianelle, Damiano</span>, <span >
+      Glick, Henry B.</span>, <span >
+      Harris, David J.</span>, <span >
+      Hector, Andrew</span>, <span >
+      Hemp, Andreas</span>, <span >
+      Hengeveld, Geerten</span>, <span >
+      Hérault, Bruno</span>, <span >
+      Herbohn, John L.</span>, <span >
+      Herold, Martin</span>, <span >
+      Hietz, Peter</span>, <span >
+      Hillers, Annika</span>, <span >
+      Honorio Coronado, Eurídice N.</span>, <span >
+      Hui, Cang</span>, <span >
+      Ibanez, Thomas</span>, <span >
+      Imai, Nobuo</span>, <span >
+      Jagodziński, Andrzej M.</span>, <span >
+      Jaroszewicz, Bogdan</span>, <span >
+      Johannsen, Vivian Kvist</span>, <span >
+      Joly, Carlos A.</span>, <span >
+      Jucker, Tommaso</span>, <span >
+      Jung, Ilbin</span>, <span >
+      Karminov, Viktor</span>, <span >
+      Kartawinata, Kuswata</span>, <span >
+      Kearsley, Elizabeth</span>, <span >
+      Kenfack, David</span>, <span >
+      Kennard, Deborah K.</span>, <span >
+      Kepfer-Rojas, Sebastian</span>, <span >
+      Keppel, Gunnar</span>, <span >
+      Khan, Mohammed Latif</span>, <span >
+      Killeen, Timothy J.</span>, <span >
+      Kim, Hyun Seok</span>, <span >
+      Kitayama, Kanehiro</span>, <span >
+      Köhl, Michael</span>, <span >
+      Korjus, Henn</span>, <span >
+      Kraxner, Florian</span>, <span >
+      Kucher, Dmitry</span>, <span >
+      Laarmann, Diana</span>, <span >
+      Lang, Mait</span>, <span >
+      Lewis, Simon L.</span>, <span >
+      Li, Yuanzhi</span>, <span >
+      Lopez-Gonzalez, Gabriela</span>, <span >
+      Lu, Huicui</span>, <span >
+      Lukina, Natalia V.</span>, <span >
+      Maitner, Brian S.</span>, <span >
+      Malhi, Yadvinder</span>, <span >
+      Marcon, Eric</span>, <span >
+      Marimon, Beatriz Schwantes</span>, <span >
+      Marimon-Junior, Ben Hur</span>, <span >
+      Marshall, Andrew R.</span>, <span >
+      Martin, Emanuel H.</span>, <span >
+      McCarthy, James K.</span>, <span >
+      Meave, Jorge A.</span>, <span >
+      Melo-Cruz, Omar</span>, <span >
+      Mendoza, Casimiro</span>, <span >
+      Mendoza-Polo, Irina</span>, <span >
+      Miscicki, Stanislaw</span>, <span >
+      Merow, Cory</span>, <span >
+      Mendoza, Abel Monteagudo</span>, <span >
+      Moreno, Vanessa S.</span>, <span >
+      Mukul, Sharif A.</span>, <span >
+      Mundhenk, Philip</span>, <span >
+      Nava-Miranda, María Guadalupe</span>, <span >
+      Neill, David</span>, <span >
+      Neldner, Victor J.</span>, <span >
+      Nevenic, Radovan V.</span>, <span >
+      Ngugi, Michael R.</span>, <span >
+      Niklaus, Pascal A.</span>, <span >
+      Ontikov, Petr</span>, <span >
+      Ortiz-Malavasi, Edgar</span>, <span >
+      Pan, Yude</span>, <span >
+      Paquette, Alain</span>, <span >
+      Parada-Gutierrez, Alexander</span>, <span >
+      Parfenova, Elena I.</span>, <span >
+      Park, Minjee</span>, <span >
+      Parren, Marc</span>, <span >
+      Parthasarathy, Narayanaswamy</span>, <span >
+      Peri, Pablo L.</span>, <span >
+      Pfautsch, Sebastian</span>, <span >
+      Picard, Nicolas</span>, <span >
+      Piedade, Maria Teresa F.</span>, <span >
+      Piotto, Daniel</span>, <span >
+      Pitman, Nigel C. A.</span>, <span >
+      Poorter, Lourens</span>, <span >
+      Poulsen, Axel Dalberg</span>, <span >
+      Poulsen, John R.</span>, <span >
+      Pretzsch, Hans</span>, <span >
+      Arevalo, Freddy Ramirez</span>, <span >
+      Restrepo-Correa, Zorayda</span>, <span >
+      Richardson, Sarah J.</span>, <span >
+      Rodeghiero, Mirco</span>, <span >
+      Rolim, Samir G.</span>, <span >
+      Roopsind, Anand</span>, <span >
+      Rovero, Francesco</span>, <span >
+      Rutishauser, Ervan</span>, <span >
+      Saikia, Purabi</span>, <span >
+      Salas-Eljatib, Christian</span>, <span >
+      Saner, Philippe</span>, <span >
+      Schall, Peter</span>, <span >
+      Schelhaas, Mart-Jan</span>, <span >
+      Schepaschenko, Dmitry</span>, <span >
+      Scherer-Lorenzen, Michael</span>, <span >
+      Schmid, Bernhard</span>, <span >
+      Schöngart, Jochen</span>, <span >
+      Searle, Eric B.</span>, <span >
+      Seben, Vladimír</span>, <span >
+      Serra-Diaz, Josep M.</span>, <span >
+      Sheil, Douglas</span>, <span >
+      Shvidenko, Anatoly Z.</span>, <span >
+      Da Silva, Ana Carolina</span>, <span >
+      Silva-Espejo, Javier E.</span>, <span >
+      Silveira, Marcos</span>, <span >
+      Singh, James</span>, <span >
+      Sist, Plinio</span>, <span >
+      Slik, Ferry</span>, <span >
+      Sonké, Bonaventure</span>, <span >
+      Sosinski, Enio Egon</span>, <span >
+      Souza, Alexandre F.</span>, <span >
+      Stereńczak, Krzysztof J.</span>, <span >
+      Svenning, Jens-Christian</span>, <span >
+      Svoboda, Miroslav</span>, <span >
+      Swanepoel, Ben</span>, <span >
+      Targhetta, Natalia</span>, <span >
+      Tchebakova, Nadja</span>, <span >
+      Ter Steege, Hans</span>, <span >
+      Thomas, Raquel</span>, <span >
+      Tikhonova, Elena</span>, <span >
+      Umunay, Peter M.</span>, <span >
+      Usoltsev, Vladimir A.</span>, <span >
+      Valencia, Renato</span>, <span >
+      Valladares, Fernando</span>, <span >
+      Van Bodegom, Peter M.</span>, <span >
+      Van Der Plas, Fons</span>, <span >
+      Van Do, Tran</span>, <span >
+      Van Nuland, Michael E.</span>, <span >
+      Vasquez, Rodolfo M.</span>, <span >
+      Verbeeck, Hans</span>, <span >
+      Viana, Helder</span>, <span >
+      Vibrans, Alexander C.</span>, <span >
+      Vieira, Simone</span>, <span >
+      Von Gadow, Klaus</span>, <span >
+      Wang, Hua-Feng</span>, <span >
+      Watson, James V.</span>, <span >
+      Werner, Gijsbert D. A.</span>, <span >
+      Wittmann, Florian</span>, <span >
+      Woell, Hannsjoerg</span>, <span >
+      Wortel, Verginia</span>, <span >
+      Zagt, Roderick</span>, <span >
+      Zawiła-Niedźwiecki, Tomasz</span>, <span >
+      Zhang, Chunyu</span>, <span >
+      Zhao, Xiuhai</span>, <span >
+      Zhou, Mo</span>, <span >
+      Zhu, Zhi-Xin</span>, <span >
+      Zo-Bi, Irie C.</span>, <span >
+      Zohner, Constantin M.</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1038/s41559-024-02564-9" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/mo-2024/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1038/s41559-024-02564-9" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/hordijk-2024/" >Dominance and rarity in tree communities across the globe: Patterns, predictors and threats</a>
+    </div>
+
+    
+    <a href="/publication/hordijk-2024/"  class="summary-link">
+      <div class="article-style">
+        <ul>
+<li>Aim: Ecological and anthropogenic factors shift the abundances of dominant and rare tree species within local forest communities, thus …</li></ul>
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Hordijk, Iris</span>, <span >
+      Bialic-Murphy, Lalasia</span>, <span >
+      Lauber, Thomas</span>, <span >
+      Routh, Devin</span>, <span >
+      Poorter, Lourens</span>, <span >
+      Rivers, Malin C.</span>, <span >
+      Ter Steege, Hans</span>, <span >
+      Liang, Jingjing</span>, <span >
+      Reich, Peter B.</span>, <span >
+      De-Miguel, Sergio</span>, <span >
+      Nabuurs, Gert-Jan</span>, <span >
+      Gamarra, Javier G. P.</span>, <span >
+      Chen, Han Y. H.</span>, <span >
+      Zhou, Mo</span>, <span >
+      Wiser, Susan K.</span>, <span >
+      Pretzsch, Hans</span>, <span >
+      Paquette, Alain</span>, <span >
+      Picard, Nicolas</span>, <span >
+      Hérault, Bruno</span>, <span >
+      Bastin, Jean-Francois</span>, <span >
+      Alberti, Giorgio</span>, <span >
+      Abegg, Meinrad</span>, <span >
+      Adou~Yao, Yves C.</span>, <span >
+      Almeyda~Zambrano, Angelica M.</span>, <span >
+      Alvarado, Braulio V.</span>, <span >
+      Alvarez-Davila, Esteban</span>, <span >
+      Alvarez-Loayza, Patricia</span>, <span >
+      Alves, Luciana F.</span>, <span >
+      Ammer, Christian</span>, <span >
+      Antón-Fernández, Clara</span>, <span >
+      Araujo-Murakami, Alejandro</span>, <span >
+      Arroyo, Luzmila</span>, <span >
+      Avitabile, Valerio</span>, <span >
+      Aymard~Corredor, Gerardo A.</span>, <span >
+      Baker, Timothy</span>, <span >
+      Banki, Olaf</span>, <span >
+      Barroso, Jorcely</span>, <span >
+      Bastian, Meredith L.</span>, <span >
+      Birigazzi, Luca</span>, <span >
+      Birnbaum, Philippe</span>, <span >
+      Bitariho, Robert</span>, <span >
+      Boeckx, Pascal</span>, <span >
+      Bongers, Frans</span>, <span >
+      Bouriaud, Olivier</span>, <span >
+      Brancalion, Pedro H. S.</span>, <span >
+      Brandl, Susanne</span>, <span >
+      Brienen, Roel</span>, <span >
+      Broadbent, Eben N.</span>, <span >
+      Bruelheide, Helge</span>, <span >
+      Bussotti, Filippo</span>, <span >
+      Gatti, Roberto Cazzolla</span>, <span >
+      Cesar, Ricardo G.</span>, <span >
+      Cesljar, Goran</span>, <span >
+      Chazdon, Robin</span>, <span >
+      Chisholm, Chelsea</span>, <span >
+      Cienciala, Emil</span>, <span >
+      Clark, Connie J.</span>, <span >
+      Clar, David B.</span>, <span >
+      Colletta, Gabriel</span>, <span >
+      Coomes, David</span>, <span >
+      Valverde, Fernando Cornejo</span>, <span >
+      Corral-Rivas, Jose J.</span>, <span >
+      Crim, Philip</span>, <span >
+      Cumming, Jonathan</span>, <span >
+      Dayanandan, Selvadurai</span>, <span >
+      De Gasper, André L.</span>, <span >
+      Decuyper, Mathieu</span>, <span >
+      Derroire, Géraldine</span>, <span >
+      DeVries, Ben</span>, <span >
+      Djordjevic, Ilija</span>, <span >
+      Iêda, Amaral</span>, <span >
+      Dourdain, Aurélie</span>, <span >
+      Dolezal, Jiri</span>, <span >
+      Obiang, Nestor Laurier Engone</span>, <span >
+      Enquist, Brian</span>, <span >
+      Eyre, Teresa</span>, <span >
+      Fandohan, Adandé Belarmain</span>, <span >
+      Fayle, Tom M.</span>, <span >
+      Ferreira, Leandro V.</span>, <span >
+      Feldpausch, Ted R.</span>, <span >
+      Finér, Leena</span>, <span >
+      Fischer, Markus</span>, <span >
+      Fletcher, Christine</span>, <span >
+      Frizzera, Lorenzo</span>, <span >
+      Gianelle, Damiano</span>, <span >
+      Glick, Henry B.</span>, <span >
+      Harris, David</span>, <span >
+      Hector, Andrew</span>, <span >
+      Hemp, Andreas</span>, <span >
+      Hengeveld, Geerten</span>, <span >
+      Herbohn, John</span>, <span >
+      Hillers, Annika</span>, <span >
+      Honorio~Coronado, Eurídice N.</span>, <span >
+      Hui, Cang</span>, <span >
+      Cho, Hyunkook</span>, <span >
+      Ibanez, Thomas</span>, <span >
+      Jung, Ilbin</span>, <span >
+      Imai, Nobuo</span>, <span >
+      Jagodzinski, Andrzej M.</span>, <span >
+      Jaroszewicz, Bogdan</span>, <span >
+      Johannsen, Vivian</span>, <span >
+      Joly, Carlos A.</span>, <span >
+      Jucker, Tommaso</span>, <span >
+      Karminov, Viktor</span>, <span >
+      Kartawinata, Kuswata</span>, <span >
+      Kearsley, Elizabeth</span>, <span >
+      Kenfack, David</span>, <span >
+      Kennard, Deborah</span>, <span >
+      Kepfer-Rojas, Sebastian</span>, <span >
+      Keppel, Gunnar</span>, <span >
+      Khan, Mohammed Latif</span>, <span >
+      Killeen, Timothy</span>, <span >
+      Kim, Hyun Seok</span>, <span >
+      Kitayama, Kanehiro</span>, <span >
+      Köhl, Michael</span>, <span >
+      Korjus, Henn</span>, <span >
+      Kraxner, Florian</span>, <span >
+      Laarmann, Diana</span>, <span >
+      Lang, Mait</span>, <span >
+      Lewis, Simon</span>, <span >
+      Lu, Huicui</span>, <span >
+      Lukina, Natalia</span>, <span >
+      Maitner, Brian</span>, <span >
+      Malhi, Yadvinder</span>, <span >
+      Marcon, Eric</span>, <span >
+      Marimon, Beatriz Schwantes</span>, <span >
+      Marimon-Junior, Ben Hur</span>, <span >
+      Marshall, Andrew Robert</span>, <span >
+      Martin, Emanuel</span>, <span >
+      Martynenko, Olga</span>, <span >
+      Meave, Jorge A.</span>, <span >
+      Melo-Cruz, Omar</span>, <span >
+      Mendoza, Casimiro</span>, <span >
+      Merow, Cory</span>, <span >
+      Miscicki, Stanislaw</span>, <span >
+      Mendoza, Abel Monteagudo</span>, <span >
+      Moreno, Vanessa</span>, <span >
+      Mukul, Sharif A.</span>, <span >
+      Mundhenk, Philip</span>, <span >
+      Nava-Miranda, Maria G.</span>, <span >
+      Neill, David</span>, <span >
+      Neldner, Victor</span>, <span >
+      Nevenic, Radovan</span>, <span >
+      Ngugi, Michael</span>, <span >
+      Niklaus, Pascal A.</span>, <span >
+      Oleksyn, Jacek</span>, <span >
+      Ontikov, Petr</span>, <span >
+      Ortiz-Malavasi, Edgar</span>, <span >
+      Pan, Yude</span>, <span >
+      Parada-Gutierrez, Alexander</span>, <span >
+      Parfenova, Elena</span>, <span >
+      Park, Minjee</span>, <span >
+      Parren, Marc</span>, <span >
+      Parthasarathy, Narayanaswamy</span>, <span >
+      Peri, Pablo L.</span>, <span >
+      Pfautsch, Sebastian</span>, <span >
+      Phillips, Oliver L.</span>, <span >
+      Piedade, Maria Teresa</span>, <span >
+      Piotto, Daniel</span>, <span >
+      Pitman, Nigel C. A.</span>, <span >
+      Polo, Irina</span>, <span >
+      Poulsen, Axel Dalberg</span>, <span >
+      Poulsen, John R.</span>, <span >
+      Arevalo, Freddy Ramirez</span>, <span >
+      Restrepo-Correa, Zorayda</span>, <span >
+      Rodeghiero, Mirco</span>, <span >
+      Rolim, Samir</span>, <span >
+      Roopsind, Anand</span>, <span >
+      Rovero, Francesco</span>, <span >
+      Rutishauser, Ervan</span>, <span >
+      Saikia, Purabi</span>, <span >
+      Salas-Eljatib, Christian</span>, <span >
+      Schall, Peter</span>, <span >
+      Schepaschenko, Dmitry</span>, <span >
+      Scherer-Lorenzen, Michael</span>, <span >
+      Schmid, Bernhard</span>, <span >
+      Schöngart, Jochen</span>, <span >
+      Searle, Eric B.</span>, <span >
+      Seben, Vladimír</span>, <span >
+      Serra-Diaz, Josep M.</span>, <span >
+      Sheil, Douglas</span>, <span >
+      Shvidenko, Anatoly</span>, <span >
+      Silva-Espejo, Javier</span>, <span >
+      Silveira, Marcos</span>, <span >
+      Singh, James</span>, <span >
+      Sist, Plinio</span>, <span >
+      Slik, Ferry</span>, <span >
+      Sonké, Bonaventure</span>, <span >
+      Souza, Alexandre F.</span>, <span >
+      Stereńczak, Krzysztof</span>, <span >
+      Svenning, Jens-Christian</span>, <span >
+      Svoboda, Miroslav</span>, <span >
+      Swanepoel, Ben</span>, <span >
+      Targhetta, Natalia</span>, <span >
+      Tchebakova, Nadja</span>, <span >
+      Thomas, Raquel</span>, <span >
+      Tikhonova, Elena</span>, <span >
+      Umunay, Peter</span>, <span >
+      Usoltsev, Vladimir</span>, <span >
+      Valencia, Renato</span>, <span >
+      Valladares, Fernando</span>, <span >
+      Van Der Plas, Fons</span>, <span >
+      Van~Do, Tran</span>, <span >
+      Van~Nuland, Michael E.</span>, <span >
+      Martinez, Rodolfo Vasquez</span>, <span >
+      Verbeeck, Hans</span>, <span >
+      Viana, Helder</span>, <span >
+      Vibrans, Alexander C.</span>, <span >
+      Vieira, Simone</span>, <span >
+      Von Gadow, Klaus</span>, <span >
+      Wang, Hua-Feng</span>, <span >
+      Watson, James</span>, <span >
+      Werner, Gijsbert D. A.</span>, <span >
+      Wittmann, Florian</span>, <span >
+      Wortel, Verginia</span>, <span >
+      Zagt, Roderick</span>, <span >
+      Zawila-Niedzwiecki, Tomasz</span>, <span >
+      Zhang, Chunyu</span>, <span >
+      Zhao, Xiuhai</span>, <span >
+      Zhu, Zhi-Xin</span>, <span >
+      Zo-Bi, Irie Casimir</span>, <span >
+      Maynard, Daniel S.</span>, <span >
+      Crowther, Thomas W.</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/geb.13889" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hordijk-2024/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/geb.13889" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/zou-2024/" >Positive feedbacks and alternative stable states in forest leaf types</a>
+    </div>
+
+    
+    <a href="/publication/zou-2024/"  class="summary-link">
+      <div class="article-style">
+        The emergence of alternative stable states in forest systems has significant implications for the functioning and structure of the …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Zou, Yibiao</span>, <span >
+      Zohner, Constantin M.</span>, <span >
+      Averill, Colin</span>, <span >
+      Ma, Haozhi</span>, <span >
+      Merder, Julian</span>, <span >
+      Berdugo, Miguel</span>, <span >
+      Bialic-Murphy, Lalasia</span>, <span >
+      Mo, Lidong</span>, <span >
+      Brun, Philipp</span>, <span >
+      Zimmermann, Niklaus E.</span>, <span >
+      Liang, Jingjing</span>, <span >
+      De-Miguel, Sergio</span>, <span >
+      Nabuurs, Gert-Jan</span>, <span >
+      Reich, Peter B.</span>, <span >
+      Niinements, Ulo</span>, <span >
+      Dahlgren, Jonas</span>, <span >
+      Kändler, Gerald</span>, <span >
+      Ratcliffe, Sophia</span>, <span >
+      Ruiz-Benito, Paloma</span>, <span >
+      De Zavala, Miguel Angel</span>, <span >
+      {GFBI Consortium}</span>, <span >
+      Abegg, Meinrad</span>, <span >
+      Adou Yao, Yves C.</span>, <span >
+      Alberti, Giorgio</span>, <span >
+      Almeyda Zambrano, Angelica M.</span>, <span >
+      Alvarado, Braulio Vilchez</span>, <span >
+      Alvarez-Dávila, Esteban</span>, <span >
+      Alvarez-Loayza, Patricia</span>, <span >
+      Alves, Luciana F.</span>, <span >
+      Ammer, Christian</span>, <span >
+      Antón-Fernández, Clara</span>, <span >
+      Araujo-Murakami, Alejandro</span>, <span >
+      Arroyo, Luzmila</span>, <span >
+      Avitabile, Valerio</span>, <span >
+      Aymard, Gerardo A.</span>, <span >
+      Baker, Timothy R.</span>, <span >
+      Bałazy, Radomir</span>, <span >
+      Banki, Olaf</span>, <span >
+      Barroso, Jorcely G.</span>, <span >
+      Bastian, Meredith L.</span>, <span >
+      Bastin, Jean-Francois</span>, <span >
+      Birigazzi, Luca</span>, <span >
+      Birnbaum, Philippe</span>, <span >
+      Bitariho, Robert</span>, <span >
+      Boeckx, Pascal</span>, <span >
+      Bongers, Frans</span>, <span >
+      Bouriaud, Olivier</span>, <span >
+      Brancalion, Pedro H. S.</span>, <span >
+      Brandl, Susanne</span>, <span >
+      Brearley, Francis Q.</span>, <span >
+      Brienen, Roel</span>, <span >
+      Broadbent, Eben N.</span>, <span >
+      Bruelheide, Helge</span>, <span >
+      Bussotti, Filippo</span>, <span >
+      Gatti, Roberto Cazzolla</span>, <span >
+      César, Ricardo G.</span>, <span >
+      Cesljar, Goran</span>, <span >
+      Chazdon, Robin</span>, <span >
+      Chen, Han Y. H.</span>, <span >
+      Chisholm, Chelsea</span>, <span >
+      Cho, Hyunkook</span>, <span >
+      Cienciala, Emil</span>, <span >
+      Clark, Connie</span>, <span >
+      Clark, David</span>, <span >
+      Colletta, Gabriel D.</span>, <span >
+      Coomes, David A.</span>, <span >
+      Valverde, Fernando Cornejo</span>, <span >
+      Corral-Rivas, José J.</span>, <span >
+      Crim, Philip M.</span>, <span >
+      Cumming, Jonathan R.</span>, <span >
+      Dayanandan, Selvadurai</span>, <span >
+      De Gasper, André L.</span>, <span >
+      Decuyper, Mathieu</span>, <span >
+      Derroire, Géraldine</span>, <span >
+      DeVries, Ben</span>, <span >
+      Djordjevic, Ilija</span>, <span >
+      Dolezal, Jiri</span>, <span >
+      Dourdain, Aurélie</span>, <span >
+      Obiang, Nestor Laurier Engone</span>, <span >
+      Enquist, Brian J.</span>, <span >
+      Eyre, Teresa J.</span>, <span >
+      Fandohan, Adandé Belarmain</span>, <span >
+      Fayle, Tom M.</span>, <span >
+      Feldpausch, Ted R.</span>, <span >
+      Ferreira, Leandro V.</span>, <span >
+      Finér, Leena</span>, <span >
+      Fischer, Markus</span>, <span >
+      Fletcher, Christine</span>, <span >
+      Fridman, Jonas</span>, <span >
+      Frizzera, Lorenzo</span>, <span >
+      Gamarra, Javier G. P.</span>, <span >
+      Gianelle, Damiano</span>, <span >
+      Glick, Henry B.</span>, <span >
+      Harris, David J.</span>, <span >
+      Hector, Andrew</span>, <span >
+      Hemp, Andreas</span>, <span >
+      Hengeveld, Geerten</span>, <span >
+      Hérault, Bruno</span>, <span >
+      Herbohn, John L.</span>, <span >
+      Herold, Martin</span>, <span >
+      Hillers, Annika</span>, <span >
+      Honorio Coronado, Eurídice N.</span>, <span >
+      Hui, Cang</span>, <span >
+      Ibanez, Thomas</span>, <span >
+      Iêda, Amaral</span>, <span >
+      Imai, Nobuo</span>, <span >
+      Jagodziński, Andrzej M.</span>, <span >
+      Jaroszewicz, Bogdan</span>, <span >
+      Johannsen, Vivian Kvist</span>, <span >
+      Joly, Carlos A.</span>, <span >
+      Jucker, Tommaso</span>, <span >
+      Jung, Ilbin</span>, <span >
+      Karminov, Viktor</span>, <span >
+      Kartawinata, Kuswata</span>, <span >
+      Kearsley, Elizabeth</span>, <span >
+      Kenfack, David</span>, <span >
+      Kennard, Deborah K.</span>, <span >
+      Kepfer-Rojas, Sebastian</span>, <span >
+      Keppel, Gunnar</span>, <span >
+      Khan, Mohammed Latif</span>, <span >
+      Killeen, Timothy J.</span>, <span >
+      Kim, Hyun Seok</span>, <span >
+      Kitayama, Kanehiro</span>, <span >
+      Köhl, Michael</span>, <span >
+      Korjus, Henn</span>, <span >
+      Kraxner, Florian</span>, <span >
+      Laarmann, Diana</span>, <span >
+      Lang, Mait</span>, <span >
+      Lewis, Simon L.</span>, <span >
+      Lu, Huicui</span>, <span >
+      Lukina, Natalia V.</span>, <span >
+      Maitner, Brian S.</span>, <span >
+      Malhi, Yadvinder</span>, <span >
+      Marcon, Eric</span>, <span >
+      Marimon, Beatriz Schwantes</span>, <span >
+      Marimon-Junior, Ben Hur</span>, <span >
+      Marshall, Andrew R.</span>, <span >
+      Martin, Emanuel H.</span>, <span >
+      Kucher, Dmitry</span>, <span >
+      Meave, Jorge A.</span>, <span >
+      Melo-Cruz, Omar</span>, <span >
+      Mendoza, Casimiro</span>, <span >
+      Merow, Cory</span>, <span >
+      Mendoza, Abel Monteagudo</span>, <span >
+      Moreno, Vanessa S.</span>, <span >
+      Mukul, Sharif A.</span>, <span >
+      Mundhenk, Philip</span>, <span >
+      Nava-Miranda, María Guadalupe</span>, <span >
+      Neill, David</span>, <span >
+      Neldner, Victor J.</span>, <span >
+      Nevenic, Radovan V.</span>, <span >
+      Ngugi, Michael R.</span>, <span >
+      Niklaus, Pascal A.</span>, <span >
+      Oleksyn, Jacek</span>, <span >
+      Ontikov, Petr</span>, <span >
+      Ortiz-Malavasi, Edgar</span>, <span >
+      Pan, Yude</span>, <span >
+      Paquette, Alain</span>, <span >
+      Parada-Gutierrez, Alexander</span>, <span >
+      Parfenova, Elena I.</span>, <span >
+      Park, Minjee</span>, <span >
+      Parren, Marc</span>, <span >
+      Parthasarathy, Narayanaswamy</span>, <span >
+      Peri, Pablo L.</span>, <span >
+      Pfautsch, Sebastian</span>, <span >
+      Phillips, Oliver L.</span>, <span >
+      Picard, Nicolas</span>, <span >
+      Piedade, Maria Teresa T. F.</span>, <span >
+      Piotto, Daniel</span>, <span >
+      Pitman, Nigel C. A.</span>, <span >
+      Polo, Irina</span>, <span >
+      Poorter, Lourens</span>, <span >
+      Poulsen, Axel D.</span>, <span >
+      Poulsen, John R.</span>, <span >
+      Pretzsch, Hans</span>, <span >
+      Arevalo, Freddy Ramirez</span>, <span >
+      Restrepo-Correa, Zorayda</span>, <span >
+      Rodeghiero, Mirco</span>, <span >
+      Rolim, Samir G.</span>, <span >
+      Roopsind, Anand</span>, <span >
+      Rovero, Francesco</span>, <span >
+      Rutishauser, Ervan</span>, <span >
+      Saikia, Purabi</span>, <span >
+      Salas-Eljatib, Christian</span>, <span >
+      Saner, Philippe</span>, <span >
+      Schall, Peter</span>, <span >
+      Schelhaas, Mart-Jan</span>, <span >
+      Schepaschenko, Dmitry</span>, <span >
+      Scherer-Lorenzen, Michael</span>, <span >
+      Schmid, Bernhard</span>, <span >
+      Schöngart, Jochen</span>, <span >
+      Searle, Eric B.</span>, <span >
+      Seben, Vladimír</span>, <span >
+      Serra-Diaz, Josep M.</span>, <span >
+      Sheil, Douglas</span>, <span >
+      Shvidenko, Anatoly Z.</span>, <span >
+      Silva-Espejo, Javier E.</span>, <span >
+      Silveira, Marcos</span>, <span >
+      Singh, James</span>, <span >
+      Sist, Plinio</span>, <span >
+      Slik, Ferry</span>, <span >
+      Sonké, Bonaventure</span>, <span >
+      Souza, Alexandre F.</span>, <span >
+      Miscicki, Stanislaw</span>, <span >
+      Stereńczak, Krzysztof J.</span>, <span >
+      Svenning, Jens-Christian</span>, <span >
+      Svoboda, Miroslav</span>, <span >
+      Swanepoel, Ben</span>, <span >
+      Targhetta, Natalia</span>, <span >
+      Tchebakova, Nadja</span>, <span >
+      Ter Steege, Hans</span>, <span >
+      Thomas, Raquel</span>, <span >
+      Tikhonova, Elena</span>, <span >
+      Umunay, Peter M.</span>, <span >
+      Usoltsev, Vladimir A.</span>, <span >
+      Valencia, Renato</span>, <span >
+      Valladares, Fernando</span>, <span >
+      Van Der Plas, Fons</span>, <span >
+      Van Do, Tran</span>, <span >
+      Van Nuland, Michael E.</span>, <span >
+      Vasquez, Rodolfo M.</span>, <span >
+      Verbeeck, Hans</span>, <span >
+      Viana, Helder</span>, <span >
+      Vibrans, Alexander C.</span>, <span >
+      Vieira, Simone</span>, <span >
+      Von Gadow, Klaus</span>, <span >
+      Wang, Hua-Feng</span>, <span >
+      Watson, James V.</span>, <span >
+      Werner, Gijsbert D. A.</span>, <span >
+      Westerlund, Bertil</span>, <span >
+      Wiser, Susan K.</span>, <span >
+      Wittmann, Florian</span>, <span >
+      Woell, Hannsjoerg</span>, <span >
+      Wortel, Verginia</span>, <span >
+      Zagt, Roderik</span>, <span >
+      Zawiła-Niedźwiecki, Tomasz</span>, <span >
+      Zhang, Chunyu</span>, <span >
+      Zhao, Xiuhai</span>, <span >
+      Zhou, Mo</span>, <span >
+      Zhu, Zhi-Xin</span>, <span >
+      Zo-Bi, Irie C.</span>, <span >
+      Crowther, Thomas W.</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1038/s41467-024-48676-5" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/zou-2024/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/marcon-2024/" >Estimation of the number of tree species in French Guiana by extrapolation of permanent plots richness</a>
+    </div>
+
+    
+    <a href="/publication/marcon-2024/"  class="summary-link">
+      <div class="article-style">
+        The biodiversity of tropical rainforest is difficult to assess. Yet, its estimation is necessary for conservation purposes, to evaluate …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Marcon, Eric</span>, <span >
+      Mirabel, Ariane</span>, <span >
+      Molino, Jean-François</span>, <span >
+      Sabatier, Daniel</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1017/S0266467424000099" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/marcon-2024/cite.bib">
+  Citation
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/EricMarcon/JTE-22-105/" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/nemetschek-2024/" >Climate anomalies and neighbourhood crowding interact in shaping tree growth in old-growth and selectively logged tropical forests</a>
+    </div>
+
+    
+    <a href="/publication/nemetschek-2024/"  class="summary-link">
+      <div class="article-style">
+        <ol>
+<li>Climate extremes and biotic interactions at the neighbourhood scale affect tropical forest dynamics with long-term consequences for …</li></ol>
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Daniela Nemetschek</span>, <span >
+      Géraldine Derroire</span>, <span >
+      Eric Marcon</span>, <span >
+      Mélaine Aubry-Kientz</span>, <span >
+      Johanna Auer</span>, <span >
+      Vincyane Badouard</span>, <span >
+      Christopher Baraloto</span>, <span >
+      David Bauman</span>, <span >
+      Quentin Le Blaye</span>, <span >
+      Marion Boisseaux</span>, <span >
+      Damien Bonal</span>, <span >
+      Sabrina Coste</span>, <span >
+      Elia Dardevet</span>, <span >
+      Patrick Heuret</span>, <span >
+      Peter Hietz</span>, <span >
+      Sébastien Levionnois</span>, <span >
+      Isabelle Maréchaux</span>, <span >
+      Sean M. McMahon</span>, <span >
+      Clément Stahl</span>, <span >
+      Jason Vleminckx</span>, <span >
+      Wolfgang Wanek</span>, <span >
+      Camille Ziegler</span>, <span >
+      Claire Fortunel</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2745.14256" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/nemetschek-2024/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/1365-2745.14256" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/bouchard-2023/" >Global Patterns and Environmental Drivers of Forest Functional Composition</a>
+    </div>
+
+    
+    <a href="/publication/bouchard-2023/"  class="summary-link">
+      <div class="article-style">
+        <ul>
+<li>Aim: To determine the relationships between the functional trait composition of forest communities and environmental gradients across …</li></ul>
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Bouchard, Elise</span>, <span >
+      Searle, Eric B.</span>, <span >
+      Drapeau, Pierre</span>, <span >
+      Liang, Jingjing</span>, <span >
+      Gamarra, Javier G. P.</span>, <span >
+      Abegg, Meinrad</span>, <span >
+      Alberti, Giorgio</span>, <span >
+      Zambrano, Angelica Almeyda</span>, <span >
+      Alvarez-Davila, Esteban</span>, <span >
+      Alves, Luciana F.</span>, <span >
+      Avitabile, Valerio</span>, <span >
+      Aymard, Gerardo</span>, <span >
+      Bastin, Jean-François</span>, <span >
+      Birnbaum, Philippe</span>, <span >
+      Bongers, Frans</span>, <span >
+      Bouriaud, Olivier</span>, <span >
+      Brancalion, Pedro</span>, <span >
+      Broadbent, Eben</span>, <span >
+      Bussotti, Filippo</span>, <span >
+      Gatti, Roberto Cazzolla</span>, <span >
+      Češljar, Goran</span>, <span >
+      Chisholm, Chelsea</span>, <span >
+      Cienciala, Emil</span>, <span >
+      Clark, Connie J.</span>, <span >
+      Corral-Rivas, José Javier</span>, <span >
+      Crowther, Thomas W.</span>, <span >
+      Dayanandan, Selvadurai</span>, <span >
+      Decuyper, Mathieu</span>, <span >
+      De Gasper, André L.</span>, <span >
+      De-Miguel, Sergio</span>, <span >
+      Derroire, Géraldine</span>, <span >
+      DeVries, Ben</span>, <span >
+      Djordjević, Ilija</span>, <span >
+      Van~Do, Tran</span>, <span >
+      Dolezal, Jiri</span>, <span >
+      Fayle, Tom M.</span>, <span >
+      Fridman, Jonas</span>, <span >
+      Frizzera, Lorenzo</span>, <span >
+      Gianelle, Damiano</span>, <span >
+      Hemp, Andreas</span>, <span >
+      Hérault, Bruno</span>, <span >
+      Herold, Martin</span>, <span >
+      Imai, Nobuo</span>, <span >
+      Jagodziński, Andrzej M.</span>, <span >
+      Jaroszewicz, Bogdan</span>, <span >
+      Jucker, Tommaso</span>, <span >
+      Kepfer-Rojas, Sebastian</span>, <span >
+      Keppel, Gunnar</span>, <span >
+      Khan, Mohammed Latif</span>, <span >
+      Kim, Hyun Seok</span>, <span >
+      Korjus, Henn</span>, <span >
+      Kraxner, Florian</span>, <span >
+      Laarmann, Diana</span>, <span >
+      Lewis, Simon</span>, <span >
+      Lu, Huicui</span>, <span >
+      Maitner, Brian S.</span>, <span >
+      Marcon, Eric</span>, <span >
+      Marshall, Andrew R.</span>, <span >
+      Mukul, Sharif A.</span>, <span >
+      Nabuurs, Gert-Jan</span>, <span >
+      Nava-Miranda, María Guadalupe</span>, <span >
+      Parfenova, Elena I.</span>, <span >
+      Park, Minjee</span>, <span >
+      Peri, Pablo L.</span>, <span >
+      Pfautsch, Sebastian</span>, <span >
+      Phillips, Oliver L.</span>, <span >
+      Piedade, Maria Teresa F.</span>, <span >
+      Piotto, Daniel</span>, <span >
+      Poulsen, John R.</span>, <span >
+      Poulsen, Axel Dalberg</span>, <span >
+      Pretzsch, Hans</span>, <span >
+      Reich, Peter B.</span>, <span >
+      Rodeghiero, Mirco</span>, <span >
+      Rolim, Samir</span>, <span >
+      Rovero, Francesco</span>, <span >
+      Saikia, Purabi</span>, <span >
+      Salas-Eljatib, Christian</span>, <span >
+      Schall, Peter</span>, <span >
+      Schepaschenko, Dmitry</span>, <span >
+      Schöngart, Jochen</span>, <span >
+      Šebeň, Vladimír</span>, <span >
+      Sist, Plinio</span>, <span >
+      Slik, Ferry</span>, <span >
+      Souza, Alexandre F.</span>, <span >
+      Stereńczak, Krzysztof</span>, <span >
+      Svoboda, Miroslav</span>, <span >
+      Tchebakova, Nadezhda M.</span>, <span >
+      Ter Steege, Hans</span>, <span >
+      Tikhonova, Elena V.</span>, <span >
+      Usoltsev, Vladimir A.</span>, <span >
+      Valladares, Fernando</span>, <span >
+      Viana, Helder</span>, <span >
+      Vibrans, Alexander C.</span>, <span >
+      Wang, Hua-Feng</span>, <span >
+      Westerlund, Bertil</span>, <span >
+      Wiser, Susan K.</span>, <span >
+      Wittmann, Florian</span>, <span >
+      Wortel, Verginia</span>, <span >
+      Zawiła-Niedźwiecki, Tomasz</span>, <span >
+      Zhou, Mo</span>, <span >
+      Zhu, Zhi-Xin</span>, <span >
+      Zo-Bi, Irié C.</span>, <span >
+      Paquette, Alain</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/bouchard-2023/cite.bib">
+  Citation
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/geb.13790" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/marcon-2023/" >Mapping distributions in non-homogeneous space with distance-based methods</a>
+    </div>
+
+    
+    <a href="/publication/marcon-2023/"  class="summary-link">
+      <div class="article-style">
+        Distance-based methods (DBMs) are frequently used to analyze spatial structures in economics. Results provided by DBMs are particularly …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Eric Marcon</span>, <span >
+      Florence Puech</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/marcon-2023/cite.bib">
+  Citation
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/JSPE-D-23-00002/" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s43071-023-00042-1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+
+  
+
+  
+<nav class="mt-1">
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/publication-type/article-journal/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+<p class="powered-by">
+  
+  <a href="/privacy/">Politique de Confidentialité</a>
+  
+  
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2025 Eric Marcon. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Publié avec <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — le générateur <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">libre</a> de site web gratuit permetant aux créateurs de s&rsquo;épanouir.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/fr/js/wowchemy.min.a13b3d53a915defe9bc74e3a79cddbf3.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copier
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Télécharger
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

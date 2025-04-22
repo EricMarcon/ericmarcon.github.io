@@ -25,5 +25,5 @@ index.html
 # Master branch
 *.github.io.Rproj
 
-# Uncomment if the site is built by GH Actions
-# /public/
+# Publish everything in docs/
+!docs/**
