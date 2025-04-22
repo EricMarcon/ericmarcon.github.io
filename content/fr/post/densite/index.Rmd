@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
   out.width = '\\maxwidth'
 )
 options(width = 50)
-# Installation des packages si nécessaire et chargement
+# Installation des packages si nécessaire
 install_packages <- function(packages) {
   install_package <- function(package) {
     if (!package %in% installed.packages()[, 1]) {
