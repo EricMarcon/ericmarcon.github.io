@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/en/post/</link>
+      <atom:link href="https://ericmarcon.github.io/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://ericmarcon.github.io/en/post/</link>
+    </image>
+    
+    <item>
+      <title>Matrix inversion accuracy</title>
+      <link>https://ericmarcon.github.io/en/post/invmatrice/</link>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/en/post/invmatrice/</guid>
+      <description>
+
+
+&lt;div id=&#34;theory&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Theory&lt;/h1&gt;
+&lt;p&gt;Inversion of large matrices is difficult.
+Newman (1974) proposes a method for testing inversion accuracy.&lt;/p&gt;
+&lt;p&gt;Let &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; be the (square, non-singular) matrix to be inverted.
+&lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; is the approximation of &lt;span class=&#34;math inline&#34;&gt;\(A^{-1}\)&lt;/span&gt; obtained by calculation.
+&lt;span class=&#34;math inline&#34;&gt;\(N(Y)={sqrt{sum_{i,j}{y_{i,j}^2}}\)&lt;/span&gt; is the Euclidean norm of a matrix &lt;span class=&#34;math inline&#34;&gt;\(Y=(y_{i,j})\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(R = I - AX\)&lt;/span&gt; is the difference (ideally zero) between the identity matrix and the product of &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; and its calculated inverse.&lt;/p&gt;
+&lt;p&gt;The norm of &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; is not a good indicator of inversion accuracy (Newman, 1974, section 3).
+On the other hand, the norm of &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; is, but &lt;span class=&#34;math inline&#34;&gt;\(A^{-1}\)&lt;/span&gt; is unknown.
+Newman shows that
+&lt;span class=&#34;math display&#34;&gt;\[\frac{N(XR)}{1 + N(XR)} \leq N(A^{-1} - X) \leq \frac{N(XR)}{1 - N(XR)},\]&lt;/span&gt;
+which allows to bound the value of &lt;span class=&#34;math inline&#34;&gt;\(N(A^{-1} - X)\)&lt;/span&gt; between the calculated values of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The aim is for this value to be small, ideally zero if &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} = X\)&lt;/span&gt;, relative to the norm of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Example&lt;/h1&gt;
+&lt;p&gt;The &lt;code&gt;size&lt;/code&gt; parameter sets the size (number of rows and columns) of the matrices used, here a 1000 x 1000 matrix.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;size &amp;lt;- 1000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A matrix is created:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;A &amp;lt;- matrix(rnorm(size^2), nrow = size)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is inverted numerically (&lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; is calculated), then &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(XR\)&lt;/span&gt; are calculated:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;X &amp;lt;- solve(A)
+AX &amp;lt;- A %*% X
+R &amp;lt;- diag(size) - AX
+XR &amp;lt;- X %*% R&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The Euclidean norm function is defined:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm.matrix &amp;lt;- function(X) {
+  sqrt(sum(X^2))
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Matrix norms are calculated:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Matrix to invert
+norm.matrix(A)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 998.3241&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Numerical inversion
+norm.matrix(X)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 54.88609&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Inversion deviation
+norm_R &amp;lt;- norm.matrix(R)
+norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, the bounds of the norm of &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; is provided:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 + norm_R)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1.301008e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;norm_XR / (1 - norm_R)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1.301008e-11&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The norm of &lt;span class=&#34;math inline&#34;&gt;\(A^{-1} - X\)&lt;/span&gt; is very close to 0: matrix inversion in R works well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reference&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Reference&lt;/h1&gt;
+&lt;p&gt;Newman, M. (1974). How to Determine the Accuracy of the Output of a Matrix Inversion Program. &lt;em&gt;JOURNAL OF RESEARCH of the National Bureau of Standards - B. Mathematical Sciences&lt;/em&gt;, &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/jres/78B/jresv78Bn2p65_A1b.pdf&#34;&gt;788(2), 65–68&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
