@@ -1019,9 +1019,18 @@
 <p>Le package <em>scholar</em> permet d’accéder à l’API de Google Scholar pour analyser la production d’un auteur (ou d’une structure) disposant d’un identifiant, donc d’une page, Google Scholar.
 Par exemple, les citations annuelles sont obtenues facilement:</p>
 <pre class="r"><code>library(&quot;scholar&quot;)
-library(&quot;tidyverse&quot;)
-
-&quot;4iLBmbUAAAAJ&quot; %&gt;%  # Eric Marcon
+library(&quot;tidyverse&quot;)</code></pre>
+<pre><code>## ── Attaching core tidyverse packages ─────────────
+## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ forcats   1.0.0     ✔ stringr   1.5.1
+## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+## ✔ purrr     1.0.4     
+## ── Conflicts ──────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+<pre class="r"><code>&quot;4iLBmbUAAAAJ&quot; %&gt;%  # Eric Marcon
   get_citation_history()  %&gt;% # Google Scholar API
   ggplot(aes(year, cites)) +
     geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = &#39;darkgrey&#39;) +
