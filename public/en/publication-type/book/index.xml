@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/en/publication-type/book/</link>
+      <atom:link href="https://ericmarcon.github.io/en/publication-type/book/index.xml" rel="self" type="application/rss+xml" />
+    <description>Book</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
+      <title>Book</title>
+      <link>https://ericmarcon.github.io/en/publication-type/book/</link>
+    </image>
+    
+    <item>
+      <title>Mesures de la Biodiversité</title>
+      <link>https://ericmarcon.github.io/en/publication/marcon-2014-d/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/en/publication/marcon-2014-d/</guid>
+      <description>&lt;p&gt;La mise à jour permanente de ce document est lisible sur &lt;a href=&#34;https://EricMarcon.github.io/MesuresBioDiv2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les mises à jour importantes sont publiées sur &lt;a href=&#34;https://hal-agroparistech.archives-ouvertes.fr/cel-01205813&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

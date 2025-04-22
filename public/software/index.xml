@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares | Eric Marcon</title>
+    <link>https://ericmarcon.github.io/software/</link>
+      <atom:link href="https://ericmarcon.github.io/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Softwares</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
+      <title>Softwares</title>
+      <link>https://ericmarcon.github.io/software/</link>
+    </image>
+    
+    <item>
+      <title>memoiR</title>
+      <link>https://ericmarcon.github.io/software/memoir/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/software/memoir/</guid>
+      <description>&lt;p&gt;&lt;em&gt;memoiR&lt;/em&gt; est un paquet R qui fournit des modèles pour publier des documents bien formatés aux formats HTML et PDF. Les documents peuvent être produits localement ou hébergés sur GitHub, où les Actions GitHub peuvent mettre à jour les documents publiés en continu.&lt;/p&gt;
+&lt;p&gt;Les documents longs sont l&amp;rsquo;objectif principal de ce paquet. En plus d&amp;rsquo;une version GitBook à lire en ligne, leur version PDF basée sur le mémoire de classe LaTeX peut être hautement personnalisée.&lt;/p&gt;
+&lt;p&gt;Des fonctions sont fournies pour rendre la publication des documents sur GitHub très facile, y compris leur intégration continue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dbmss</title>
+      <link>https://ericmarcon.github.io/software/dbmss/</link>
+      <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
+      <guid>https://ericmarcon.github.io/software/dbmss/</guid>
+      <description>&lt;p&gt;&lt;em&gt;dbmss&lt;/em&gt; est un package R destiné au calcul des statistiques spatiales non paramétriques pour caractériser la structure spatiale d&amp;rsquo;objets cartographiés. Les principales sont la fonction &lt;em&gt;K&lt;/em&gt; de Ripley et ses dérivées et celles utilisées par les économistes comme la fonction &lt;em&gt;Kd&lt;/em&gt; de Duranton et Overman et la fonction &lt;em&gt;M&lt;/em&gt; de Marcon et Puech.&lt;/p&gt;
+&lt;p&gt;Le package s&amp;rsquo;appuie sur &lt;em&gt;spatstat&lt;/em&gt; pour une partie des calculs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Entropart</title>
+      <link>https://ericmarcon.github.io/software/entropart/</link>
+      <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
+      <guid>https://ericmarcon.github.io/software/entropart/</guid>
+      <description>&lt;p&gt;&lt;em&gt;entropart&lt;/em&gt; est un package R pour mesurer la diversité. Il fournit les fonctions nécessaires au calcul de la diversité $\alpha$, $\beta$ et $\gamma$, incluant la diversité phylogénétique et fonctionnelle, et l&amp;rsquo;ensemble des techniques d&amp;rsquo;estimation disponibles dans la littérature.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

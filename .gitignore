@@ -7,7 +7,6 @@
 
 # Hugo
 /resources/
-/public/
 .hugo_build.lock
 
 # blogdown
@@ -25,3 +24,6 @@ index.html
 
 # Master branch
 *.github.io.Rproj
+
+# Uncomment if the site is built by GH Actions
+# /public/

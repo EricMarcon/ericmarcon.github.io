@@ -1,9 +1,9 @@
 on:
   push:
      branches:
-       - master
-  schedule:
-    - cron: '0 22 * * 0'
+     - none # scholar::get_citation_history() blocked by Google Scholar
+  # schedule:
+  #   - cron: '0 22 * * 0'
 
 name: blogdown
 
@@ -27,7 +27,7 @@ jobs:
       - name: Build website
         run: |
           blogdown::install_hugo(version = "0.125.4", force = TRUE)
-          blogdown::build_site(local = TRUE, build_rmd = TRUE)
+          source("github_action.R")
         shell: Rscript {0}
       - name: Upload artifact
         uses: actions/upload-artifact@v4
