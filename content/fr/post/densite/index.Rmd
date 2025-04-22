@@ -21,6 +21,7 @@ bibliography: references.bib
 ---
 
 ```{r options, echo=FALSE, message=FALSE}
+set.seed(973)
 knitr::opts_chunk$set(
   cache = FALSE, echo = TRUE, tidy = FALSE, message = FALSE,
   tidy.opts = list(blank = FALSE, width.cutoff = 50), 
