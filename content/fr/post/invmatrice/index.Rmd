@@ -37,6 +37,9 @@ ce qui permet d'encadrer la valeur de $N(A^{-1} - X)$ avec les valeurs calculée
 
 L'objectif est que cette valeur soit petite, idéalement nulle si $A^{-1} = X$, par rapport à la norme de $X$.
 
+```{r options, include=FALSE}
+set.seed(973)
+```
 
 # Exemple
 

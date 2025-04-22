@@ -19,6 +19,7 @@ image:
 ---
 
 ```{r options, echo=FALSE, message=FALSE}
+set.seed(973)
 knitr::opts_chunk$set(
   cache = FALSE, 
   echo = FALSE, 

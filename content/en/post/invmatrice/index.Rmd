@@ -37,6 +37,9 @@ which allows to bound the value of $N(A^{-1} - X)$ between the calculated values
 
 The aim is for this value to be small, ideally zero if $A^{-1} = X$, relative to the norm of $X$.
 
+```{r options, include=FALSE}
+set.seed(973)
+```
 
 # Example
 

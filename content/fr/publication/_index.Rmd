@@ -10,6 +10,7 @@ view: 4
 ---
 
 ```{r options, include=FALSE}
+set.seed(973)
 knitr::opts_chunk$set(
   cache = FALSE, 
   echo = FALSE, 
