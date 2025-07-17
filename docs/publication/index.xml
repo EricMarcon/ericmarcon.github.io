@@ -5,12 +5,20 @@
     <link>https://ericmarcon.github.io/publication/</link>
       <atom:link href="https://ericmarcon.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://ericmarcon.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Using high penetration airborne LiDAR and dense UAV scanning to produce accurate 3D maps of light availability in dense tropical forest</title>
+      <link>https://ericmarcon.github.io/publication/badouard-2025/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/publication/badouard-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Effect of climate on traits of dominant and rare tree species in the world&#39;s forests</title>

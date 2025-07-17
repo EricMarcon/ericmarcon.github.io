@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ericmarcon.github.io/en/publication-type/article-journal/</loc>
-    <lastmod>2025-05-22T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -15,6 +15,24 @@
                 hreflang="en-us"
                 href="https://ericmarcon.github.io/en/publication-type/article-journal/"
                 />
+  </url><url>
+    <loc>https://ericmarcon.github.io/en/publication_types/</loc>
+    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication_types/"
+                />
+  </url><url>
+    <loc>https://ericmarcon.github.io/en/badouard-2025/</loc>
+    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ericmarcon.github.io/en/publication/hordijk-2025/</loc>
     <lastmod>2025-05-22T00:00:00+00:00</lastmod>
@@ -28,20 +46,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ericmarcon.github.io/en/publication/hordijk-2025/"
-                />
-  </url><url>
-    <loc>https://ericmarcon.github.io/en/publication_types/</loc>
-    <lastmod>2025-05-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/publication_types/"
                 />
   </url><url>
     <loc>https://ericmarcon.github.io/en/publication/</loc>
