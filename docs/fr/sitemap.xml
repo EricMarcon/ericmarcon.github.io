@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ericmarcon.github.io/publication-type/article-journal/</loc>
-    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -16,8 +16,22 @@
                 href="https://ericmarcon.github.io/publication-type/article-journal/"
                 />
   </url><url>
+    <loc>https://ericmarcon.github.io/publication/goulpeau-2025-a/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication/goulpeau-2025-a/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication/goulpeau-2025-a/"
+                />
+  </url><url>
     <loc>https://ericmarcon.github.io/publication_types/</loc>
-    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -31,7 +45,7 @@
                 />
   </url><url>
     <loc>https://ericmarcon.github.io/publication/</loc>
-    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
