@@ -5,12 +5,20 @@
     <link>https://ericmarcon.github.io/event/</link>
       <atom:link href="https://ericmarcon.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Fri, 17 May 2024 11:20:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Tue, 18 Nov 2025 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://ericmarcon.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Mesurer la Biodiversité</title>
+      <link>https://ericmarcon.github.io/talk/mesurer-la-biodiversite/</link>
+      <pubDate>Tue, 18 Nov 2025 15:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/talk/mesurer-la-biodiversite/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mesures de biodiversité et de concentration spatiale par l’entropie : une approche multidisciplinaire</title>
