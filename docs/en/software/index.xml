@@ -5,12 +5,21 @@
     <link>https://ericmarcon.github.io/en/software/</link>
       <atom:link href="https://ericmarcon.github.io/en/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Softwares</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Feb 2026 16:04:36 -0300</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
       <title>Softwares</title>
       <link>https://ericmarcon.github.io/en/software/</link>
     </image>
+    
+    <item>
+      <title>divent</title>
+      <link>https://ericmarcon.github.io/en/software/divent/</link>
+      <pubDate>Sun, 08 Feb 2026 16:04:36 -0300</pubDate>
+      <guid>https://ericmarcon.github.io/en/software/divent/</guid>
+      <description>&lt;p&gt;&lt;em&gt;divent&lt;/em&gt; is an R package to estimate biodiversity. It is a reboot of entropart, making it easier to use and more efficient. It includes new features, namely spatially-explicit diversity.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>memoiR</title>
@@ -33,7 +42,7 @@
     </item>
     
     <item>
-      <title>Entropart</title>
+      <title>entropart</title>
       <link>https://ericmarcon.github.io/en/software/entropart/</link>
       <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
       <guid>https://ericmarcon.github.io/en/software/entropart/</guid>

@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Entropart"
+title: "entropart"
 subtitle: "An R package to measure diversity"
 summary: ""
 authors: ""

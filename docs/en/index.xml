@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>divent</title>
+      <link>https://ericmarcon.github.io/en/software/divent/</link>
+      <pubDate>Sun, 08 Feb 2026 16:04:36 -0300</pubDate>
+      <guid>https://ericmarcon.github.io/en/software/divent/</guid>
+      <description>&lt;p&gt;&lt;em&gt;divent&lt;/em&gt; is an R package to estimate biodiversity. It is a reboot of entropart, making it easier to use and more efficient. It includes new features, namely spatially-explicit diversity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Biotic interactions and environmental filtering both determine earthworm alpha and beta diversity in tropical rainforests</title>
       <link>https://ericmarcon.github.io/en/publication/goulpeau-2025-a/</link>
       <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
@@ -329,7 +338,7 @@ norm_XR &amp;lt;- norm.matrix(XR)&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>Entropart</title>
+      <title>entropart</title>
       <link>https://ericmarcon.github.io/en/software/entropart/</link>
       <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
       <guid>https://ericmarcon.github.io/en/software/entropart/</guid>

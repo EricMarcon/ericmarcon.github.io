@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>divent</title>
+      <link>https://ericmarcon.github.io/software/divent/</link>
+      <pubDate>Sun, 08 Feb 2026 16:04:36 -0300</pubDate>
+      <guid>https://ericmarcon.github.io/software/divent/</guid>
+      <description>&lt;p&gt;&lt;em&gt;divent&lt;/em&gt; est un package R pour mesurer la diversité. C&amp;rsquo;est une réécriture d&amp;rsquo;entropart pour le rendre plus efficace et simple à utiliser. Il inclut de nouvelles fonctionnalités, notamment la diversité spatialement explicite.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mesurer la Biodiversité</title>
       <link>https://ericmarcon.github.io/talk/mesurer-la-biodiversite/</link>
       <pubDate>Tue, 18 Nov 2025 15:00:00 +0000</pubDate>
@@ -450,11 +459,11 @@ Par exemple, les citations annuelles sont obtenues facilement:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;scholar&amp;quot;)
 library(&amp;quot;tidyverse&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## ── Attaching core tidyverse packages ─────────────
-## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ dplyr     1.1.4     ✔ readr     2.1.6
 ## ✔ forcats   1.0.1     ✔ stringr   1.6.0
-## ✔ ggplot2   4.0.0     ✔ tibble    3.3.0
-## ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-## ✔ purrr     1.1.0     
+## ✔ ggplot2   4.0.1     ✔ tibble    3.3.1
+## ✔ lubridate 1.9.4     ✔ tidyr     1.3.2
+## ✔ purrr     1.2.1     
 ## ── Conflicts ──────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
@@ -468,7 +477,7 @@ library(&amp;quot;tidyverse&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
       title = &amp;quot;Citations per year&amp;quot;, 
       caption = &amp;quot;Source: Google Scholar&amp;quot;
     )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/bibliometrie/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;A partir d’un export au format Bibtex d’une bibliographie obtenue avec Scopus, le package &lt;em&gt;bibliometrix&lt;/em&gt; permet de nombreuses analyses.&lt;/p&gt;
 &lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
 &lt;ul&gt;
@@ -495,21 +504,21 @@ borne_droite &amp;lt;- 2
 distribution &amp;lt;- runif(1000, min = borne_gauche, max = borne_droite)
 # Histogramme de la distribution
 hist(distribution)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/histogramme-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/histogramme-1.png&#34; alt=&#34;&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;L’estimation avec la fonction &lt;code&gt;density&lt;/code&gt; n’est pas nulle hors de l’intervalle &lt;span class=&#34;math inline&#34;&gt;\([1, 2]\)&lt;/span&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Choix d&amp;#39;une bande passante pour l&amp;#39;estimation
 bande_passante &amp;lt;- bw.SJ(distribution)
 # Estimation de la densité
 d_reference &amp;lt;- density(distribution, bw = bande_passante)
 plot(d_reference)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/densite-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/densite-1.png&#34; alt=&#34;&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Censurer l’estimation avec les arguments &lt;code&gt;from&lt;/code&gt; et &lt;code&gt;to&lt;/code&gt; revient simplement de supprimer les valeurs estimées hors de l’intervalle pour obtenir la courbe rouge.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(d_reference, main = &amp;quot;&amp;quot;)
 d_censuree &amp;lt;- density(distribution, bw = bande_passante, from = borne_gauche, to = borne_droite)
 lines(d_censuree, col = &amp;quot;red&amp;quot;)
 abline(v = borne_gauche, lty = 2)
 abline(v = borne_droite, lty = 2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/censure-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/censure-1.png&#34; alt=&#34;&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;L’estimation de la densité est donc incorrecte: elle ne somme pas à 1 et est sous-estimée près des bornes.&lt;/p&gt;
 &lt;p&gt;Le package &lt;em&gt;GoFKernel&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Pavia2015&#34;&gt;Pavia 2015&lt;/a&gt;)&lt;/span&gt; propose la fonction &lt;code&gt;density.reflected&lt;/code&gt; pour estimer correctement la densité précédente, en vert.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;GoFKernel&amp;quot;)
@@ -520,7 +529,7 @@ lines(d_censuree, col = &amp;quot;red&amp;quot;)
 abline(v = borne_gauche, lty = 2)
 abline(v = borne_droite, lty = 2)
 lines(d_GoFKernel, col = &amp;quot;green&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/GoFKernel-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/GoFKernel-1.png&#34; alt=&#34;&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Avec &lt;em&gt;ggplot2&lt;/em&gt;, l’argument &lt;code&gt;bounds&lt;/code&gt; de &lt;code&gt;geom_density()&lt;/code&gt; a le même effet.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;tidyverse&amp;quot;)
 distribution %&amp;gt;% 
@@ -528,7 +537,7 @@ distribution %&amp;gt;%
   ggplot() + 
   geom_density(aes(x = value), bounds = c(borne_gauche, borne_droite)) +
   geom_vline(xintercept = c(borne_gauche, borne_droite), lty = 2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ericmarcon.github.io/post/densite/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;\maxwidth&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Suivre les liens pour accéder au tutoriel complet:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.html&#34;&gt;lire en ligne&lt;/a&gt;;&lt;/li&gt;
@@ -554,7 +563,7 @@ Pavia, Jose M. 2015. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Testing G
     </item>
     
     <item>
-      <title>Entropart</title>
+      <title>entropart</title>
       <link>https://ericmarcon.github.io/software/entropart/</link>
       <pubDate>Mon, 13 Apr 2020 16:04:36 -0300</pubDate>
       <guid>https://ericmarcon.github.io/software/entropart/</guid>
