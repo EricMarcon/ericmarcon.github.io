@@ -2,6 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ericmarcon.github.io/publication-type/article-journal/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication-type/article-journal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication-type/article-journal/"
+                />
+  </url><url>
+    <loc>https://ericmarcon.github.io/publication/marcon-2025/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ericmarcon.github.io/publication_types/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication_types/"
+                />
+  </url><url>
+    <loc>https://ericmarcon.github.io/publication/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication/"
+                />
+  </url><url>
     <loc>https://ericmarcon.github.io/software/divent/</loc>
     <lastmod>2026-02-08T16:04:36-03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -48,20 +94,6 @@
                 href="https://ericmarcon.github.io/event/"
                 />
   </url><url>
-    <loc>https://ericmarcon.github.io/publication-type/article-journal/</loc>
-    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/publication-type/article-journal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/publication-type/article-journal/"
-                />
-  </url><url>
     <loc>https://ericmarcon.github.io/publication/goulpeau-2025-a/</loc>
     <lastmod>2025-09-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -74,34 +106,6 @@
                 rel="alternate"
                 hreflang="fr-fr"
                 href="https://ericmarcon.github.io/publication/goulpeau-2025-a/"
-                />
-  </url><url>
-    <loc>https://ericmarcon.github.io/publication_types/</loc>
-    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/publication_types/"
-                />
-  </url><url>
-    <loc>https://ericmarcon.github.io/publication/</loc>
-    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/publication/"
                 />
   </url><url>
     <loc>https://ericmarcon.github.io/publication/badouard-2025/</loc>
