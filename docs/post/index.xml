@@ -150,11 +150,11 @@ Par exemple, les citations annuelles sont obtenues facilement:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;scholar&amp;quot;)
 library(&amp;quot;tidyverse&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## ── Attaching core tidyverse packages ─────────────
-## ✔ dplyr     1.1.4     ✔ readr     2.1.6
+## ✔ dplyr     1.2.1     ✔ readr     2.2.0
 ## ✔ forcats   1.0.1     ✔ stringr   1.6.0
-## ✔ ggplot2   4.0.1     ✔ tibble    3.3.1
-## ✔ lubridate 1.9.4     ✔ tidyr     1.3.2
-## ✔ purrr     1.2.1     
+## ✔ ggplot2   4.0.3     ✔ tibble    3.3.1
+## ✔ lubridate 1.9.5     ✔ tidyr     1.3.2
+## ✔ purrr     1.2.2     
 ## ── Conflicts ──────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
@@ -235,7 +235,7 @@ distribution %&amp;gt;%
 &lt;li&gt;&lt;a href=&#34;https://ericmarcon.github.io/Densite-Reflexion/Densite-Reflexion.pdf&#34;&gt;télécharger&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Référence&lt;/strong&gt;&lt;/p&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
 &lt;div id=&#34;ref-Pavia2015&#34; class=&#34;csl-entry&#34;&gt;
 Pavia, Jose M. 2015. &lt;span&gt;“&lt;span class=&#34;nocase&#34;&gt;Testing Goodness-of-Fit with the Kernel Density Estimator: GoFKernel&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Statistical Software&lt;/em&gt; 66 (Code Snippet 1). &lt;a href=&#34;https://doi.org/10.18637/jss.v066.c01&#34;&gt;https://doi.org/10.18637/jss.v066.c01&lt;/a&gt;.
 &lt;/div&gt;

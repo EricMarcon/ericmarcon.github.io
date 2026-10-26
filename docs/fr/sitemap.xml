@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ericmarcon.github.io/publication-type/article-journal/</loc>
-    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -16,12 +16,8 @@
                 href="https://ericmarcon.github.io/publication-type/article-journal/"
                 />
   </url><url>
-    <loc>https://ericmarcon.github.io/publication/marcon-2025/</loc>
-    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://ericmarcon.github.io/publication_types/</loc>
-    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -35,7 +31,7 @@
                 />
   </url><url>
     <loc>https://ericmarcon.github.io/publication/</loc>
-    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -47,6 +43,38 @@
                 hreflang="fr-fr"
                 href="https://ericmarcon.github.io/publication/"
                 />
+  </url><url>
+    <loc>https://ericmarcon.github.io/publication/putri-2026/</loc>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication/putri-2026/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication/putri-2026/"
+                />
+  </url><url>
+    <loc>https://ericmarcon.github.io/publication/marcon-2026-b/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication/marcon-2026-b/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication/marcon-2026-b/"
+                />
+  </url><url>
+    <loc>https://ericmarcon.github.io/publication/marcon-2025/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ericmarcon.github.io/software/divent/</loc>
     <lastmod>2026-02-08T16:04:36-03:00</lastmod>

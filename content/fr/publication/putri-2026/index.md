@@ -1,0 +1,13 @@
+---
+title: "Tree diversity recovery in post-logging tropical forests: current knowledge and future directions"
+date: 2026-10-04
+publishDate: 2026-10-04T22:31:15.403490Z
+authors: ["Putri, Dwinda", "Piponiot, Camille", "Maurent, Eliott", "Marcon, Eric", "Unkule, Mithila", "Manlay, Raphaël J.", "Rozak, Andes", "Sist, Plinio"]
+publication_types: ["article-journal"]
+abstract: "Existing literature reviews on the impact of logging on the biodiversity of tropical forests cover a wide range of plant and animal taxa, but few focus on tree diversity. We performed a systematic review to compile our present scientific knowledge on the impact of selective logging on tree species diversity. This knowledge is essential for defining sustainability practices in the management of tropical forests, and this systematic review aims to fill this gap. We extracted tree diversity from the selected studies and then quantified the effect of logging intensity and recovery time on the relative tree diversity using weighted mixed-effects models. Tree diversity recovery after selective logging was positively associated with time since logging and negatively with logging intensity (adjusted R2 = 0.43). At low to moderate intensities (20%–40% basal area removal), diversity started at 2%–8% below reference levels just after logging and recovered to around 1%–8% above unlogged forests within 20–30 years. At high intensities (70% removal), diversity remained 5%–14% below reference levels at 20 years, and only approached unlogged levels after about 30 years. This finding aligns with the intermediate disturbance hypothesis, which predicts that moderate disturbances are associated with higher diversity through the coexistence of pioneer and late-successional species. Adopting reduced impact logging, limiting logging intensity, and extending rotation cycles emerge as key practices to maintain tree diversity in managed tropical forests. This review also highlights the need for standardized long-term experimental plots to monitor post-logging floristic changes and forest dynamics. Moreover, studies on the cumulative impact of selective logging and climate change are still very scarce. Special efforts should be dedicated to this issue, as climate change can indeed affect the diversity and composition of tropical forests."
+featured: false
+publication: "*Forestry: An International Journal of Forest Research*"
+doi: "10.1093/forestry/cpag087	"
+---
+
+<span class="__dimensions_badge_embed__" data-doi="10.1093/forestry/cpag087"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

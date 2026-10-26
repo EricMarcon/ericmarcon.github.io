@@ -5,12 +5,30 @@
     <link>https://ericmarcon.github.io/en/publication-type/article-journal/</link>
       <atom:link href="https://ericmarcon.github.io/en/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ericmarcon.github.io/media/icon_hu4415379d3f6fca152e373ad4be347f7a_5538_512x512_fill_lanczos_center_3.png</url>
       <title>Article-Journal</title>
       <link>https://ericmarcon.github.io/en/publication-type/article-journal/</link>
     </image>
+    
+    <item>
+      <title>Tree diversity recovery in post-logging tropical forests: current knowledge and future directions</title>
+      <link>https://ericmarcon.github.io/en/publication/putri-2026/</link>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/en/publication/putri-2026/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1093/forestry/cpag087&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computation of Large Spatial Datasets with the M Function</title>
+      <link>https://ericmarcon.github.io/en/publication/marcon-2026-b/</link>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://ericmarcon.github.io/en/publication/marcon-2026-b/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1177/01600176261492723&#34;&gt;&lt;/span&gt;&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Biotic interactions and environmental filtering both determine earthworm alpha and beta diversity in tropical rainforests</title>
