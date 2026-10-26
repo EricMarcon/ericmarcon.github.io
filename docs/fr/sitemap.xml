@@ -139,6 +139,16 @@
     <loc>https://ericmarcon.github.io/publication/badouard-2025/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/publication/badouard-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/publication/badouard-2025/"
+                />
   </url><url>
     <loc>https://ericmarcon.github.io/publication/hordijk-2025/</loc>
     <lastmod>2025-05-22T00:00:00+00:00</lastmod>
