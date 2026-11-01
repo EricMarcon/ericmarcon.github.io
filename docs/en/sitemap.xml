@@ -72,6 +72,42 @@
                 href="https://ericmarcon.github.io/en/publication/marcon-2026-b/"
                 />
   </url><url>
+    <loc>https://ericmarcon.github.io/en/course/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/course/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/course/"
+                />
+  </url><url>
+    <loc>https://ericmarcon.github.io/en/tag/ecology/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ericmarcon.github.io/en/course/sustainability/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ericmarcon.github.io/en/tags/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ericmarcon.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ericmarcon.github.io/en/tags/"
+                />
+  </url><url>
     <loc>https://ericmarcon.github.io/en/software/divent/</loc>
     <lastmod>2026-02-08T16:04:36-03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -198,24 +234,6 @@
                 href="https://ericmarcon.github.io/en/publication/mo-2024/"
                 />
   </url><url>
-    <loc>https://ericmarcon.github.io/en/course/</loc>
-    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/course/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/course/"
-                />
-  </url><url>
-    <loc>https://ericmarcon.github.io/en/tag/ecology/</loc>
-    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://ericmarcon.github.io/en/course/distributions/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -228,20 +246,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ericmarcon.github.io/en/course/distributions/"
-                />
-  </url><url>
-    <loc>https://ericmarcon.github.io/en/tags/</loc>
-    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://ericmarcon.github.io/en/course/biodiversity-eft/</loc>
@@ -276,19 +280,9 @@
                 href="https://ericmarcon.github.io/en/publication/zou-2024/"
                 />
   </url><url>
-    <loc>https://ericmarcon.github.io/en/course/dynamique-ft/</loc>
+    <loc>https://ericmarcon.github.io/en/course/dynamics-tf/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="https://ericmarcon.github.io/course/dynamique-ft/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ericmarcon.github.io/en/course/dynamique-ft/"
-                />
   </url><url>
     <loc>https://ericmarcon.github.io/en/publication/marcon-2024/</loc>
     <lastmod>2024-04-05T00:00:00+00:00</lastmod>
