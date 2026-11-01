@@ -9,3 +9,5 @@ featured: false
 publication: "*Oecologia*"
 doi: "10.1007/s00442-025-05788-z"
 ---
+
+<span class="__dimensions_badge_embed__" data-doi="10.1007/s00442-025-05788-z"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
