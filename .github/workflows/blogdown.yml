@@ -1,7 +1,7 @@
 on:
   push:
      branches:
-     - master
+     - none # Google Scholar blocks CI
   # schedule:
   #   - cron: '0 22 * * 0'
 
