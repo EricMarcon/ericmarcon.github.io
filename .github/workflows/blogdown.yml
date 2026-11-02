@@ -1,7 +1,7 @@
 on:
   push:
      branches:
-     - none # scholar::get_citation_history() blocked by Google Scholar
+     - master
   # schedule:
   #   - cron: '0 22 * * 0'
 
